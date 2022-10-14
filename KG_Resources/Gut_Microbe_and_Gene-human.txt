@@ -1,0 +1,299 @@
+Gut Microbiota	Gut Microbiata NCBI ID	Gut Microbiota ID	Classification	Gene	Gene ID	Alteration	high/low-throughput
+Eikenella	538	gm0765	genus	CXCL6	6372	inhibition	low-throughput
+Eikenella	538	gm0765	genus	CCL20	6364	inhibition	low-throughput
+Haemophilus parainfluenzae	729	gm0358	species	ANXA10	11199	activation	low-throughput
+Haemophilus parainfluenzae	729	gm0358	species	ANXA10	11199	activation	low-throughput
+Haemophilus parainfluenzae	729	gm0358	species	ANXA10	11199	activation	low-throughput
+Streptococcus	1301	gm0624	genus	CXCL6	6372	inhibition	low-throughput
+Streptococcus	1301	gm0624	genus	CCL20	6364	inhibition	low-throughput
+Eubacterium rectale	39491	gm0316	species	DUOX2	50506	inhibition	low-throughput
+Eubacterium rectale	39491	gm0316	species	CXCL6	6372	inhibition	low-throughput
+Lachnospiraceae	186803	gm0386	family	EGFR	1956	inhibition	low-throughput
+Lachnospiraceae	186803	gm0386	family	EGFR	1956	inhibition	low-throughput
+Lachnospiraceae	186803	gm0386	family	EGFR	1956	inhibition	low-throughput
+Faecalibacterium prausnitzii	853	gm0327	species	IL10	3586	activation	low-throughput
+Faecalibacterium prausnitzii	853	gm0327	species	IL12B	3593	inhibition	low-throughput
+Faecalibacterium prausnitzii	853	gm0327	species	IL12A	3592	inhibition	low-throughput
+Akkermansia muciniphila	239935	gm0030	species	IL10	3586	activation	low-throughput
+Akkermansia muciniphila	239935	gm0030	species	IL12B	3593	inhibition	low-throughput
+Akkermansia muciniphila	239935	gm0030	species	IL12A	3592	inhibition	low-throughput
+Faecalibacterium prausnitzii A2-165	411483	gm0932	strain	CCR6	1235	activation	low-throughput
+Faecalibacterium prausnitzii A2-165	411483	gm0932	strain	CXCR6	10663	activation	low-throughput
+Faecalibacterium prausnitzii A2-165	411483	gm0932	strain	CXCR3	2833	activation	low-throughput
+Escherichia coli Nissle 1917	316435	gm0941	strain	TJP2	9414	activation	low-throughput
+Escherichia coli O127:H6 str. E2348/69	574521	gm0942	strain	TJP2	9414	activation	low-throughput
+Escherichia coli Nissle 1917	316435	gm0941	strain	PRKCZ	5590	inhibition	low-throughput
+Escherichia coli O127:H6 str. E2348/69	574521	gm0942	strain	PRKCZ	5590	inhibition	low-throughput
+Firmicutes	1239	gm0332	phylum	FOS	2353	activation	low-throughput
+Firmicutes	1239	gm0332	phylum	MAPK3	5595	activation	low-throughput
+Firmicutes	1239	gm0332	phylum	MAPK1	5594	activation	low-throughput
+Firmicutes	1239	gm0332	phylum	JUN	3725	activation	low-throughput
+Fusobacteriia	203490	gm0343	class	FOS	2353	activation	low-throughput
+Fusobacteriia	203490	gm0343	class	MAPK3	5595	activation	low-throughput
+Fusobacteriia	203490	gm0343	class	MAPK1	5594	activation	low-throughput
+Fusobacteriia	203490	gm0343	class	JUN	3725	activation	low-throughput
+Streptococcus salivarius  JIM8772		gm0945	strain	CXCL8	3576	inhibition	low-throughput
+Streptococcus salivarius  JIM8772		gm0945	strain	IL1B	3553	inhibition	low-throughput
+Streptococcus salivarius  JIM8772		gm0945	strain	TLR5	7100	inhibition	low-throughput
+Streptococcus salivarius  CIP102503		gm0946	strain	CXCL8	3576	inhibition	low-throughput
+Streptococcus salivarius  CIP102503		gm0946	strain	IL1B	3553	inhibition	low-throughput
+Streptococcus salivarius  CIP102503		gm0946	strain	TLR5	7100	inhibition	low-throughput
+Akkermansia muciniphila ATCC BAA-835	349741	gm0951	strain	TLR2	7097	activation	low-throughput
+Akkermansia muciniphila ATCC BAA-835	349741	gm0951	strain	TLR4	7099	activation	low-throughput
+Lactobacillus rhamnosus	47715	gm0408	species	TJP1	7082	activation	low-throughput
+Lactobacillus rhamnosus	47715	gm0408	species	CLDN1	9076	activation	low-throughput
+Lactobacillus rhamnosus	47715	gm0408	species	OCLN	100506658	activation	low-throughput
+Lactobacillus rhamnosus	47715	gm0408	species	CGN	57530	activation	low-throughput
+Lactobacillus rhamnosus	47715	gm0408	species	DEFB4A	1673	inhibition	low-throughput
+Faecalibacterium prausnitzii A2-165	411483	gm0932	strain	IL10	3586	activation	low-throughput
+Faecalibacterium prausnitzii CNCM I-4543		gm0979	strain	IL10	3586	activation	low-throughput
+Faecalibacterium prausnitzii L2-6	718252	gm0934	strain	IL10	3586	activation	low-throughput
+Faecalibacterium prausnitzii CNCM I-4573		gm0980	strain	IL10	3586	activation	low-throughput
+Faecalibacterium prausnitzii A2-165	411483	gm0932	strain	CXCL8	3576	inhibition	low-throughput
+Faecalibacterium prausnitzii L2-6	718252	gm0934	strain	CXCL8	3576	inhibition	low-throughput
+Faecalibacterium prausnitzii M 21/2		gm0981	strain	CXCL8	3576	inhibition	low-throughput
+Faecalibacterium prausnitzii CNCM I-4541		gm0982	strain	CXCL8	3576	inhibition	low-throughput
+Faecalibacterium prausnitzii CNCM I-4543		gm0979	strain	CXCL8	3576	inhibition	low-throughput
+Faecalibacterium prausnitzii CNCM I-4546		gm0983	strain	CXCL8	3576	inhibition	low-throughput
+Faecalibacterium prausnitzii CNCM I-4573		gm0980	strain	CXCL8	3576	inhibition	low-throughput
+Faecalibacterium prausnitzii CNCM I-4644		gm0984	strain	CXCL8	3576	inhibition	low-throughput
+Faecalibacterium prausnitzii CNCM I-4575		gm0985	strain	CXCL8	3576	inhibition	low-throughput
+Clostridium tyrobutyricum	1519	gm0693	species	ANGPTL4	51129	activation	low-throughput
+Lactobacillus plantarum	1590	gm0405	species	OCLN	100506658	inhibition	low-throughput
+Lactobacillus plantarum	1590	gm0405	species	TJP1	7082	inhibition	low-throughput
+Lactobacillus plantarum	1590	gm0405	species	CLDN1	9076	inhibition	low-throughput
+Lactobacillus plantarum	1590	gm0405	species	CLDN4	1364	inhibition	low-throughput
+Lactobacillus plantarum	1590	gm0405	species	F11R	50848	inhibition	low-throughput
+Faecalibacterium prausnitzii	853	gm0327	species	IL10	3586	activation	low-throughput
+Faecalibacterium prausnitzii	853	gm0327	species	TGFB1	7040	activation	low-throughput
+Faecalibacterium prausnitzii	853	gm0327	species	FOXP3	50943	activation	low-throughput
+Bifidobacterium dentium ATCC 27678	473819	gm0952	strain	Htr1a	15550	activation	low-throughput
+Escherichia sp. 4	1343180	gm0805	species	KITLG	4254	inhibition	low-throughput
+Lactobacillus rhamnosus GG	568703	gm0743	strain	TLR4	7099	inhibition	low-throughput
+Lactobacillus rhamnosus GG	568703	gm0743	strain	MAPK14	1432	inhibition	low-throughput
+Lactobacillus rhamnosus GG	568703	gm0743	strain	IKBKE	9641	inhibition	low-throughput
+Lactobacillus rhamnosus GG	568703	gm0743	strain	MIR146A	406938	inhibition	low-throughput
+Lactobacillus rhamnosus GG	568703	gm0743	strain	MIR155	406947	activation	low-throughput
+Dictyostelium discoideum	44689	gm0806	species	GSK3B	2932	activation	low-throughput
+Dictyostelium discoideum	44689	gm0806	species	TCF7L2	6934	inhibition	low-throughput
+Dictyostelium discoideum	44689	gm0806	species	CCND1	595	inhibition	low-throughput
+Dictyostelium discoideum	44689	gm0806	species	MYC	4609	inhibition	low-throughput
+Salmonella enterica	28901	gm0692	species	FOXP3	50943	inhibition	low-throughput
+Salmonella enterica	28901	gm0692	species	HDAC3	8841	inhibition	low-throughput
+Salmonella enterica	28901	gm0692	species	MTOR	2475	inhibition	low-throughput
+Enterococcus faecalis OG1RF	474186	gm0943	strain	CXCL10	3627	activation	low-throughput
+Enterococcus faecalis OG1RF	474186	gm0943	strain	PDCD6IP	10015	inhibition	low-throughput
+Bacteroides fragilis	817	gm0082	species	FFAR2	2867	activation	low-throughput
+Bacteroides fragilis	817	gm0082	species	FOXP3	50943	activation	low-throughput
+Bacteroides fragilis	817	gm0082	species	IL10	3586	activation	low-throughput
+Faecalibacterium prausnitzii	853	gm0327	species	NFKB1	4790	inhibition	low-throughput
+Faecalibacterium prausnitzii	853	gm0327	species	IL12A	3592	inhibition	low-throughput
+Faecalibacterium prausnitzii	853	gm0327	species	IL12B	3593	inhibition	low-throughput
+Faecalibacterium prausnitzii	853	gm0327	species	IL10	3586	activation	low-throughput
+Faecalibacterium prausnitzii A2-165	411483	gm0932	strain	IL1A	3552	inhibition	low-throughput
+Faecalibacterium prausnitzii A2-165	411483	gm0932	strain	IL2	3558	inhibition	low-throughput
+Faecalibacterium prausnitzii A2-165	411483	gm0932	strain	IL5	3567	inhibition	low-throughput
+Salmonella	590	gm0812	genus	IL22	50616	inhibition	low-throughput
+Salmonella	590	gm0812	genus	IFNG	3458	activation	low-throughput
+Salmonella	590	gm0812	genus	IL17A	3605	activation	low-throughput
+Collinsella	102106	gm0217	genus	IL17A	3605	activation	low-throughput
+Collinsella	102106	gm0217	genus	RORA	6095	activation	low-throughput
+Collinsella	102106	gm0217	genus	CXCL1	2919	activation	low-throughput
+Collinsella	102106	gm0217	genus	CXCL5	6374	activation	low-throughput
+Enterococcus faecalis	1351	gm0288	species	PPARG	5468	activation	low-throughput
+Enterococcus faecalis	1351	gm0288	species	IL10	3586	activation	low-throughput
+Enterococcus faecalis	1351	gm0288	species	ANGPTL4	51129	activation	low-throughput
+Enterococcus faecalis	1351	gm0288	species	PLIN2	123	activation	low-throughput
+Bacteroidetes	976	gm0090	phylum	NR1H4	9971	inhibition	low-throughput
+Bacteroidetes	976	gm0090	phylum	GLP1R	2740	activation	low-throughput
+Lactobacillus plantarum MB452		gm1053	strain	OCLN	100506658	activation	low-throughput
+Lactobacillus plantarum MB452		gm1053	strain	CGN	57530	activation	low-throughput
+Lactobacillus plantarum MB452		gm1053	strain	TJP1	7082	activation	low-throughput
+Lactobacillus plantarum MB452		gm1053	strain	TJP2	9414	activation	low-throughput
+Lactobacillus plantarum MB452		gm1053	strain	GJC1	10052	inhibition	low-throughput
+Lactobacillus paracasei	1597	gm0766	species	PPARG	5468	activation	low-throughput
+Faecalibacterium prausnitzii HTF-F		gm0935	strain	IL12A	3592	inhibition	low-throughput
+Faecalibacterium prausnitzii HTF-F		gm0935	strain	IL12B	3593	inhibition	low-throughput
+Faecalibacterium prausnitzii HTF-F		gm0935	strain	IL17A	3605	inhibition	low-throughput
+Faecalibacterium prausnitzii A2-165	411483	gm0932	strain	CXCL8	3576	inhibition	low-throughput
+Faecalibacterium prausnitzii A2-165	411483	gm0932	strain	NFKB1	4790	inhibition	low-throughput
+Faecalibacterium prausnitzii A2-165	411483	gm0932	strain	IL10	3586	activation	low-throughput
+Lactobacillus	1578	gm0393	genus	IL22	50616	activation	low-throughput
+Lactobacillus	1578	gm0393	genus	MAPK14	1432	activation	low-throughput
+Lactobacillus plantarum 299v		gm1057	strain	LEP	3952	inhibition	low-throughput
+Eubacterium	1730	gm0309	genus	BCL2	596	inhibition	low-throughput
+Eubacterium	1730	gm0309	genus	BAX	581	activation	low-throughput
+Eubacterium	1730	gm0309	genus	CASP3	836	activation	low-throughput
+Enterococcus	1350	gm0287	genus	BCL2	596	inhibition	low-throughput
+Enterococcus	1350	gm0287	genus	BAX	581	activation	low-throughput
+Enterococcus	1350	gm0287	genus	CASP3	836	activation	low-throughput
+Bacteroides	816	gm0077	genus	BCL2	596	inhibition	low-throughput
+Bacteroides	816	gm0077	genus	BAX	581	activation	low-throughput
+Bacteroides	816	gm0077	genus	CASP3	836	activation	low-throughput
+Bifidobacterium	1678	gm0105	genus	BCL2	596	inhibition	low-throughput
+Bifidobacterium	1678	gm0105	genus	BAX	581	activation	low-throughput
+Bifidobacterium	1678	gm0105	genus	CASP3	836	activation	low-throughput
+Lactobacillus fermentum ACA-DC 179		gm1059	strain	IL10	3586	activation	low-throughput
+Lactobacillus fermentum ACA-DC 179		gm1059	strain	TNF	7124	activation	low-throughput
+Lactobacillus plantarum ACA-DC 287		gm1060	strain	IL10	3586	activation	low-throughput
+Lactobacillus plantarum ACA-DC 287		gm1060	strain	IL12B	3593	activation	low-throughput
+Lactobacillus plantarum ACA-DC 287		gm1060	strain	IFNG	3458	activation	low-throughput
+Lactobacillus plantarum ACA-DC 287		gm1060	strain	TNF	7124	activation	low-throughput
+Streptococcus macedonicus ACA-DC 198	1116231	gm1061	strain	IL12B	3593	activation	low-throughput
+Streptococcus macedonicus ACA-DC 198	1116231	gm1061	strain	IFNG	3458	activation	low-throughput
+Streptococcus macedonicus ACA-DC 198	1116231	gm1061	strain	TNF	7124	activation	low-throughput
+Bifidobacterium longum	216816	gm0112	species	CYP7A1	1581	inhibition	low-throughput
+Bifidobacterium longum	216816	gm0112	species	GPBAR1	151306	activation	low-throughput
+Faecalibacterium prausnitzii A2–165	411483	gm1066	strain	TLR2	7097	activation	low-throughput
+Faecalibacterium prausnitzii A2–165	411483	gm1066	strain	TLR6	10333	activation	low-throughput
+Faecalibacterium prausnitzii A2–165	411483	gm1066	strain	TLR4	7099	inhibition	low-throughput
+Eubacterium limosum	1736	gm0315	species	IL6	3569	inhibition	low-throughput
+Eubacterium limosum	1736	gm0315	species	IL6	3569	inhibition	low-throughput
+Eubacterium limosum	1736	gm0315	species	IL6	3569	inhibition	low-throughput
+Eubacterium limosum	1736	gm0315	species	TLR4	7099	inhibition	low-throughput
+Escherichia coli K-12	83333	gm1075	strain	NFKB1	4790	inhibition	low-throughput
+Bifidobacterium adolescentis	1680	gm0106	species	NFKB1	4790	inhibition	low-throughput
+Bifidobacterium adolescentis	1680	gm0106	species	CXCL8	3576	inhibition	low-throughput
+Bacteroides vulgatus	821	gm0089	species	NFKB1	4790	inhibition	low-throughput
+Bacteroides vulgatus	821	gm0089	species	CXCL8	3576	inhibition	low-throughput
+Bacteroides distasonis	823	gm0818	species	NFKB1	4790	inhibition	low-throughput
+Bacteroides distasonis	823	gm0818	species	CXCL8	3576	inhibition	low-throughput
+Streptococcus salivarius	1304	gm0741	species	NFKB1	4790	inhibition	low-throughput
+Streptococcus salivarius	1304	gm0741	species	CXCL8	3576	inhibition	low-throughput
+Lactobacillus plantarum	1590	gm0405	species	CLDN1	9076	inhibition	low-throughput
+Lactobacillus plantarum	1590	gm0405	species	OCLN	100506658	inhibition	low-throughput
+Lactobacillus plantarum	1590	gm0405	species	F11R	50848	inhibition	low-throughput
+Lactobacillus plantarum	1590	gm0405	species	TJP1	7082	inhibition	low-throughput
+Lactobacillus	1578	gm0393	genus	IL22	50616	activation	low-throughput
+Lactobacillus Plantarum	1590	gm0405	species	NFE2L2	4780	activation	low-throughput
+Lactobacillus Plantarum	1590	gm0405	species	HMOX1	3162	activation	low-throughput
+Bacteroidetes	976	gm0090	phylum	C5AR1	728	inhibition	low-throughput
+Bacteroidetes	976	gm0090	phylum	CXCR2	3579	inhibition	low-throughput
+Bacteroidetes	976	gm0090	phylum	TNF	7124	inhibition	low-throughput
+Bacteroidetes	976	gm0090	phylum	CCL3	6348	inhibition	low-throughput
+Lactobacillus paracasei JS1		gm1077	strain	PTGS2	5743	inhibition	low-throughput
+Lactobacillus paracasei JS1		gm1077	strain	IL18	3606	inhibition	low-throughput
+Lactobacillus paracasei JS1		gm1077	strain	TNF	7124	inhibition	low-throughput
+Lactobacillus paracasei JS1		gm1077	strain	IL1B	3553	inhibition	low-throughput
+Lactobacillus paracasei JS1		gm1077	strain	IL4	3565	inhibition	low-throughput
+Lactobacillus paracasei JS1		gm1077	strain	IL6	3569	inhibition	low-throughput
+Atopobium parvulum	1382	gm0819	species	PLIN2	123	activation	low-throughput
+Atopobium parvulum	1382	gm0819	species	ANGPTL4	51129	activation	low-throughput
+Prevotella copri	165179	gm0536	species	PLIN2	123	activation	low-throughput
+Prevotella copri	165179	gm0536	species	ANGPTL4	51129	activation	low-throughput
+Akkermansia muciniphila	239935	gm0030	species	CLGN	1047	activation	low-throughput
+Akkermansia muciniphila	239935	gm0030	species	CLDN4	1364	activation	low-throughput
+Akkermansia muciniphila	239935	gm0030	species	TJP2	9414	activation	low-throughput
+Akkermansia muciniphila	239935	gm0030	species	TJP3	27134	activation	low-throughput
+Akkermansia muciniphila	239935	gm0030	species	TLR2	7097	activation	low-throughput
+Akkermansia muciniphila	239935	gm0030	species	TLR4	7099	activation	low-throughput
+Enterococcus durans EP1		gm1082	strain	IL1B	3553	activation	low-throughput
+Enterococcus durans EP1		gm1082	strain	IL6	3569	activation	low-throughput
+Enterococcus durans EP1		gm1082	strain	IL12B	3593	activation	low-throughput
+Enterococcus durans EP1		gm1082	strain	IFNG	3458	activation	low-throughput
+Enterococcus durans EP1		gm1082	strain	TNF	7124	activation	low-throughput
+Enterococcus durans EP1		gm1082	strain	IL10	3586	activation	low-throughput
+Enterococcus durans EP2		gm1083	strain	IL1B	3553	activation	low-throughput
+Enterococcus durans EP2		gm1083	strain	IL6	3569	activation	low-throughput
+Enterococcus durans EP2		gm1083	strain	IL12B	3593	activation	low-throughput
+Enterococcus durans EP2		gm1083	strain	IFNG	3458	activation	low-throughput
+Enterococcus durans EP2		gm1083	strain	TNF	7124	activation	low-throughput
+Enterococcus durans EP2		gm1083	strain	IL10	3586	activation	low-throughput
+Enterococcus durans EP3		gm1084	strain	IL1B	3553	activation	low-throughput
+Enterococcus durans EP3		gm1084	strain	IL6	3569	activation	low-throughput
+Enterococcus durans EP3		gm1084	strain	IL12B	3593	activation	low-throughput
+Enterococcus durans EP3		gm1084	strain	IFNG	3458	activation	low-throughput
+Enterococcus durans EP3		gm1084	strain	TNF	7124	activation	low-throughput
+Enterococcus durans EP3		gm1084	strain	IL10	3586	activation	low-throughput
+Escherichia coli EcN		gm1085	strain	TJP2	9414	activation	low-throughput
+Escherichia coli EcN		gm1085	strain	OCLN	100506658	activation	low-throughput
+Escherichia coli EcN		gm1085	strain	CLDN14	23562	activation	low-throughput
+Escherichia coli ECOR63		gm1086	strain	TJP2	9414	activation	low-throughput
+Escherichia coli ECOR63		gm1086	strain	OCLN	100506658	activation	low-throughput
+Escherichia coli ECOR63		gm1086	strain	CLDN14	23562	activation	low-throughput
+Streptococcus salivarius JIM8772		gm1089	strain	NFKB1	4790	inhibition	low-throughput
+Streptococcus salivarius JIM8772		gm1089	strain	PPARG	5468	inhibition	low-throughput
+Streptococcus salivarius JIM8772		gm1089	strain	FABP2	2169	inhibition	low-throughput
+Streptococcus salivarius JIM8772		gm1089	strain	ANGPTL4	51129	inhibition	low-throughput
+Streptococcus salivarius K12	1200793	gm1090	strain	NFKB1	4790	inhibition	low-throughput
+Streptococcus salivarius K12	1200793	gm1090	strain	PPARG	5468	inhibition	low-throughput
+Streptococcus salivarius K12	1200793	gm1090	strain	FABP2	2169	inhibition	low-throughput
+Streptococcus salivarius K12	1200793	gm1090	strain	ANGPTL4	51129	inhibition	low-throughput
+Enterococcus durans M4-5		gm1006	strain	CXCL8	3576	inhibition	low-throughput
+Enterococcus durans M4-5		gm1006	strain	IL6	3569	inhibition	low-throughput
+Enterococcus durans M4-5		gm1006	strain	TNF	7124	inhibition	low-throughput
+Enterococcus durans M4-5		gm1006	strain	IL10	3586	activation	low-throughput
+Enterococcus durans M4-5		gm1006	strain	IL1B	3553	inhibition	low-throughput
+Lactobacillus rhamnosus GG	568703	gm0743	strain	CXCL8	3576	inhibition	low-throughput
+Clostridioides difficile R20291	645463	gm1091	strain	tnaA	948221	activation	low-throughput
+Clostridioides difficile 630	272563	gm1092	strain	tnaA	948221	activation	low-throughput
+Faecalibacterium prausnitzii	853	gm0327	species	CXCL8	3576	inhibition	low-throughput
+Faecalibacterium prausnitzii	853	gm0327	species	NFKB1	4790	inhibition	low-throughput
+Faecalibacterium prausnitzii	853	gm0327	species	IL12B	3593	inhibition	low-throughput
+Faecalibacterium prausnitzii	853	gm0327	species	IFNG	3458	inhibition	low-throughput
+Faecalibacterium prausnitzii	853	gm0327	species	IL10	3586	activation	low-throughput
+Clostridium butyricum ATCC 19398	1492	gm1099	strain	FFAR2	2867	activation	low-throughput
+Clostridium butyricum ATCC 19398	1492	gm1099	strain	HCAR2	338442	activation	low-throughput
+Clostridium butyricum ATCC 19398	1492	gm1099	strain	CDKN1A	1026	activation	low-throughput
+Escherichia coli	562	gm0305	species	TLR3	7098	activation	low-throughput
+Escherichia coli	562	gm0305	species	TLR9	54106	activation	low-throughput
+Escherichia coli	562	gm0305	species	TOLLIP	54472	activation	low-throughput
+Escherichia coli	562	gm0305	species	SIGIRR	59307	activation	low-throughput
+Escherichia coli	562	gm0305	species	SOCS5	9655	activation	low-throughput
+Escherichia coli	562	gm0305	species	IL10	3586	activation	low-throughput
+Escherichia coli	562	gm0305	species	PIK3CA	5290	activation	low-throughput
+Escherichia coli	562	gm0305	species	PIK3CB	5291	activation	low-throughput
+Escherichia coli	562	gm0305	species	PIK3CD	5293	activation	low-throughput
+Escherichia coli	562	gm0305	species	AKT1	207	activation	low-throughput
+Escherichia coli	562	gm0305	species	IL2	3558	activation	low-throughput
+Escherichia coli	562	gm0305	species	IL4	3565	activation	low-throughput
+Escherichia coli	562	gm0305	species	IL18	3606	activation	low-throughput
+Escherichia coli	562	gm0305	species	IL24	11009	activation	low-throughput
+Escherichia coli	562	gm0305	species	IFNL3	282617	activation	low-throughput
+Escherichia coli	562	gm0305	species	CCL25	6370	activation	low-throughput
+Escherichia coli	562	gm0305	species	CCL4	6351	activation	low-throughput
+Escherichia coli	562	gm0305	species	CCL16	6360	activation	low-throughput
+Escherichia coli	562	gm0305	species	CCL3	6348	activation	low-throughput
+Escherichia coli	562	gm0305	species	XCL1	6375	activation	low-throughput
+Escherichia coli	562	gm0305	species	CX3CL1	6376	activation	low-throughput
+Escherichia coli	562	gm0305	species	DUSP1	1843	activation	low-throughput
+Escherichia coli	562	gm0305	species	DUSP3	1845	activation	low-throughput
+Escherichia coli	562	gm0305	species	DUSP10	11221	activation	low-throughput
+Escherichia coli	562	gm0305	species	DUSP18	150290	activation	low-throughput
+Escherichia coli	562	gm0305	species	DUSP22	56940	activation	low-throughput
+Streptococcus mutans	1309	gm0713	species	IRS1	3667	inhibition	low-throughput
+Streptococcus mutans	1309	gm0713	species	RHEB	6009	activation	low-throughput
+Eggerthella lenta	84112	gm0695	species	IRS1	3667	inhibition	low-throughput
+Eggerthella lenta	84112	gm0695	species	RHEB	6009	activation	low-throughput
+Escherichia coli Nissle 1917	316435	gm0941	strain	TJP1	7082	activation	low-throughput
+Escherichia coli Nissle 1917	316435	gm0941	strain	TJP2	9414	activation	low-throughput
+Escherichia coli Nissle 1917	316435	gm0941	strain	CLDN14	23562	activation	low-throughput
+Firmicutes	1239	gm0332	phylum	TLR2	7097	activation	low-throughput
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088	391904	gm0910	strain	OCLN	100506658	inhibition	low-throughput
+Bifidobacterium animalis subsp. lactis BB-12	552531	gm1121	strain	TNF	7124	activation	low-throughput
+Bacteroides fragilis ATCC 23745		gm1123	strain	TLR2	7097	inhibition	low-throughput
+Bacteroides fragilis ATCC 23745		gm1123	strain	TLR4	7099	activation	low-throughput
+Bacteroides fragilis ATCC 23745		gm1123	strain	IFNG	3458	activation	low-throughput
+Bacteroides fragilis ATCC 23745		gm1123	strain	IL4	3565	activation	low-throughput
+Bacteroides fragilis ATCC 23745		gm1123	strain	IL10	3586	activation	low-throughput
+Lactobacillus plantarum	1590	gm0405	species	SLC5A8	160728	activation	low-throughput
+Ruminococcus gnavus E1	935582	gm1146	strain	MUC1	4582	activation	low-throughput
+Ruminococcus gnavus E1	935582	gm1146	strain	MUC2	4583	activation	low-throughput
+Ruminococcus gnavus E1	935582	gm1146	strain	MGAT3	4248	activation	low-throughput
+Ruminococcus gnavus E1	935582	gm1146	strain	B4GALT1	2683	activation	low-throughput
+Ruminococcus gnavus E1	935582	gm1146	strain	ST6GAL1	6480	activation	low-throughput
+Lactobacillus plantarum L9		gm1147	strain	TNF	7124	inhibition	low-throughput
+Lactobacillus plantarum L9		gm1147	strain	CXCL8	3576	inhibition	low-throughput
+Lactobacillus acidophilus ATCC 4357		gm1148	strain	FOS	2353	activation	low-throughput
+Lactobacillus acidophilus ATCC 4357		gm1148	strain	JUN	3725	activation	low-throughput
+Lactobacillus acidophilus ATCC 4357		gm1148	strain	PGP	283871	activation	low-throughput
+Escherichia coli E2348/69	574521	gm1151	strain	SLC19A2	10560	inhibition	low-throughput
+Escherichia coli E2348/69	574521	gm1151	strain	SLC19A3	80704	inhibition	low-throughput
+Lactobacillus acidophilus 4357		gm1155	strain	SLC9A3	6550	activation	low-throughput
+Lactobacillus acidophilus ATCC 4357		gm1148	strain	RELA	5970	inhibition	low-throughput
+Lactobacillus acidophilus ATCC 4357		gm1148	strain	CXCL8	3576	inhibition	low-throughput
+Lactobacillus acidophilus ATCC 4357		gm1148	strain	BCL10	8915	inhibition	low-throughput
+Lactobacillus acidophilus ATCC 4357		gm1148	strain	SLC26A3	1811	activation	low-throughput
+Clostridioides difficile VPI 10463		gm1167	strain	MGAT4B	11282	inhibition	low-throughput
+Clostridioides difficile VPI 10463		gm1167	strain	MGAT4A	11320	inhibition	low-throughput
+Clostridioides difficile VPI 10463		gm1167	strain	IL22RA2	116379	activation	low-throughput

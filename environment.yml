@@ -1,0 +1,15 @@
+name: "snakemake"
+channels:
+  - conda-forge
+  - anaconda
+  - default
+dependencies:
+  - python>=3.8.*
+  - tqdm>=4.64.0
+  - gensim>=4.2.0
+  - numpy>=1.22.4
+  - pip
+  - pip:
+    - csrgraph>=0.1.28
+    - nodevectors>=0.1.23
+    - rdflib>=6.2.0

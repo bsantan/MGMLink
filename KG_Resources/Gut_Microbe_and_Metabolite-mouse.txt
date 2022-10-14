@@ -1,0 +1,787 @@
+Gut Microbiota	Gut Microbiata NCBI ID	Gut Microbiota ID	Classification	Substrate	Substrate PubChem CID	Substrate  HMDB ID	Substrate ChEBI ID	Metabolite	Metabolite PubChem CID	Metabolite HMDB ID	Metabolite ChEBI ID
+Oscillibacter	459786	gm0484	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Phenylalanine	6140	HMDB0000159	CHEBI:17295
+Oscillibacter	459786	gm0484	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Glutamic acid	33032	HMDB0000148	CHEBI:16015
+Oscillibacter	459786	gm0484	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	3-Phenylpropionic acid	107	HMDB0000764	CHEBI:28631
+Oscillibacter	459786	gm0484	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Cholic acid	221493	HMDB0000619	CHEBI:16359
+Oscillibacter	459786	gm0484	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Eicosapentaenoic acid	446284	HMDB0001999	CHEBI:28364
+Oscillibacter	459786	gm0484	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Chenodeoxycholic acid	10133	HMDB0000518	CHEBI:16755
+Oscillibacter	459786	gm0484	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Desoxycortone	6166	HMDB0000016	CHEBI:16973
+Oscillibacter	459786	gm0484	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	7-Dehydrocholesterol	439423	HMDB0000032	CHEBI:17759
+Oscillibacter	459786	gm0484	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Retinol	445354	HMDB0000305	CHEBI:17336
+Lachnospiraceae	186803	gm0386	family	Cholesterol	5997	HMDB0000067	CHEBI:16113	Phenylalanine	6140	HMDB0000159	CHEBI:17295
+Lachnospiraceae	186803	gm0386	family	Cholesterol	5997	HMDB0000067	CHEBI:16113	Glutamic acid	33032	HMDB0000148	CHEBI:16015
+Lachnospiraceae	186803	gm0386	family	Cholesterol	5997	HMDB0000067	CHEBI:16113	3-Phenylpropionic acid	107	HMDB0000764	CHEBI:28631
+Lachnospiraceae	186803	gm0386	family	Cholesterol	5997	HMDB0000067	CHEBI:16113	Cholic acid	221493	HMDB0000619	CHEBI:16359
+Lachnospiraceae	186803	gm0386	family	Cholesterol	5997	HMDB0000067	CHEBI:16113	Eicosapentaenoic acid	446284	HMDB0001999	CHEBI:28364
+Lachnospiraceae	186803	gm0386	family	Cholesterol	5997	HMDB0000067	CHEBI:16113	Chenodeoxycholic acid	10133	HMDB0000518	CHEBI:16755
+Lachnospiraceae	186803	gm0386	family	Cholesterol	5997	HMDB0000067	CHEBI:16113	Desoxycortone	6166	HMDB0000016	CHEBI:16973
+Lachnospiraceae	186803	gm0386	family	Cholesterol	5997	HMDB0000067	CHEBI:16113	7-Dehydrocholesterol	439423	HMDB0000032	CHEBI:17759
+Lachnospiraceae	186803	gm0386	family	Cholesterol	5997	HMDB0000067	CHEBI:16113	Retinol	445354	HMDB0000305	CHEBI:17336
+Clostridium IV		gm0202	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Phenylalanine	6140	HMDB0000159	CHEBI:17295
+Clostridium IV		gm0202	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Glutamic acid	33032	HMDB0000148	CHEBI:16015
+Clostridium IV		gm0202	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	3-Phenylpropionic acid	107	HMDB0000764	CHEBI:28631
+Clostridium IV		gm0202	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Cholic acid	221493	HMDB0000619	CHEBI:16359
+Clostridium IV		gm0202	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Eicosapentaenoic acid	446284	HMDB0001999	CHEBI:28364
+Clostridium IV		gm0202	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Chenodeoxycholic acid	10133	HMDB0000518	CHEBI:16755
+Clostridium IV		gm0202	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Desoxycortone	6166	HMDB0000016	CHEBI:16973
+Clostridium IV		gm0202	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	7-Dehydrocholesterol	439423	HMDB0000032	CHEBI:17759
+Clostridium IV		gm0202	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Retinol	445354	HMDB0000305	CHEBI:17336
+Clostridium XlVa		gm0764	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Phenylalanine	6140	HMDB0000159	CHEBI:17295
+Clostridium XlVa		gm0764	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Glutamic acid	33032	HMDB0000148	CHEBI:16015
+Clostridium XlVa		gm0764	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	3-Phenylpropionic acid	107	HMDB0000764	CHEBI:28631
+Clostridium XlVa		gm0764	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Cholic acid	221493	HMDB0000619	CHEBI:16359
+Clostridium XlVa		gm0764	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Eicosapentaenoic acid	446284	HMDB0001999	CHEBI:28364
+Clostridium XlVa		gm0764	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Chenodeoxycholic acid	10133	HMDB0000518	CHEBI:16755
+Clostridium XlVa		gm0764	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Desoxycortone	6166	HMDB0000016	CHEBI:16973
+Clostridium XlVa		gm0764	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	7-Dehydrocholesterol	439423	HMDB0000032	CHEBI:17759
+Clostridium XlVa		gm0764	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Retinol	445354	HMDB0000305	CHEBI:17336
+Prevotella	838	gm0535	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Myristic acid	11005	HMDB0000806	CHEBI:28875
+Prevotella	838	gm0535	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	l-Isoleucine	6306	HMDB0000172	CHEBI:17191
+Prevotella	838	gm0535	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Benzoic acid	243	HMDB0001870	CHEBI:30746
+Prevotella	838	gm0535	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Paraprevotella	577309	gm0500	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Myristic acid	11005	HMDB0000806	CHEBI:28875
+Paraprevotella	577309	gm0500	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	l-Isoleucine	6306	HMDB0000172	CHEBI:17191
+Paraprevotella	577309	gm0500	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Benzoic acid	243	HMDB0001870	CHEBI:30746
+Paraprevotella	577309	gm0500	genus	Cholesterol	5997	HMDB0000067	CHEBI:16113	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Clostridium	1485	gm0187	genus					3-Phenylpropionic acid	107	HMDB0000764	CHEBI:28631
+Oscillibacter	459786	gm0484	genus					3-Phenylpropionic acid	107	HMDB0000764	CHEBI:28631
+Lachnospiraceae	186803	gm0386	family					3-Phenylpropionic acid	107	HMDB0000764	CHEBI:28631
+Clostridium	1485	gm0187	genus					Benzoic acid	243	HMDB0001870	CHEBI:30746
+Oscillibacter	459786	gm0484	genus					Benzoic acid	243	HMDB0001870	CHEBI:30746
+Lachnospiraceae	186803	gm0386	family					Benzoic acid	243	HMDB0001870	CHEBI:30746
+Asaccharobacter celatus JCM 14811		gm0886	strain	Epigallocatechin	72277	HMDB0038361	CHEBI:42255	4'-dehydroxylated (−)-epigallocatechin			
+Asaccharobacter celatus JCM 14811		gm0886	strain	Epigallocatechin	72277	HMDB0038361	CHEBI:42255	"1-(3,4,5-trihydroxyphenyl)-3-(2,4,6trihydroxyphenyl)propan-2-ol"			
+Adlercreutzia equolifaciens JCM 14793		gm0887	strain	Epigallocatechin	72277	HMDB0038361	CHEBI:42255	4'-dehydroxylated (−)-epigallocatechin			
+Asaccharobacter celatus JCM 14811		gm0886	strain	4'-dehydroxylated (−)-epigallocatechin				"1-(3,5-dihydroxyphenyl)-3-(2,4,6-trihydroxyphenyl)propan-2-ol"			
+Adlercreutzia equolifaciens JCM 14793		gm0887	strain					"1-(3,4,5-trihydroxyphenyl)-3-(2,4,6trihydroxyphenyl)propan-2-ol"			
+Adlercreutzia equolifaciens JCM 14793		gm0887	strain					4'-dehydroxylated isomer (−)-gallocatechin			
+Adlercreutzia equolifaciens JCM 14793		gm0887	strain	"1-(3,4,5-trihydroxyphenyl)-3-(2,4,6trihydroxyphenyl)propan-2-ol"				"1-(3,5-dihydroxyphenyl)-3-(2,4,6-trihydroxyphenyl)propan-2-ol"			
+Slackia equolifaciens JCM  16059		gm0888	strain	(-)-Gallocatechin	9882981		CHEBI:71225	4'-dehydroxylated isomer (−)-gallocatechin			
+Slackia equolifaciens JCM  16059		gm0888	strain	(-)-Gallocatechin	9882981		CHEBI:71225	"1-(3,5-dihydroxyphenyl)-3-(2,4,6-trihydroxyphenyl)propan-2-ol"			
+Slackia equolifaciens JCM  16059		gm0888	strain	(-)-Gallocatechin	9882981		CHEBI:71225	"1-(3,4,5-trihydroxyphenyl)-3-(2,4,6trihydroxyphenyl)propan-2-ol"			
+Clostridium butyricum  CBM588		gm0889	strain					Acetate	175		CHEBI:30089
+Clostridium scindens	29347	gm0208	species					Bile acid	439520		CHEBI:22868
+Faecalibacterium prausnitzii  ATCC 27766		gm0899	strain					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii  ATCC 27766		gm0899	strain					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii  ATCC 27766		gm0899	strain					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii  ATCC 27766		gm0899	strain					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii  ATCC 27766		gm0899	strain					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii S3L/3		gm0901	strain	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101	Benzoic acid	243	HMDB0001870	CHEBI:30746
+Faecalibacterium prausnitzii S3L/3		gm0901	strain	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101	4-Hydroxybenzoic acid	135	HMDB0000500	CHEBI:30763
+Faecalibacterium prausnitzii S3L/3		gm0901	strain	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101	Indole-3-carboxylic acid	69867	HMDB0003320	CHEBI:24809
+Eubacterium rectale DSM 17629	657318	gm0907	strain	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101	Benzoic acid	243	HMDB0001870	CHEBI:30746
+Eubacterium rectale DSM 17629	657318	gm0907	strain	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101	4-Hydroxybenzoic acid	135	HMDB0000500	CHEBI:30763
+Eubacterium rectale DSM 17629	657318	gm0907	strain	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101	Indole-3-carboxylic acid	69867	HMDB0003320	CHEBI:24809
+Roseburia intestinalis DSM 14610		gm0909	strain	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101	Benzoic acid	243	HMDB0001870	CHEBI:30746
+Roseburia intestinalis DSM 14610		gm0909	strain	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101	4-Hydroxybenzoic acid	135	HMDB0000500	CHEBI:30763
+Roseburia intestinalis DSM 14610		gm0909	strain	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101	Indole-3-carboxylic acid	69867	HMDB0003320	CHEBI:24809
+Bififidobacterium thetaiotaomicron DSM 2079	818	gm0900	strain	D-Glucose	5793	HMDB0000122	CHEBI:4167	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Bacteroides thetaiotaomicron	818	gm0087	species	D-Glucose	5793	HMDB0000122	CHEBI:4167	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Bacteroides eggerthii DSM 20697	483216	gm0903	strain	D-Glucose	5793	HMDB0000122	CHEBI:4167	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Bacteroides eggerthii DSM 20697	483216	gm0903	strain	D-Glucose	5793	HMDB0000122	CHEBI:4167	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Bacteroides eggerthii DSM 20697	483216	gm0903	strain	D-Glucose	5793	HMDB0000122	CHEBI:4167	Phenyalanine			
+Eubacterium hallii DSM 17630	105843	gm0906	strain	D-Glucose	5793	HMDB0000122	CHEBI:4167	Phenylacetic acid	999	HMDB0000209	CHEBI:30745
+Eubacterium hallii DSM 17630	105843	gm0906	strain	D-Glucose	5793	HMDB0000122	CHEBI:4167	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Eubacterium hallii DSM 17630	105843	gm0906	strain	D-Glucose	5793	HMDB0000122	CHEBI:4167	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Eubacterium hallii DSM 17630	105843	gm0906	strain	D-Glucose	5793	HMDB0000122	CHEBI:4167	Phenyalanine			
+Intestinibacter bartlettii	261299	gm0779	species	D-Glucose	5793	HMDB0000122	CHEBI:4167	Phenylacetic acid	999	HMDB0000209	CHEBI:30745
+Intestinibacter bartlettii	261299	gm0779	species	D-Glucose	5793	HMDB0000122	CHEBI:4167	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Intestinibacter bartlettii	261299	gm0779	species	D-Glucose	5793	HMDB0000122	CHEBI:4167	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Faecalibacterium prausnitzii S3L/3		gm0901	strain	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411	Benzoic acid	243	HMDB0001870	CHEBI:30746
+Faecalibacterium prausnitzii S3L/3		gm0901	strain	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411	4-Hydroxybenzoic acid	135	HMDB0000500	CHEBI:30763
+Faecalibacterium prausnitzii S3L/3		gm0901	strain	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411	Indole-3-carboxylic acid	69867	HMDB0003320	CHEBI:24809
+Eubacterium rectale DSM 17629	657318	gm0907	strain	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411	Benzoic acid	243	HMDB0001870	CHEBI:30746
+Eubacterium rectale DSM 17629	657318	gm0907	strain	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411	4-Hydroxybenzoic acid	135	HMDB0000500	CHEBI:30763
+Eubacterium rectale DSM 17629	657318	gm0907	strain	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411	Indole-3-carboxylic acid	69867	HMDB0003320	CHEBI:24809
+Roseburia intestinalis DSM 14610		gm0909	strain	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411	Benzoic acid	243	HMDB0001870	CHEBI:30746
+Roseburia intestinalis DSM 14610		gm0909	strain	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411	4-Hydroxybenzoic acid	135	HMDB0000500	CHEBI:30763
+Roseburia intestinalis DSM 14610		gm0909	strain	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411	Indole-3-carboxylic acid	69867	HMDB0003320	CHEBI:24809
+Faecalibacterium prausnitzii S3L/3		gm0901	strain	Phenylacetic acid	999	HMDB0000209	CHEBI:30745	Benzoic acid	243	HMDB0001870	CHEBI:30746
+Faecalibacterium prausnitzii S3L/3		gm0901	strain	Phenylacetic acid	999	HMDB0000209	CHEBI:30745	4-Hydroxybenzoic acid	135	HMDB0000500	CHEBI:30763
+Faecalibacterium prausnitzii S3L/3		gm0901	strain	Phenylacetic acid	999	HMDB0000209	CHEBI:30745	Indole-3-carboxylic acid	69867	HMDB0003320	CHEBI:24809
+Eubacterium rectale DSM 17629	657318	gm0907	strain	Phenylacetic acid	999	HMDB0000209	CHEBI:30745	Benzoic acid	243	HMDB0001870	CHEBI:30746
+Eubacterium rectale DSM 17629	657318	gm0907	strain	Phenylacetic acid	999	HMDB0000209	CHEBI:30745	4-Hydroxybenzoic acid	135	HMDB0000500	CHEBI:30763
+Eubacterium rectale DSM 17629	657318	gm0907	strain	Phenylacetic acid	999	HMDB0000209	CHEBI:30745	Indole-3-carboxylic acid	69867	HMDB0003320	CHEBI:24809
+Faecalibacterium prausnitzii	853	gm0327	species	Phenylacetic acid	999	HMDB0000209	CHEBI:30745	Benzoic acid	243	HMDB0001870	CHEBI:30746
+Faecalibacterium prausnitzii	853	gm0327	species	Phenylacetic acid	999	HMDB0000209	CHEBI:30745	4-Hydroxybenzoic acid	135	HMDB0000500	CHEBI:30763
+Roseburia intestinalis DSM 14610		gm0909	strain	Phenylacetic acid	999	HMDB0000209	CHEBI:30745	Benzoic acid	243	HMDB0001870	CHEBI:30746
+Roseburia intestinalis DSM 14610		gm0909	strain	Phenylacetic acid	999	HMDB0000209	CHEBI:30745	4-Hydroxybenzoic acid	135	HMDB0000500	CHEBI:30763
+Roseburia intestinalis DSM 14610		gm0909	strain	Phenylacetic acid	999	HMDB0000209	CHEBI:30745	Indole-3-carboxylic acid	69867	HMDB0003320	CHEBI:24809
+Bififidobacterium thetaiotaomicron DSM 2079	818	gm0900	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Phenyalanine			
+Bififidobacterium thetaiotaomicron DSM 2079	818	gm0900	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Butyrivibrio fibrisolvens	831	gm0782	species	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Butyrivibrio fibrisolvens	831	gm0782	species	Tryptophan	6305	HMDB0000929	CHEBI:16828	Phenyalanine			
+Faecalibacterium prausnitzii S3L/3		gm0901	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Phenyalanine			
+Faecalibacterium prausnitzii S3L/3		gm0901	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Bifidobacterium adolescentis  L2-32	411481	gm0902	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Bifidobacterium adolescentis  L2-32	411481	gm0902	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Phenyalanine			
+Bacteroides eggerthii DSM 20697	483216	gm0903	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Phenyalanine			
+Bacteroides eggerthii DSM 20697	483216	gm0903	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Ruminococcus torques L2-14	657313	gm0904	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Ruminococcus torques L2-14	657313	gm0904	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Phenyalanine			
+Ruminococcus torques L2-14	657313	gm0904	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Faecalitalea cylindroides T2-87	717960	gm0905	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Faecalitalea cylindroides T2-87	717960	gm0905	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Phenyalanine			
+Faecalitalea cylindroides T2-87	717960	gm0905	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Eubacterium hallii DSM 17630	105843	gm0906	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Eubacterium hallii DSM 17630	105843	gm0906	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Phenyalanine			
+Eubacterium hallii DSM 17630	105843	gm0906	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Eubacterium rectale DSM 17629	657318	gm0907	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Eubacterium rectale DSM 17629	657318	gm0907	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Phenyalanine			
+Eubacterium rectale DSM 17629	657318	gm0907	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Bifidobacterium adolescentis  L2-32	411481	gm0902	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Anaerostipes caccae L1-92	411490	gm0908	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Anaerostipes caccae L1-92	411490	gm0908	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Phenyalanine			
+Anaerostipes caccae L1-92	411490	gm0908	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Roseburia intestinalis DSM 14610		gm0909	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Roseburia intestinalis DSM 14610		gm0909	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Phenyalanine			
+Roseburia intestinalis DSM 14610		gm0909	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Roseburia intestinalis	166486	gm0574	species	Tryptophan	6305	HMDB0000929	CHEBI:16828	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088	391904	gm0910	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088	391904	gm0910	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Phenyalanine			
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088	391904	gm0910	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Intestinibacter bartlettii	261299	gm0779	species	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-pyruvic acid	803	HMDB0060484	CHEBI:29750
+Intestinibacter bartlettii	261299	gm0779	species	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-lactic acid	92904		CHEBI:24813
+Intestinibacter bartlettii	261299	gm0779	species	Tryptophan	6305	HMDB0000929	CHEBI:16828	1-Methylindole	11781		
+Intestinibacter bartlettii	261299	gm0779	species	Tryptophan	6305	HMDB0000929	CHEBI:16828	Phenyalanine			
+Intestinibacter bartlettii	261299	gm0779	species	Tryptophan	6305	HMDB0000929	CHEBI:16828	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Roseburia inulinivorans DSM 16841	622312	gm0911	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Roseburia inulinivorans DSM 16841	622312	gm0911	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Phenyalanine			
+Roseburia inulinivorans DSM 16841	622312	gm0911	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Anaerostipes hadrus Ss2/1		gm0912	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-acetic acid	802	HMDB0000197	CHEBI:16411
+Anaerostipes hadrus Ss2/1		gm0912	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Phenyalanine			
+Anaerostipes hadrus Ss2/1		gm0912	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	4-Hydroxyphenylacetic acid	127	HMDB0000020	CHEBI:18101
+Faecalibacterium prausnitzii S3L/3		gm0901	strain	phenyalanine				Phenylpyruvic acid	997	HMDB0000205	CHEBI:30851
+Faecalibacterium prausnitzii S3L/3		gm0901	strain	phenyalanine				Atrolactic acid	1303	HMDB0142137	CHEBI:50392
+Eubacterium rectale DSM 17629	657318	gm0907	strain	phenyalanine				Phenylpyruvic acid	997	HMDB0000205	CHEBI:30851
+Eubacterium rectale DSM 17629	657318	gm0907	strain	phenyalanine				Atrolactic acid	1303	HMDB0142137	CHEBI:50392
+Roseburia intestinalis DSM 14610		gm0909	strain	phenyalanine				Phenylpyruvic acid	997	HMDB0000205	CHEBI:30851
+Roseburia intestinalis DSM 14610		gm0909	strain	phenyalanine				Atrolactic acid	1303	HMDB0142137	CHEBI:50392
+Bififidobacterium thetaiotaomicron  ATCC 29148		gm0913	strain					Acetate	175		CHEBI:30089
+Bififidobacterium thetaiotaomicron  ATCC 29148		gm0913	strain					Propionate	104745		CHEBI:17272
+Faecalibacterium prausnitzii DSM 17677		gm0914	strain	Acetate	175		CHEBI:30089	Butyrate	104775		CHEBI:17968
+Ruminococcus	1263	gm0587	genus					Creatine	586	HMDB0000064	CHEBI:16919
+Ruminococcus	1263	gm0587	genus					5-Hydroxyindole-3-acetic acid	1826	HMDB0000763	CHEBI:27823
+Ruminococcus	1263	gm0587	genus					Tyramine	5610	HMDB0000306	CHEBI:15760
+Ruminococcus	1263	gm0587	genus					Valine	6287	HMDB0000883	CHEBI:16414
+Ruminococcus	1263	gm0587	genus					l-Isoleucine	6306	HMDB0000172	CHEBI:17191
+Ruminococcus	1263	gm0587	genus					Chenodeoxycholic acid	10133	HMDB0000518	CHEBI:16755
+Ruminococcus	1263	gm0587	genus					Ursodeoxycholic acid	31401	HMDB0000946	CHEBI:9907
+Ruminococcus	1263	gm0587	genus					2-Hydroxy-2-methylbutanenitrile	97823		CHEBI:60954
+Ruminococcus	1263	gm0587	genus					N-Acetylputrescine	122356	HMDB0002064	CHEBI:17768
+Ruminococcus	1263	gm0587	genus					Proline	145742	HMDB0000162	CHEBI:17203
+Ruminococcus	1263	gm0587	genus					Betonicine	164642	HMDB0029412	CHEBI:85533
+Ruminococcus	1263	gm0587	genus					Cholic acid	221493	HMDB0000619	CHEBI:16359
+Ruminococcus	1263	gm0587	genus					Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Ruminococcus	1263	gm0587	genus					N-Acetyl-D-Mannosamine	439281		CHEBI:63153
+Ruminococcus	1263	gm0587	genus					2-Formaminobenzoylacetate	440807		CHEBI:1098
+Ruminococcus	1263	gm0587	genus					12-Ketolithocholic acid	3080612	HMDB0000328	CHEBI:139134
+Ruminococcus	1263	gm0587	genus					Hyocholate	92805		CHEBI:133661
+Clostridium	1485	gm0187	genus					Hypoxanthine	135398638	HMDB0000157	CHEBI:17368
+Lachnospiraceae	186803	gm0386	family					Creatine	586	HMDB0000064	CHEBI:16919
+Lachnospiraceae	186803	gm0386	family					Chenodeoxycholic acid	10133	HMDB0000518	CHEBI:16755
+Lachnospiraceae	186803	gm0386	family					4-Acetamidobutyric acid	18189	HMDB0003681	CHEBI:17645
+Lachnospiraceae	186803	gm0386	family					N(6)-Methyllysine	164795	HMDB0002038	CHEBI:17604
+Lachnospiraceae	186803	gm0386	family					N-Acetyl-D-Mannosamine	439281		CHEBI:63153
+Lachnospiraceae	186803	gm0386	family					N-Isovaleroylglycine	546304	HMDB0000678	CHEBI:70984
+Lachnospiraceae	186803	gm0386	family					12-Ketolithocholic acid	3080612	HMDB0000328	CHEBI:139134
+Lachnospiraceae	186803	gm0386	family					"21H-Biline-8,12-dipropanoic acid, 3,18-diethyl-1,4,5,15,16,19,22,24-octahydro-2,7,13,17-tetramethyl-1,19-dioxo-"	6433298		
+Lachnospiraceae	186803	gm0386	family					Murideoxycholate	21158657		CHEBI:58876
+Lachnospiraceae	186803	gm0386	family					Pentahomomethionine	25010767		CHEBI:50713
+Lachnospiraceae	186803	gm0386	family					7-Hydroxy-3-oxocholanoic acid	53477692	HMDB0000460	
+Lachnospiraceae	186803	gm0386	family					Nutriadeoxycholate vulpecholate			
+Lachnospiraceae	186803	gm0386	family					7a-hydroxy-3-oxo-5b-cholanoate			
+Parabacteroides	375288	gm0495	genus					2-Hydroxy-2-methylbutanenitrile	97823		CHEBI:60954
+Parabacteroides	375288	gm0495	genus					Proline	145742	HMDB0000162	CHEBI:17203
+Parabacteroides	375288	gm0495	genus					Valyl-Hydroxyproline	10242944	HMDB0029128	
+Ruminococcaceae	541000	gm0581	genus					Creatine	586	HMDB0000064	CHEBI:16919
+Ruminococcaceae	541000	gm0581	genus					Chenodeoxycholic acid	10133	HMDB0000518	CHEBI:16755
+Ruminococcaceae	541000	gm0581	genus					4-Acetamidobutyric acid	18189	HMDB0003681	CHEBI:17645
+Ruminococcaceae	541000	gm0581	genus					Betonicine	164642	HMDB0029412	CHEBI:85533
+Ruminococcaceae	541000	gm0581	genus					N(6)-Methyllysine	164795	HMDB0002038	CHEBI:17604
+Ruminococcaceae	541000	gm0581	genus					N-Acetyl-D-Mannosamine	439281		CHEBI:63153
+Ruminococcaceae	541000	gm0581	genus					N-Isovaleroylglycine	546304	HMDB0000678	CHEBI:70984
+Ruminococcaceae	541000	gm0581	genus					12-Ketolithocholic acid	3080612	HMDB0000328	CHEBI:139134
+Ruminococcaceae	541000	gm0581	genus					"21H-Biline-8,12-dipropanoic acid, 3,18-diethyl-1,4,5,15,16,19,22,24-octahydro-2,7,13,17-tetramethyl-1,19-dioxo-"	6433298		
+Ruminococcaceae	541000	gm0581	genus					Murideoxycholate	21158657		CHEBI:58876
+Ruminococcaceae	541000	gm0581	genus					Pentahomomethionine	25010767		CHEBI:50713
+Ruminococcaceae	541000	gm0581	genus					Nutriadeoxycholate vulpecholate			
+Ruminococcaceae	541000	gm0581	genus					7a-hydroxy-3-oxo-5b-cholanoate			
+Blautia	572511	gm0117	genus					l-Isoleucine	6306	HMDB0000172	CHEBI:17191
+Blautia	572511	gm0117	genus					1-Methoxypyrene	160236	HMDB0060324	CHEBI:81610
+Blautia	572511	gm0117	genus					Valyl-Hydroxyproline	10242944	HMDB0029128	
+Intestinibacter	1505657	gm0767	genus					2-Hydroxy-2-methylbutanenitrile	97823		CHEBI:60954
+Intestinibacter	1505657	gm0767	genus					Proline	145742	HMDB0000162	CHEBI:17203
+Intestinibacter	1505657	gm0767	genus					1-Methoxypyrene	160236	HMDB0060324	CHEBI:81610
+Intestinibacter	1505657	gm0767	genus					Valyl-Hydroxyproline	10242944	HMDB0029128	
+Hungatella	1649459	gm0787	genus					2-Hydroxy-2-methylbutanenitrile	97823		CHEBI:60954
+Hungatella	1649459	gm0787	genus					Proline	145742	HMDB0000162	CHEBI:17203
+Hungatella	1649459	gm0787	genus					Valyl-Hydroxyproline	10242944		
+Ruminococcus torques	33039	gm0594	species	D-Glucose	5793	HMDB0000122	CHEBI:4167	Acetate	175		CHEBI:30089
+Roseburia gnavus		gm0798	species	D-Glucose	5793	HMDB0000122	CHEBI:4167	Acetate	175		CHEBI:30089
+Roseburia obeum  A2-162		gm0923	strain	D-Glucose	5793	HMDB0000122	CHEBI:4167	Acetate	175		CHEBI:30089
+Roseburia gnavus		gm0798	species	D-Glucose	5793	HMDB0000122	CHEBI:4167	Formate	283		CHEBI:15740
+Ruminococcus torques	33039	gm0594	species	D-Glucose	5793	HMDB0000122	CHEBI:4167	Lactate	91435		CHEBI:24996
+Roseburia gnavus		gm0798	species	D-Glucose	5793	HMDB0000122	CHEBI:4167	Lactate	91435		CHEBI:24996
+Roseburia inulinivorans DSM 16841	622312	gm0911	strain	D-Glucose	5793	HMDB0000122	CHEBI:4167	Butyrate	104775		CHEBI:17968
+Ruminococcus sp.	41978	gm0593	species	L-Fucose	17106	HMDB0000174	CHEBI:2181	Propionate	104745		CHEBI:17272
+Akkermansia muciniphila DSM 22959		gm0924	strain	L-Fucose	17106	HMDB0000174	CHEBI:2181	Propionate	104745		CHEBI:17272
+Roseburia inulinivorans DSM 16841	622312	gm0911	strain	L-Fucose	17106	HMDB0000174	CHEBI:2181	Propionate	104745		CHEBI:17272
+Clostridium botulinum	1491	gm0191	species	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Clostridium sp. MSTE9gi		gm0919	species	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Anaerotignum propionicum DSM 1682	991789	gm0920	strain	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Peptoniphilus indolicus	33030	gm0795	species	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Coprococcus eutactus ATCC 27759	411474	gm0917	strain	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Fusobacterium sp.	68766	gm0347	species	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Coprococcus catus VPI-C6-61		gm0921	strain	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Desulfosporosinus sp.	157907	gm0793	species	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Anaerotignum lactatifermentans DSM 14214	1121323	gm0922	strain	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Coprococcus comes ATCC 27758	470146	gm0918	strain	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Megasphaera sp.	2023260	gm0792	species	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Coprococcus eutactus ATCC 27759	411474	gm0917	strain	Formate	283		CHEBI:15740	Propionate	104745		CHEBI:17272
+Coprococcus comes ATCC 27758	470146	gm0918	strain	Formate	283		CHEBI:15740	Propionate	104745		CHEBI:17272
+Megasphaera elsdenii DSM 20460	1064535	gm0925	strain	Acrylate	25188		CHEBI:37080	Propionate	104745		CHEBI:17272
+Anaerotignum propionicum DSM 1682	991789	gm0920	strain	Acrylate	25188		CHEBI:37080	Propionate	104745		CHEBI:17272
+Coprococcus catus VPI-C6-61		gm0921	strain	Acrylate	25188		CHEBI:37080	Propionate	104745		CHEBI:17272
+Coprococcus catus VPI-C6-61		gm0921	strain	Butyrate	104775		CHEBI:17968	Propionate	104745		CHEBI:17272
+Roseburia inulinivorans DSM 16841	622312	gm0911	strain	Butyrate	104775		CHEBI:17968	Propionate	104745		CHEBI:17272
+Salmonella enterica TAM 6421		gm0926	strain	Propanediol	134919			Propionate	104745		CHEBI:17272
+Roseburia inulinivorans DSM 16841	622312	gm0911	strain	Propanediol	134919			Propionate	104745		CHEBI:17272
+Veillonella parvula  L59	29466	gm0927	strain	Succinate	160419		CHEBI:30031	Propionate	104745		CHEBI:17272
+Phascolarctobacterium faecium	33025	gm0791	species	Succinate	160419		CHEBI:30031	Propionate	104745		CHEBI:17272
+Veillonella dispar	39778	gm0677	species	Succinate	160419		CHEBI:30031	Propionate	104745		CHEBI:17272
+Clostridium hathewayi DSM 13479 ZP_6112601		gm0928	strain	Succinate	160419		CHEBI:30031	Propionate	104745		CHEBI:17272
+Dialister succinatiphilus YIT 11850	742743	gm0929	strain	Succinate	160419		CHEBI:30031	Propionate	104745		CHEBI:17272
+Phascolarctobacterium succinatutens YIT 12067	626939	gm0930	strain	Succinate	160419		CHEBI:30031	Propionate	104745		CHEBI:17272
+Selenomonas ruminantium  TAM 6421		gm0931	strain	Succinate	160419		CHEBI:30031	Propionate	104745		CHEBI:17272
+Butyrivibrio fibrisolvens	831	gm0782	species					Butyrate	104775		CHEBI:17968
+Butyrivibrio fibrisolvens	831	gm0782	species					Butyrate	104775		CHEBI:17968
+Clostridium	1485	gm0187	genus					Butyrate	104775		CHEBI:17968
+Clostridium	1485	gm0187	genus					Butyrate	104775		CHEBI:17968
+Eubacterium	1730	gm0309	genus					Butyrate	104775		CHEBI:17968
+Eubacterium	1730	gm0309	genus					Butyrate	104775		CHEBI:17968
+Bacteroides thetaiotaomicron ATCC 29148D-5		gm0944	strain					Phenylacetic acid	999	HMDB0000209	CHEBI:30745
+Bacteroides ovatus	28116	gm0084	species					Phenylacetic acid	999	HMDB0000209	CHEBI:30745
+Enterobacteriaceae	543	gm0282	family	Tyrosine	6057	HMDB0000158	CHEBI:17895	Phenyl sulfate	18795569		CHEBI:85289
+Enterobacteriaceae	543	gm0282	family	Tyrosine	6057	HMDB0000158	CHEBI:17895	Phenyl sulfate	18795569		CHEBI:85289
+Enterobacteriaceae	543	gm0282	family	Tyrosine	6057	HMDB0000158	CHEBI:17895	Phenyl sulfate	18795569		CHEBI:85289
+Enterobacteriaceae	543	gm0282	family	Tyrosine	6057	HMDB0000158	CHEBI:17895	Phenyl sulfate	18795569		CHEBI:85289
+Enterobacteriaceae	543	gm0282	family	Tyrosine	6057	HMDB0000158	CHEBI:17895	Phenyl sulfate	18795569		CHEBI:85289
+Enterobacteriaceae	543	gm0282	family	Tyrosine	6057	HMDB0000158	CHEBI:17895	Phenyl sulfate	18795569		CHEBI:85289
+Slackia sp. TM-30		gm0950	species	Daidzein	5281708	HMDB0003312	CHEBI:28197	Equol	91469	HMDB0002209	CHEBI:34741
+Bifidobacterium dentium ATCC 27678	473819	gm0952	strain					gamma-Aminobutyric acid	119	HMDB0000112	CHEBI:16865
+Bifidobacterium dentium ATCC 27678	473819	gm0952	strain					gamma-Aminobutyric acid	119	HMDB0000112	CHEBI:16865
+Bifidobacterium dentium ATCC 27678	473819	gm0952	strain					gamma-Aminobutyric acid	119	HMDB0000112	CHEBI:16865
+Bifidobacterium dentium ATCC 27678	473819	gm0952	strain					gamma-Aminobutyric acid	119	HMDB0000112	CHEBI:16865
+Bifidobacterium dentium ATCC 27678	473819	gm0952	strain					gamma-Aminobutyric acid	119	HMDB0000112	CHEBI:16865
+Bifidobacterium dentium ATCC 27678	473819	gm0952	strain					gamma-Aminobutyric acid	119	HMDB0000112	CHEBI:16865
+Bifidobacterium dentium ATCC 27678	473819	gm0952	strain					Acetate	175		CHEBI:30089
+Clostridium orbiscindens	292800	gm0823	species					3-(4-Hydroxyphenyl)propionic acid	10394	HMDB0002199	CHEBI:32980
+Lactobacillus reuteri D8		gm0967	strain					Indole-3-carboxaldehyde	10256	HMDB0029737	CHEBI:28238
+Saccharomyces cerevisiae	4932	gm0816	species					Purine	1044	HMDB0001366	CHEBI:17258
+Saccharomyces cerevisiae	4932	gm0816	species					Uric acid	1175	HMDB0000289	CHEBI:17775
+Bifidobacterium sp. LKM512		gm0972	species	Sennoside	656822		CHEBI:34974	Rheinanthrone	119396	HMDB0039449	CHEBI:174546
+Bifidobacterium sp. LKM10070		gm0973	species	Sennoside	656822		CHEBI:34974	Rheinanthrone	119396	HMDB0039449	CHEBI:174546
+Enterococcus durans TN-3		gm0974	strain					Butyrate	104775		CHEBI:17968
+Escherichia	561	gm0304	genus					Indole	798	HMDB0000738	CHEBI:16881
+Bacteroides	816	gm0077	genus					Indole	798	HMDB0000738	CHEBI:16881
+Clostridium	1485	gm0187	genus					Indole	798	HMDB0000738	CHEBI:16881
+Propionibacterium freudenreichii TL133		gm0975	strain					Acetate	175		CHEBI:30089
+Propionibacterium freudenreichii TL133		gm0975	strain					Propionate	104745		CHEBI:17272
+Propionibacterium freudenreichii TL133		gm0975	strain					Butyrate	104775		CHEBI:17968
+Bacteroides thetaiotaomicron BT_0558		gm0976	strain	L-Fucose	17106	HMDB0000174	CHEBI:2181	GDP-L-fucose	135412609	HMDB0001095	CHEBI:17009
+Bacteroides thetaiotaomicron BT_1224		gm0977	strain	L-Fucose	17106	HMDB0000174	CHEBI:2181	GDP-L-fucose	135412609	HMDB0001095	CHEBI:17009
+Bacteroides thetaiotaomicron BT_1225		gm0978	strain	L-Fucose	17106	HMDB0000174	CHEBI:2181	GDP-L-fucose	135412609	HMDB0001095	CHEBI:17009
+Enterobacteriaceae	543	gm0282	family					Oxiglutatione	65359	HMDB0003337	CHEBI:17858
+Enterobacteriaceae	543	gm0282	family					Cysteine-glutathione disulfide	3080690	HMDB0000656	
+Christensenellaceae	990719	gm0174	family					Butyrate	104775		CHEBI:17968
+Lactobacillus	1578	gm0393	genus					Butyrate	104775		CHEBI:17968
+Blautia	572511	gm0117	genus					Butyrate	104775		CHEBI:17968
+Nippostrongylus brasiliensis	27835	gm0862	species					Succinate	160419		CHEBI:30031
+Tritrichomonas	5723	gm0863	genus					Succinate	160419		CHEBI:30031
+Faecalibacterium prausnitzii	853	gm0327	species					"Methanol, (methyl-ONN-azoxy)-"	11554		
+Klebsiella	570	gm0380	genus	Melamine	7955	HMDB0041922	CHEBI:27915	Cyanuric acid	7956	HMDB0041861	CHEBI:38028
+Bacteroides sp.	2778071	gm0086	species					Propionate	104745		CHEBI:17272
+Anaerococcus hydrogenalis DSM 7454	561177	gm1009	strain					Trimethylamine	1146	HMDB0000906	CHEBI:18139
+Clostridium asparagiforme DSM 15981	518636	gm1010	strain					Trimethylamine	1146	HMDB0000906	CHEBI:18139
+Clostridium hathewayi DSM 13749		gm1011	strain					Trimethylamine	1146	HMDB0000906	CHEBI:18139
+Clostridium sporogenes ATCC 15579	471871	gm1012	strain					Trimethylamine	1146	HMDB0000906	CHEBI:18139
+Escherichia fergusonii ATCC 35469	585054	gm1013	strain					Trimethylamine	1146	HMDB0000906	CHEBI:18139
+Proteus penneri ATCC 35198	471881	gm1014	strain					Trimethylamine	1146	HMDB0000906	CHEBI:18139
+Providencia rettgeri DSM 1131	521000	gm1015	strain					Trimethylamine	1146	HMDB0000906	CHEBI:18139
+Edwardsiella tarda ATCC 23685	500638	gm1016	strain					Trimethylamine	1146	HMDB0000906	CHEBI:18139
+Providencia rustiganii	158850	gm0866	species					Trimethylamine	1146	HMDB0000906	CHEBI:18139
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Saccharomyces cerevisiae	4932	gm0816	species					"1-Phenyl-1,2-propanedione"	11363	HMDB0035243	CHEBI:63552
+Prevotella copri	165179	gm0536	species					Succinate	160419		CHEBI:30031
+Enterococcus durans	53345	gm0742	species					Butyrate	104775		CHEBI:17968
+Enterococcus durans	53345	gm0742	species					Butyrate	104775		CHEBI:17968
+Bacteroides thetaiotaomicron	818	gm0087	species					2-Oxoglutaric acid	51	HMDB0000208	CHEBI:30915
+lactobacilli	1578	gm0870	genus					Indole-3-carboxaldehyde	10256	HMDB0029737	CHEBI:28238
+Muribaculaceae	2005473	gm0462	family	Ferulic acid	445858	HMDB0000954	CHEBI:17620	3-(4-Hydroxy-3-methoxyphenyl)propionic acid	14340	HMDB0062121	CHEBI:86612
+Porphyromonadaceae	171551	gm0532	family	Ferulic acid	445858	HMDB0000954	CHEBI:17620	3-(4-Hydroxy-3-methoxyphenyl)propionic acid	14340	HMDB0062121	CHEBI:86612
+Coriobacteriaceae	84107	gm0226	family	Ferulic acid	445858	HMDB0000954	CHEBI:17620	3-(4-Hydroxy-3-methoxyphenyl)propionic acid	14340	HMDB0062121	CHEBI:86612
+Bacteroidetes	200643	gm0090	phylum	Ferulic acid	445858	HMDB0000954	CHEBI:17620	3-(4-Hydroxy-3-methoxyphenyl)propionic acid	14340	HMDB0062121	CHEBI:86612
+Actinobacteria	201174	gm0016	phylum	Ferulic acid	445858	HMDB0000954	CHEBI:17620	3-(4-Hydroxy-3-methoxyphenyl)propionic acid	14340	HMDB0062121	CHEBI:86612
+Firmicutes	1239	gm0332	phylum	Ferulic acid	445858	HMDB0000954	CHEBI:17620	3-(4-Hydroxy-3-methoxyphenyl)propionic acid	14340	HMDB0062121	CHEBI:86612
+Deferribacteres	200930	gm0240	phylum	Ferulic acid	445858	HMDB0000954	CHEBI:17620	3-(4-Hydroxy-3-methoxyphenyl)propionic acid	14340	HMDB0062121	CHEBI:86612
+Clostridium	1485	gm0187	genus					Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Clostridium	1485	gm0187	genus					Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Clostridium	1485	gm0187	genus					Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Clostridium	1485	gm0187	genus					Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Clostridium	1485	gm0187	genus					Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Clostridium	1485	gm0187	genus					Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Bifidobacterium longum subsp. infantis	1682	gm0853	subspecies	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-lactic acid	92904		CHEBI:24813
+Limosilactobacillus reuteri	1598	gm1034	species					Ergothioneine	5351619	HMDB0003045	CHEBI:4828
+"
+Clostridium butyricum"	1492	gm1035	species					Butyrate	104775		CHEBI:17968
+"
+Clostridium butyricum"	1492	gm1035	species					Butyrate	104775		CHEBI:17968
+"
+Clostridium butyricum"	1492	gm1035	species					Butyrate	104775		CHEBI:17968
+"
+Clostridium butyricum"	1492	gm1035	species					Butyrate	104775		CHEBI:17968
+"
+Clostridium butyricum"	1492	gm1035	species					Butyrate	104775		CHEBI:17968
+"
+Clostridium butyricum"	1492	gm1035	species					Butyrate	104775		CHEBI:17968
+"
+Clostridium butyricum"	1492	gm1035	species					Butyrate	104775		CHEBI:17968
+"
+Clostridium butyricum"	1492	gm1035	species					Butyrate	104775		CHEBI:17968
+"
+Clostridium butyricum"	1492	gm1035	species					Butyrate	104775		CHEBI:17968
+"
+Butyricicoccus pullicaecorum"	501571	gm1039	species					Butyrate	104775		CHEBI:17968
+Bacteroides	816	gm0077	genus	Cholic acid	221493	HMDB0000619	CHEBI:16359	Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Bacteroides	816	gm0077	genus	Cholic acid	221493	HMDB0000619	CHEBI:16359	Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Bacteroides	816	gm0077	genus	Cholic acid	221493	HMDB0000619	CHEBI:16359	Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Bacteroides	816	gm0077	genus	Cholic acid	221493	HMDB0000619	CHEBI:16359	Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Bacteroides	816	gm0077	genus	Cholic acid	221493	HMDB0000619	CHEBI:16359	Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Bacteroides	816	gm0077	genus	Cholic acid	221493	HMDB0000619	CHEBI:16359	Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Bacteroides	816	gm0077	genus	Cholic acid	221493	HMDB0000619	CHEBI:16359	Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Bacteroides intestinalis  AM-0		gm1040	strain	Cholic acid	221493	HMDB0000619	CHEBI:16359	7-Ketodeoxycholic acid	188292	HMDB0000391	CHEBI:16390
+Bacteroides intestinalis  AM-0		gm1040	strain	Cholic acid	221493	HMDB0000619	CHEBI:16359	7-Ketodeoxycholic acid	188292	HMDB0000391	CHEBI:16390
+Bacteroides intestinalis  AM-0		gm1040	strain	Cholic acid	221493	HMDB0000619	CHEBI:16359	7-Ketodeoxycholic acid	188292	HMDB0000391	CHEBI:16390
+Bacteroides intestinalis  AM-0		gm1040	strain	Cholic acid	221493	HMDB0000619	CHEBI:16359	7-Ketodeoxycholic acid	188292	HMDB0000391	CHEBI:16390
+Bacteroides intestinalis  AM-0		gm1040	strain	Cholic acid	221493	HMDB0000619	CHEBI:16359	7-Ketodeoxycholic acid	188292	HMDB0000391	CHEBI:16390
+Bacteroides intestinalis  AM-0		gm1040	strain	Cholic acid	221493	HMDB0000619	CHEBI:16359	7-Ketodeoxycholic acid	188292	HMDB0000391	CHEBI:16390
+Bacteroides intestinalis  AM-0		gm1040	strain	Cholic acid	221493	HMDB0000619	CHEBI:16359	7-Ketodeoxycholic acid	188292	HMDB0000391	CHEBI:16390
+Bacteroidaceae	815	gm0072	family					Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Bacteroidaceae	815	gm0072	family					Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Bacteroidaceae	815	gm0072	family					Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Bacteroidaceae	815	gm0072	family					Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Bacteroidaceae	815	gm0072	family					Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Bacteroidaceae	815	gm0072	family					Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Bacteroidaceae	815	gm0072	family					Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Clostridium sporogenes ATCC 15579	471871	gm1012	strain	Indole	798	HMDB0000738	CHEBI:16881	3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Enterococcus avium LY1		gm1041	strain	Rutin	5280805	HMDB0003249	CHEBI:28527	Quercetin	5280343	HMDB0005794	CHEBI:16243
+Enterococcus avium LY1		gm1041	strain	Rutin	5280805	HMDB0003249	CHEBI:28527	"3,4-Dihydroxyphenylacetic acid"	547	HMDB0001336	CHEBI:41941
+Enterococcus avium LY1		gm1041	strain	Quercitrin	5280459	HMDB0033751	CHEBI:17558	Quercetin	5280343	HMDB0005794	CHEBI:16243
+Enterococcus avium LY1		gm1041	strain	Quercitrin	5280459	HMDB0033751	CHEBI:17558	Kaempferol	5280863	HMDB0005801	CHEBI:28499
+Enterococcus avium LY1		gm1041	strain	Quercitrin	5280459	HMDB0033751	CHEBI:17558	Isorhamnetin	5281654	HMDB0002655	CHEBI:6052
+Enterococcus avium LY1		gm1041	strain	Isoquercitrin	5280804	HMDB0037362	CHEBI:68352	Quercetin	5280343	HMDB0005794	CHEBI:16243
+Enterococcus avium LY1		gm1041	strain	Isoquercitrin	5280804	HMDB0037362	CHEBI:68352	Kaempferol	5280863	HMDB0005801	CHEBI:28499
+Enterococcus avium LY1		gm1041	strain	Isoquercitrin	5280804	HMDB0037362	CHEBI:68352	Isorhamnetin	5281654	HMDB0002655	CHEBI:6052
+Odoribacter splanchnicus	28118	gm0873	species					Quinic acid	6508	HMDB0003072	CHEBI:17521
+Phocaeicola vulgatus	821	gm0874	species					Lysophosphatidylethanolamine	73755142		
+Bacteroides ovatus	28116	gm0084	species					Lysophosphatidylethanolamine	73755142		
+Bacteroides ovatus	28116	gm0084	species					"4'-Hydroxy-3',5,6,7,8-pentamethoxyflavone"	21593928	HMDB0029547	CHEBI:175929
+Odoribacter splanchnicus	28118	gm0873	species					"4'-Hydroxy-3',5,6,7,8-pentamethoxyflavone"	21593928	HMDB0029547	CHEBI:175929
+Bacteroides caccae	47678	gm0079	species					Acetate	175		CHEBI:30089
+Bacteroides caccae	47678	gm0079	species					Propionate	104745		CHEBI:17272
+Bacteroides caccae	47678	gm0079	species					Succinate	160419		CHEBI:30031
+Bacteroides thetaiotaomicron	818	gm0087	species					Acetate	175		CHEBI:30089
+Bacteroides thetaiotaomicron	818	gm0087	species					Propionate	104745		CHEBI:17272
+Bacteroides thetaiotaomicron	818	gm0087	species					Succinate	160419		CHEBI:30031
+Phocaeicola massiliensis	204516	gm0875	species					Acetate	175		CHEBI:30089
+Phocaeicola massiliensis	204516	gm0875	species					Propionate	104745		CHEBI:17272
+Phocaeicola massiliensis	204516	gm0875	species					Succinate	160419		CHEBI:30031
+Parabacteroides distasonis	823	gm0496	species					Acetate	175		CHEBI:30089
+Parabacteroides distasonis	823	gm0496	species					Propionate	104745		CHEBI:17272
+Parabacteroides distasonis	823	gm0496	species					Succinate	160419		CHEBI:30031
+Parabacteroides distasonis	823	gm0496	species					Butyrate	104775		CHEBI:17968
+Firmicutes	1239	gm0332	phylum	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Firmicutes	1239	gm0332	phylum	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Firmicutes	1239	gm0332	phylum	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Firmicutes	1239	gm0332	phylum	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Firmicutes	1239	gm0332	phylum	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Firmicutes	1239	gm0332	phylum	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Firmicutes	1239	gm0332	phylum	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Firmicutes	1239	gm0332	phylum	Lactic acid	612	HMDB0144295	CHEBI:78320	Propionate	104745		CHEBI:17272
+Blautia hydrogenotrophica	53443	gm0876	species	Pyruvate	107735		CHEBI:15361	Acetate	175		CHEBI:30089
+Blautia hydrogenotrophica	53443	gm0876	species	Pyruvate	107735		CHEBI:15361	Acetate	175		CHEBI:30089
+Blautia hydrogenotrophica	53443	gm0876	species	Pyruvate	107735		CHEBI:15361	Acetate	175		CHEBI:30089
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Eubacterium rectale	39491	gm0316	species					Butyrate	104775		CHEBI:17968
+Eubacterium rectale	39491	gm0316	species					Butyrate	104775		CHEBI:17968
+Eubacterium rectale	39491	gm0316	species					Butyrate	104775		CHEBI:17968
+Eubacterium rectale	39491	gm0316	species					Butyrate	104775		CHEBI:17968
+Eubacterium rectale	39491	gm0316	species					Butyrate	104775		CHEBI:17968
+Eubacterium rectale	39491	gm0316	species					Butyrate	104775		CHEBI:17968
+Eubacterium rectale	39491	gm0316	species					Butyrate	104775		CHEBI:17968
+Eubacterium rectale	39491	gm0316	species					Butyrate	104775		CHEBI:17968
+Anaerobutyricum hallii	39488	gm0776	species					Butyrate	104775		CHEBI:17968
+Anaerobutyricum hallii	39488	gm0776	species					Butyrate	104775		CHEBI:17968
+Anaerobutyricum hallii	39488	gm0776	species					Butyrate	104775		CHEBI:17968
+Anaerobutyricum hallii	39488	gm0776	species					Butyrate	104775		CHEBI:17968
+Anaerobutyricum hallii	39488	gm0776	species					Butyrate	104775		CHEBI:17968
+Anaerobutyricum hallii	39488	gm0776	species					Butyrate	104775		CHEBI:17968
+Anaerobutyricum hallii	39488	gm0776	species					Butyrate	104775		CHEBI:17968
+Anaerobutyricum hallii	39488	gm0776	species					Butyrate	104775		CHEBI:17968
+Ruminococcus bromii	40518	gm0588	species	Starch	145864875		CHEBI:28017	Butyrate	104775		CHEBI:17968
+Ruminococcus bromii	40518	gm0588	species	Starch	145864875		CHEBI:28017	Butyrate	104775		CHEBI:17968
+Ruminococcus bromii	40518	gm0588	species	Starch	145864875		CHEBI:28017	Butyrate	104775		CHEBI:17968
+Ruminococcus bromii	40518	gm0588	species	Starch	145864875		CHEBI:28017	Butyrate	104775		CHEBI:17968
+Ruminococcus bromii	40518	gm0588	species	Starch	145864875		CHEBI:28017	Butyrate	104775		CHEBI:17968
+Ruminococcus bromii	40518	gm0588	species	Starch	145864875		CHEBI:28017	Butyrate	104775		CHEBI:17968
+Ruminococcus bromii	40518	gm0588	species	Starch	145864875		CHEBI:28017	Butyrate	104775		CHEBI:17968
+Ruminococcus bromii	40518	gm0588	species	Starch	145864875		CHEBI:28017	Butyrate	104775		CHEBI:17968
+Bacteroidetes	976	gm0090	phylum	Succinate	160419		CHEBI:30031	Propionate	104745		CHEBI:17272
+Bacteroidetes	976	gm0090	phylum	Succinate	160419		CHEBI:30031	Propionate	104745		CHEBI:17272
+Bacteroidetes	976	gm0090	phylum	Succinate	160419		CHEBI:30031	Propionate	104745		CHEBI:17272
+Bacteroidetes	976	gm0090	phylum	Succinate	160419		CHEBI:30031	Propionate	104745		CHEBI:17272
+Bacteroidetes	976	gm0090	phylum	Succinate	160419		CHEBI:30031	Propionate	104745		CHEBI:17272
+Bacteroidetes	976	gm0090	phylum	Succinate	160419		CHEBI:30031	Propionate	104745		CHEBI:17272
+Bacteroidetes	976	gm0090	phylum	Succinate	160419		CHEBI:30031	Propionate	104745		CHEBI:17272
+Bacteroidetes	976	gm0090	phylum	Succinate	160419		CHEBI:30031	Propionate	104745		CHEBI:17272
+Escherichia coli BW25113	679895	gm0895	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole	798	HMDB0000738	CHEBI:16881
+Escherichia coli BW25113	679895	gm0895	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Escherichia coli BW25113	679895	gm0895	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-carboxaldehyde	10256	HMDB0029737	CHEBI:28238
+Escherichia coli JW5619		gm1042	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole	798	HMDB0000738	CHEBI:16881
+Escherichia coli JW5619		gm1042	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Escherichia coli JW5619		gm1042	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole-3-carboxaldehyde	10256	HMDB0029737	CHEBI:28238
+Adlercreutzia equolifaciens MT4s-5		gm1054	strain	(-)-Epigallocatechin gallate	65064	HMDB0003153	CHEBI:4806	4-Hydroxy-5-(3-hydroxyphenyl)valeric acid	52920334		CHEBI:137492
+Adlercreutzia equolifaciens MT4s-5		gm1054	strain	(-)-Epigallocatechin gallate	65064	HMDB0003153	CHEBI:4806	Epigallocatechin	72277		CHEBI:42255
+Adlercreutzia equolifaciens MT4s-5		gm1054	strain	(-)-Epigallocatechin gallate	65064	HMDB0003153	CHEBI:4806	Gallic acid	370	HMDB0005807	CHEBI:30778
+Flavonifractor plautii MT42		gm1055	strain	(-)-Epigallocatechin gallate	65064	HMDB0003153	CHEBI:4806	4-Hydroxy-5-(3-hydroxyphenyl)valeric acid	52920334		CHEBI:137492
+Flavonifractor plautii MT42		gm1055	strain	(-)-Epigallocatechin gallate	65064	HMDB0003153	CHEBI:4806	Epigallocatechin	72277		CHEBI:42255
+Flavonifractor plautii MT42		gm1055	strain	(-)-Epigallocatechin gallate	65064	HMDB0003153	CHEBI:4806	Gallic acid	370	HMDB0005807	CHEBI:30778
+Ruminococcus gnavus	33038	gm0592	species					Ursodeoxycholic acid	31401	HMDB0000946	CHEBI:9907
+Ruminococcus gnavus	33038	gm0592	species					Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Ruminococcus gnavus	33038	gm0592	species					Chenodeoxycholic acid	10133	HMDB0000518	CHEBI:16755
+Penicillium mallochii CCH01		gm1062	strain	Vorinostat	5311	HMDB0015568	CHEBI:45716	Sclerotioramine	135860757		
+Penicillium mallochii CCH01		gm1062	strain	Vorinostat	5311	HMDB0015568	CHEBI:45716	Sclerotiorin	6436015		
+Eubacterium limosum	1736	gm0315	species	Isoxanthohumol	513197		CHEBI:171798	8-Prenylnaringenin	480764		CHEBI:50207
+Bacteroides thetaiotaomicron	818	gm0087	species	Pectin	441476	HMDB0003402	CHEBI:17309	"1,4-Diaminobutane"	1045	HMDB0001414	CHEBI:17148
+Bacteroides thetaiotaomicron	818	gm0087	species	Pectin	441476	HMDB0003402	CHEBI:17309	Spermidine	1102	HMDB0001257	CHEBI:16610
+Fusobacterium varium	856	gm0820	species	Pectin	441476	HMDB0003402	CHEBI:17309	"1,4-Diaminobutane"	1045	HMDB0001414	CHEBI:17148
+Fusobacterium varium	856	gm0820	species	Pectin	441476	HMDB0003402	CHEBI:17309	Spermidine	1102	HMDB0001257	CHEBI:16610
+Lactobacillus plantarum	1590	gm0405	species	Linoelaidic acid	5282457	HMDB0006270	CHEBI:75108	10-Keto-12Z-octadecenoic acid	24970825		
+Lactobacillus plantarum	1590	gm0405	species	Linoelaidic acid	5282457	HMDB0006270	CHEBI:75108	10-Keto-12Z-octadecenoic acid	24970825		
+Lactobacillus plantarum	1590	gm0405	species	Linoelaidic acid	5282457	HMDB0006270	CHEBI:75108	10-Keto-12Z-octadecenoic acid	24970825		
+Lactobacillus plantarum	1590	gm0405	species	Linoelaidic acid	5282457	HMDB0006270	CHEBI:75108	10-Keto-12Z-octadecenoic acid	24970825		
+Lactobacillus plantarum	1590	gm0405	species	Linoelaidic acid	5282457	HMDB0006270	CHEBI:75108	10-Keto-12Z-octadecenoic acid	24970825		
+Lactobacillus plantarum	1590	gm0405	species	Linoelaidic acid	5282457	HMDB0006270	CHEBI:75108	10-Keto-12Z-octadecenoic acid	24970825		
+Lactobacillus plantarum	1590	gm0405	species	Linoelaidic acid	5282457	HMDB0006270	CHEBI:75108	10-Keto-12Z-octadecenoic acid	24970825		
+Lactobacillus plantarum	1590	gm0405	species	(Z)-10-Hydroxy-12-octadecenoic acid	46186046			10-Keto-12Z-octadecenoic acid	24970825		
+Lactobacillus plantarum	1590	gm0405	species	(Z)-10-Hydroxy-12-octadecenoic acid	46186046			10-Keto-12Z-octadecenoic acid	24970825		
+Lactobacillus plantarum	1590	gm0405	species	(Z)-10-Hydroxy-12-octadecenoic acid	46186046			10-Keto-12Z-octadecenoic acid	24970825		
+Lactobacillus plantarum	1590	gm0405	species	(Z)-10-Hydroxy-12-octadecenoic acid	46186046			10-Keto-12Z-octadecenoic acid	24970825		
+Lactobacillus plantarum	1590	gm0405	species	(Z)-10-Hydroxy-12-octadecenoic acid	46186046			10-Keto-12Z-octadecenoic acid	24970825		
+Lactobacillus plantarum	1590	gm0405	species	(Z)-10-Hydroxy-12-octadecenoic acid	46186046			10-Keto-12Z-octadecenoic acid	24970825		
+Lactobacillus plantarum	1590	gm0405	species	(Z)-10-Hydroxy-12-octadecenoic acid	46186046			10-Keto-12Z-octadecenoic acid	24970825		
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Akkermansia muciniphila	239935	gm0030	species					Acetate	175		CHEBI:30089
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Acetate	175		CHEBI:30089
+Akkermansia muciniphila	239935	gm0030	species					Acetate	175		CHEBI:30089
+Akkermansia muciniphila	239935	gm0030	species					Acetate	175		CHEBI:30089
+Akkermansia muciniphila	239935	gm0030	species					Acetate	175		CHEBI:30089
+Akkermansia muciniphila	239935	gm0030	species					Acetate	175		CHEBI:30089
+Akkermansia muciniphila	239935	gm0030	species					Acetate	175		CHEBI:30089
+Akkermansia muciniphila	239935	gm0030	species					Acetate	175		CHEBI:30089
+Akkermansia muciniphila	239935	gm0030	species					Acetate	175		CHEBI:30089
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Akkermansia muciniphila	239935	gm0030	species					Propionate	104745		CHEBI:17272
+Lactobacillus casei Shirota		gm0953	strain					Pipecolic acid	849	HMDB0000070	CHEBI:17964
+Lactobacillus casei Shirota		gm0953	strain					Serotonin	5202	HMDB0000259	CHEBI:28790
+Lactobacillus casei Shirota		gm0953	strain					Acetylcholine	187	HMDB0000895	CHEBI:15355
+Clostridia	186801	gm0181	class	Cholesterol	5997	HMDB0000067	CHEBI:16113	Estradiol	5757	HMDB0000151	CHEBI:16469
+Clostridia	186801	gm0181	class	Cholesterol	5997	HMDB0000067	CHEBI:16113	Estradiol	5757	HMDB0000151	CHEBI:16469
+Lactiplantibacillus plantarum	1590	gm0856	species	Linoleic acid	5280450	HMDB0000673	CHEBI:17351	(Z)-10-Hydroxy-12-octadecenoic acid	46186046		
+Lactiplantibacillus plantarum	1590	gm0856	species	Linoleic acid	5280450	HMDB0000673	CHEBI:17351	(Z)-10-Hydroxy-12-octadecenoic acid	46186046		
+Lactiplantibacillus plantarum	1590	gm0856	species	Linoleic acid	5280450	HMDB0000673	CHEBI:17351	(Z)-10-Hydroxy-12-octadecenoic acid	46186046		
+Lactiplantibacillus plantarum	1590	gm0856	species	Linoleic acid	5280450	HMDB0000673	CHEBI:17351	(Z)-10-Hydroxy-12-octadecenoic acid	46186046		
+Lactiplantibacillus plantarum	1590	gm0856	species	Linoleic acid	5280450	HMDB0000673	CHEBI:17351	(Z)-10-Hydroxy-12-octadecenoic acid	46186046		
+Lactiplantibacillus plantarum	1590	gm0856	species	Linoleic acid	5280450	HMDB0000673	CHEBI:17351	(Z)-10-Hydroxy-12-octadecenoic acid	46186046		
+Lactiplantibacillus plantarum	1590	gm0856	species	Linoleic acid	5280450	HMDB0000673	CHEBI:17351	(Z)-10-Hydroxy-12-octadecenoic acid	46186046		
+Lactiplantibacillus plantarum	1590	gm0856	species	Linoleic acid	5280450	HMDB0000673	CHEBI:17351	(Z)-10-Hydroxy-12-octadecenoic acid	46186046		
+Lactiplantibacillus plantarum	1590	gm0856	species	Linoleic acid	5280450	HMDB0000673	CHEBI:17351	(Z)-10-Hydroxy-12-octadecenoic acid	46186046		
+Lactiplantibacillus plantarum	1590	gm0856	species	Linoleic acid	5280450	HMDB0000673	CHEBI:17351	(Z)-10-Hydroxy-12-octadecenoic acid	46186046		
+Clostridium sporogenes	1509	gm0710	species					3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Clostridium sporogenes	1509	gm0710	species					3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Clostridium sporogenes	1509	gm0710	species					3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Clostridium sporogenes	1509	gm0710	species					3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Clostridium sporogenes	1509	gm0710	species					3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Clostridium sporogenes	1509	gm0710	species					3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Enterococcus faecalis	1351	gm0288	species	N-Trimethyllysine	440121			"N,N,N-trimethyl-5-aminovaleric acid"			
+Pseudomonas aeruginosa	287	gm0551	species	N-Trimethyllysine	440121			"N,N,N-trimethyl-5-aminovaleric acid"			
+Parabacteroides sp. HGS0025	1078087	gm1093	species					Butyrate	104775		CHEBI:17968
+Bifidobacterium longum	216816	gm0112	species					5-Acetamido-2-azaniumylpentanoate	121596237		CHEBI:133180
+Bacteroides thetaiotaomicron BT1492		gm1094	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole	798	HMDB0000738	CHEBI:16881
+Bacteroides ovatus BACOVA_04222		gm1095	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole	798	HMDB0000738	CHEBI:16881
+Lactobacillus	1578	gm0393	genus	Linolenic acid	5280934		CHEBI:27432	"13-hydroxy-9(Z),15(Z)-octadecadienoic acid"			
+Lactobacillus	1578	gm0393	genus	Linolenic acid	5280934		CHEBI:27432	"13-oxo-9(Z),15(Z)-octadecadienoic acid"			
+Akkermansia muciniphila ATCC BAA-835	349741	gm0951	strain					Nicotinamide	936		CHEBI:17154
+Akkermansia muciniphila ATCC BAA-2869		gm1112	strain					Nicotinamide	936		CHEBI:17154
+Clostridium butyricum WZMC1016		gm1115	strain					Butyrate	104775		CHEBI:17968
+Ruminococcus gnavus	33038	gm0592	species	Tryptophan	6305	HMDB0000929	CHEBI:16828	Tryptamine	1150	HMDB0000303	CHEBI:16765
+Clostridium sporogenes	1509	gm0710	species	Tryptophan	6305	HMDB0000929	CHEBI:16828	Tryptamine	1150	HMDB0000303	CHEBI:16765
+Clostridium butyricum CGMCC0313.1		gm1122	strain					Butyrate	104775		CHEBI:17968
+Lactobacillus acidophilus ATCC 4356		gm1124	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Lactobacillus acidophilus ATCC 4356		gm1124	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Lactobacillus acidophilus ATCC 4356		gm1124	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Lactobacillus acidophilus ATCC 4356		gm1124	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Lactobacillus acidophilus ATCC 4356		gm1124	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Lactobacillus acidophilus ATCC 4356		gm1124	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Lactobacillus acidophilus ATCC 4356		gm1124	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Lactobacillus acidophilus ATCC 4356		gm1124	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Lactobacillus acidophilus ATCC 4356		gm1124	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Lactobacillus acidophilus ATCC 4356		gm1124	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088	391904	gm0910	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088	391904	gm0910	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088	391904	gm0910	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088	391904	gm0910	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088	391904	gm0910	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088	391904	gm0910	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088	391904	gm0910	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088	391904	gm0910	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088	391904	gm0910	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088	391904	gm0910	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Enterococcus faecalis ATCC 19433	1169286	gm1125	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Enterococcus faecalis ATCC 19433	1169286	gm1125	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Enterococcus faecalis ATCC 19433	1169286	gm1125	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Enterococcus faecalis ATCC 19433	1169286	gm1125	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Enterococcus faecalis ATCC 19433	1169286	gm1125	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Enterococcus faecalis ATCC 19433	1169286	gm1125	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Enterococcus faecalis ATCC 19433	1169286	gm1125	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Enterococcus faecalis ATCC 19433	1169286	gm1125	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Enterococcus faecalis ATCC 19433	1169286	gm1125	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Enterococcus faecalis ATCC 19433	1169286	gm1125	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Escherichia coli ATCC 44102		gm1126	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Escherichia coli ATCC 44102		gm1126	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Escherichia coli ATCC 44102		gm1126	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Escherichia coli ATCC 44102		gm1126	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Escherichia coli ATCC 44102		gm1126	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Escherichia coli ATCC 44102		gm1126	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Escherichia coli ATCC 44102		gm1126	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Escherichia coli ATCC 44102		gm1126	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Escherichia coli ATCC 44102		gm1126	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Escherichia coli ATCC 44102		gm1126	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Pseudomonas aeruginosa ATCC 9027		gm1127	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Pseudomonas aeruginosa ATCC 9027		gm1127	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Pseudomonas aeruginosa ATCC 9027		gm1127	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Pseudomonas aeruginosa ATCC 9027		gm1127	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Pseudomonas aeruginosa ATCC 9027		gm1127	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Pseudomonas aeruginosa ATCC 9027		gm1127	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Pseudomonas aeruginosa ATCC 9027		gm1127	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Pseudomonas aeruginosa ATCC 9027		gm1127	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Pseudomonas aeruginosa ATCC 9027		gm1127	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Pseudomonas aeruginosa ATCC 9027		gm1127	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Staphylococcus aureus ATCC 26003		gm1128	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Staphylococcus aureus ATCC 26003		gm1128	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Staphylococcus aureus ATCC 26003		gm1128	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Staphylococcus aureus ATCC 26003		gm1128	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Staphylococcus aureus ATCC 26003		gm1128	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Staphylococcus aureus ATCC 26003		gm1128	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Staphylococcus aureus ATCC 26003		gm1128	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Staphylococcus aureus ATCC 26003		gm1128	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Staphylococcus aureus ATCC 26003		gm1128	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+Staphylococcus aureus ATCC 26003		gm1128	strain	Berberine	2353	HMDB0003409	CHEBI:16118	Oxyberberine	11066		
+do03		gm0739	strain	Daidzein	5281708	HMDB0003312	CHEBI:28197	Equol	91469	HMDB0002209	CHEBI:34741
+Enterorhabdus mucosicola Mt1B8		gm1159	strain	Genistein	5280961	HMDB0003217	CHEBI:28088	5-OH-Equol	9795113		
+Enterorhabdus mucosicola Mt1B8		gm1159	strain	Daidzein	5281708	HMDB0003312	CHEBI:28197	Equol	91469	HMDB0002209	CHEBI:34741
+Enterorhabdus mucosicola Mt1B8		gm1159	strain	Dihydrodaidzein	176907	HMDB0005760	CHEBI:75842	Equol	91469	HMDB0002209	CHEBI:34741
+Enterorhabdus mucosicola Mt1B8		gm1159	strain	Dihydrogenistein	9838356	HMDB0005897	CHEBI:34707	5-OH-Equol	9795113		
+Lactiplantibacillus plantarum 	1590	gm1160	species	3-Dehydroshikimate	439774		CHEBI:16630	Gallic acid	370	HMDB0005807	CHEBI:30778
+Lactiplantibacillus plantarum 	1590	gm1160	species	3-Dehydroshikimate	439774		CHEBI:16630	Gallic acid	370	HMDB0005807	CHEBI:30778
+Lactiplantibacillus plantarum 	1590	gm1160	species	3-Dehydroshikimate	439774		CHEBI:16630	Gallic acid	370	HMDB0005807	CHEBI:30778
+Lactiplantibacillus plantarum 	1590	gm1160	species	3-Dehydroshikimate	439774		CHEBI:16630	Gallic acid	370	HMDB0005807	CHEBI:30778
+Lactiplantibacillus plantarum 	1590	gm1160	species	3-Dehydroshikimate	439774		CHEBI:16630	Gallic acid	370	HMDB0005807	CHEBI:30778
+Lactiplantibacillus plantarum 	1590	gm1160	species	3-Dehydroshikimate	439774		CHEBI:16630	Gallic acid	370	HMDB0005807	CHEBI:30778
+Bacillus subtilis	1423	gm0070	species	3-Dehydroshikimate	439774		CHEBI:16630	Gallic acid	370	HMDB0005807	CHEBI:30778
+Bacillus subtilis	1423	gm0070	species	3-Dehydroshikimate	439774		CHEBI:16630	Gallic acid	370	HMDB0005807	CHEBI:30778
+Bacillus subtilis	1423	gm0070	species	3-Dehydroshikimate	439774		CHEBI:16630	Gallic acid	370	HMDB0005807	CHEBI:30778
+Bacillus subtilis	1423	gm0070	species	3-Dehydroshikimate	439774		CHEBI:16630	Gallic acid	370	HMDB0005807	CHEBI:30778
+Bacillus subtilis	1423	gm0070	species	3-Dehydroshikimate	439774		CHEBI:16630	Gallic acid	370	HMDB0005807	CHEBI:30778
+Bacillus subtilis	1423	gm0070	species	3-Dehydroshikimate	439774		CHEBI:16630	Gallic acid	370	HMDB0005807	CHEBI:30778
+Escherichia coli	562	gm0305	species	Phytic acid	890	HMDB0003502	CHEBI:17401	1D-Myo-inositol 6-phosphate	161368		CHEBI:64838
+Faecalibacterium prausnitzii	853	gm0327	species					Butyrate	104775		CHEBI:17968
+Escherichia coli	562	gm0305	species					"[(1S,2R,3S,4S,5R,6S)-2,3,5-Trihydroxy-4,6-diphosphonooxycyclohexyl] dihydrogen phosphate"	55310		
+Escherichia coli	562	gm0305	species					"1D-Myo-inositol 1,4,5,6-tetrakisphosphate(8-)"	25201642	HMDB0004527	CHEBI:57627
+Corynebacterium glutamicum	1718	gm1161	species	Glutamic acid	33032	HMDB0000148	CHEBI:16015	D-Glutamic acid	23327	HMDB0003339	CHEBI:15966
+Brevibacterium avium	83828	gm1162	species	Glutamic acid	33032	HMDB0000148	CHEBI:16015	D-Glutamic acid	23327	HMDB0003339	CHEBI:15966
+Mycolicibacterium smegmatis 	1772	gm1164	species	Glutamic acid	33032	HMDB0000148	CHEBI:16015	D-Glutamic acid	23327	HMDB0003339	CHEBI:15966
+Bacillus subtilis	1423	gm0070	species	Glutamic acid	33032	HMDB0000148	CHEBI:16015	D-Glutamic acid	23327	HMDB0003339	CHEBI:15966
+Corynebacteriaceae	1653	gm0232	family					D-Glutamic acid	23327	HMDB0003339	CHEBI:15966
+Lactiplantibacillus plantarum 	1590	gm1160	species					D-Glutamic acid	23327	HMDB0003339	CHEBI:15966
+Lactococcus lactis	1358	gm0719	species					D-Glutamic acid	23327	HMDB0003339	CHEBI:15966
+Lacticaseibacillus paracasei	1597	gm1163	species					D-Glutamic acid	23327	HMDB0003339	CHEBI:15966
+Clostridium scindens	29347	gm0208	species	Bile acid	439520		CHEBI:22868	Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Clostridium scindens	29347	gm0208	species	Bile acid	439520		CHEBI:22868	Deoxycholic acid	222528	HMDB0000626	CHEBI:28834
+Ligilactobacillus murinus	1622	gm1166	species	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole	798	HMDB0000738	CHEBI:16881
+Bacteroides fragilis YCH46	295405	gm1165	strain					Arachidonic acid	444899	HMDB0001043	CHEBI:15843
+Bacteroides fragilis YCH46	295405	gm1165	strain					Arachidonic acid	444899	HMDB0001043	CHEBI:15843
+Bacteroides fragilis YCH46	295405	gm1165	strain					Arachidonic acid	444899	HMDB0001043	CHEBI:15843
+Bacteroides fragilis YCH46	295405	gm1165	strain					Arachidonic acid	444899	HMDB0001043	CHEBI:15843
+Eubacteriales	186802	gm1168	order					Tryptophan	6305	HMDB0000929	CHEBI:16828
+Desulfovibrionaceae	194924	gm0259	family					Tryptophan	6305	HMDB0000929	CHEBI:16828
+Akkermansia	239934	gm0029	genus					Tryptophan	6305	HMDB0000929	CHEBI:16828
+Escherichia coli BW25113	679895	gm0895	strain	Tryptophan	6305	HMDB0000929	CHEBI:16828	Indole	798	HMDB0000738	CHEBI:16881
+Akkermansia	239934	gm0029	genus					3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Akkermansia	239934	gm0029	genus					3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Akkermansia	239934	gm0029	genus					3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Akkermansia	239934	gm0029	genus					3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Clostridium	1485	gm0187	genus					3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Clostridium	1485	gm0187	genus					3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Clostridium	1485	gm0187	genus					3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Clostridium	1485	gm0187	genus					3-Indolepropionic acid	3744	HMDB0002302	CHEBI:43580
+Bifidobacterium	1678	gm0105	genus	Stachyose	439531	HMDB0003553	CHEBI:17164	Acetate	175		CHEBI:30089
+Bifidobacterium	1678	gm0105	genus	Stachyose	439531	HMDB0003553	CHEBI:17164	Propionate	104745		CHEBI:17272
+Lactobacillus	1578	gm0393	genus	Stachyose	439531	HMDB0003553	CHEBI:17164	Acetate	175		CHEBI:30089
+Lactobacillus	1578	gm0393	genus	Stachyose	439531	HMDB0003553	CHEBI:17164	Propionate	104745		CHEBI:17272

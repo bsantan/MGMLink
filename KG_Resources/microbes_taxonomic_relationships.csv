@@ -1,0 +1,793 @@
+GutMicrobiota,GutMicrobiotaNCBIID,Relationship,Taxa,TaxaNCBIID
+Christensenella minuta YIT 12065T,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Christensenella minuta,NCBITaxon_626937
+Enterococcus sp. 45,NCBITaxon_1343173,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Clostridium scindens VPI 12708,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium scindens,NCBITaxon_29347
+Haemophilus parainfluenzae,NCBITaxon_729,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Eubacterium ramulus ATTC 29099,NCBITaxon_1256908,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eubacterium ramulus,NCBITaxon_39490
+Lachnospiraceae,NCBITaxon_186803,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Clostridium sp. TM-40,NCBITaxon_371143,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Slackia sp. NATTS,NCBITaxon_647703,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Escherichia coli BW25113,NCBITaxon_679895,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Escherichia coli JCL166,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia coli,NCBITaxon_562
+Klebsiella,NCBITaxon_570,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Escherichia,NCBITaxon_561,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Clostridium orbiscindens I1,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Flavonifractor plautii,NCBITaxon_292800
+Eubacterium ramulus DSM 16296,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eubacterium ramulus,NCBITaxon_39490
+Eggerthella sp. YY7918,NCBITaxon_502558,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Firmicutes,NCBITaxon_1239,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Fusobacteriia,NCBITaxon_203490,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Lactobacillus mucosae EPI2,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Limosilactobacillus mucosae,NCBITaxon_97478
+Enterococcus faecium EPI1,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus faecium,NCBITaxon_1352
+Finegoldia magna EPI3,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Finegoldia magna,NCBITaxon_1260
+Roseburia sp. A2-181,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,unclassified Roseburia,NCBITaxon_2637578
+Roseburia sp. A2-183,NCBITaxon_180589,http://www.w3.org/2000/01/rdf-schema#subClassOf,unclassified Roseburia,NCBITaxon_2637578
+Faecalibacterium prausnitzii A2-165,NCBITaxon_411483,http://www.w3.org/2000/01/rdf-schema#subClassOf,Faecalibacterium prausnitzii,NCBITaxon_853
+Clostridium sp. L2-50,NCBITaxon_411489,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Akkermansia muciniphila,NCBITaxon_239935,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Eggerthella lenta rK3,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eggerthella lenta,NCBITaxon_84112
+Flavonifractor plautii aK2,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Flavonifractor plautii,NCBITaxon_292800
+Lactobacillus,NCBITaxon_1578,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bifidobacterium,NCBITaxon_1678,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Blautia,NCBITaxon_572511,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Collinsella,NCBITaxon_102106,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Faecalibacterium prausnitzii ATCC 27768T,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Faecalibacterium prausnitzii,NCBITaxon_853
+Faecalibacterium prausnitzii ATCC 27766,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Faecalibacterium prausnitzii,NCBITaxon_853
+Faecalibacterium prausnitzii L2-6,NCBITaxon_718252,http://www.w3.org/2000/01/rdf-schema#subClassOf,Faecalibacterium prausnitzii,NCBITaxon_853
+Prevotellaceae,NCBITaxon_171552,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Veillonellaceae,NCBITaxon_31977,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Mollicutes,NCBITaxon_31969,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Coprococcus,NCBITaxon_33042,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Tenericutes,NCBITaxon_544448,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Eubacterium,NCBITaxon_1730,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Eubacterium dolichum,NCBITaxon_1263076,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Escherichia coli BL21,NCBITaxon_511693,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Clostridium orbiscindens I2,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Flavonifractor plautii,NCBITaxon_292800
+Slackia faecicanis sp.CCUG 48399,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Slackia faecicanis,NCBITaxon_255723
+Phascolarctobacterium succinatutens YIT 12067T,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Phascolarctobacterium succinatutens,NCBITaxon_626940
+Phascolarctobacterium succinatutens YIT 12068T,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Phascolarctobacterium succinatutens,NCBITaxon_626940
+Slackia isoflavoniconvertens HE8,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Slackia isoflavoniconvertens,NCBITaxon_572010
+Eubacterium ramulus,NCBITaxon_39490,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Eubacterium limosum,NCBITaxon_1736,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Clostridium,NCBITaxon_1485,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Veillonella,NCBITaxon_29465,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Ruminococcus,NCBITaxon_1263,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Dorea,NCBITaxon_189330,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Turicibacter,NCBITaxon_191303,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bifidobacterium longum,NCBITaxon_216816,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium,NCBITaxon_1678
+Limosilactobacillus mucosae,NCBITaxon_97478,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Lactobacillus zeae,NCBITaxon_57037,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Collinsella aerofaciens,NCBITaxon_74426,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Escherichia coli,NCBITaxon_562,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia,NCBITaxon_561
+Faecalibacterium,NCBITaxon_216851,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Lactobacillus ruminis,NCBITaxon_1623,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Dialister,NCBITaxon_39948,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Catenibacterium,NCBITaxon_135858,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Ruminococcus bromii,NCBITaxon_40518,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacteroides distasonis,NCBITaxon_823,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacteroides caccae,NCBITaxon_47678,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Akkermansia,NCBITaxon_239934,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Coprococcus catus,NCBITaxon_116085,http://www.w3.org/2000/01/rdf-schema#subClassOf,Coprococcus,NCBITaxon_33042
+Mitsuokella,NCBITaxon_52225,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Weissella,NCBITaxon_46255,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Mitsuokella multacida,NCBITaxon_52226,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Succinivibrio,NCBITaxon_83770,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Macrococcus,NCBITaxon_69965,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bilophila,NCBITaxon_35832,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Enterococcus,NCBITaxon_1350,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Photobacterium angustum,NCBITaxon_661,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Paraprevotella,NCBITaxon_577309,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Carnobacterium,NCBITaxon_2747,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Ruminococcus flavefaciens,NCBITaxon_1265,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Butyricicoccus pullicaecorum,NCBITaxon_501571,http://www.w3.org/2000/01/rdf-schema#subClassOf,Butyricicoccus,NCBITaxon_580596
+Bacteroides fragilis,NCBITaxon_817,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Dermacoccus,NCBITaxon_57495,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Kocuria,NCBITaxon_57493,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Roseburia,NCBITaxon_841,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Eggerthella lenta,NCBITaxon_84112,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eggerthella,NCBITaxon_84111
+Oscillospira,NCBITaxon_119852,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Acinetobacter,NCBITaxon_469,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Microbacterium,NCBITaxon_33882,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Dysgonomonas,NCBITaxon_156973,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bulleidia,NCBITaxon_118747,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Kocuria rhizophila,NCBITaxon_72000,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Pseudomonas fragi,NCBITaxon_296,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+END-49,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Faecalibacterium prausnitzii CNCM I-4543,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Faecalibacterium prausnitzii,NCBITaxon_853
+Faecalibacterium prausnitzii CNCM I-4573,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Faecalibacterium prausnitzii,NCBITaxon_853
+Citrobacter freundii ATCC 8090 = MTCC 1658 = NBRC 12681,NCBITaxon_1006003,http://www.w3.org/2000/01/rdf-schema#subClassOf,Citrobacter freundii,NCBITaxon_546
+Bifidobacterium pseudocatenulatum WC 0400,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium pseudocatenulatum,NCBITaxon_28026
+Bifidobacterium pseudocatenulatum WC 0401,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium pseudocatenulatum,NCBITaxon_28026
+Bifidobacterium pseudocatenulatum WC 0403,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium pseudocatenulatum,NCBITaxon_28026
+Bifidobacterium pseudocatenulatum WC 0407,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium pseudocatenulatum,NCBITaxon_28026
+Bifidobacterium pseudocatenulatum WC 0408,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium pseudocatenulatum,NCBITaxon_28026
+Clostridium tyrobutyricum,NCBITaxon_1519,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Eggerthella. sp. CAT-1,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eggerthella lenta,NCBITaxon_84112
+Bifidobacterium longum IPLA E44,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium longum,NCBITaxon_216816
+Bifidobacterium adolescentis MB 114,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium adolescentis,NCBITaxon_1680
+Bifidobacterium bifidum MB 254,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium bifidum,NCBITaxon_1681
+Bifidobacterium breve MB 234,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium breve,NCBITaxon_1685
+Bifidobacterium breve MB 235,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium breve,NCBITaxon_1685
+Bifidobacterium infantis MB 208,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium longum subsp. Infantis,NCBITaxon_1682
+Bifidobacterium lactis MB 238,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium animalis subsp. Lactis,NCBITaxon_302911
+Bifidobacterium longum MB 201,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium longum,NCBITaxon_216816
+Bifidobacterium longum MB 207,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium longum,NCBITaxon_216816
+Bifidobacterium longum MB 219,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium longum,NCBITaxon_216816
+Bifidobacterium pseudocatenulatum MB 264,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium pseudocatenulatum,NCBITaxon_28026
+Enterococcus faecalis,NCBITaxon_1351,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus,NCBITaxon_1350
+Veillonella ratti,NCBITaxon_103892,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Propionibacterium avidum,NCBITaxon_33010,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Anaerobutyricum hallii,NCBITaxon_39488,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Desulfovibrio piger,NCBITaxon_901,http://www.w3.org/2000/01/rdf-schema#subClassOf,Desulfovibrio,NCBITaxon_872
+Streptococcus sp. MRG-ICA-B,NCBITaxon_1705604,http://www.w3.org/2000/01/rdf-schema#subClassOf,Streptococcus,NCBITaxon_1301
+Enterococcus sp. MRG-ICA-E,NCBITaxon_1710535,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus,NCBITaxon_1350
+bacterium MRG-PMF-1,NCBITaxon_1477104,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+bacterium MRG-IFC-1,NCBITaxon_1449386,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+bacterium MRG-IFC-2,NCBITaxon_1449387,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Enterococcus casseliflavus,NCBITaxon_37734,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Enterococcus sp. 41,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus,NCBITaxon_1350
+Bacillus sp. 46,NCBITaxon_1266601,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacillus,NCBITaxon_1386
+Escherichia sp. 49A,NCBITaxon_1343183,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia,NCBITaxon_561
+Escherichia sp.64,NCBITaxon_1343186,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia,NCBITaxon_561
+Eggerthella lenta JCM 9979T,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eggerthella lenta,NCBITaxon_84112
+Eggerthella sinensis JCM 14551T,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eggerthella sinensis,NCBITaxon_242230
+Eggerthella hongkongensis JCM 14552T,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Paraeggerthella hongkongensis,NCBITaxon_230658
+Adlercreutzia equolifaciens FJC-A10,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Adlercreutzia equolifaciens,NCBITaxon_446660
+Adlercreutzia equolifaciens FJC-B20,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Adlercreutzia equolifaciens,NCBITaxon_446660
+Adlercreutzia equolifaciens FJC-D53,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Adlercreutzia equolifaciens,NCBITaxon_446660
+Adlercreutzia equolifaciens FJC-B9T,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Adlercreutzia equolifaciens,NCBITaxon_446660
+Adlercreutzia equolifaciens FJC-A161,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Adlercreutzia equolifaciens,NCBITaxon_446660
+Succinivibrio dextrinosolvens,NCBITaxon_83771,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacteria Latreille et al. 1825,NCBITaxon_629395,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Blautia sp. MRG-PMF1,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Blautia,NCBITaxon_572511
+CEBAS 4A1,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+CEBAS 4A2,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+CEBAS 4A3,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+CEBAS 4A4,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eggerthellaceae,NCBITaxon_1643826
+Bifidobacterium dentium ATCC 27678,NCBITaxon_473819,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium dentium,NCBITaxon_1689
+Bacteroides thetaiotaomicron VPI-5482,NCBITaxon_226186,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides thetaiotaomicron,NCBITaxon_818
+Clostridium sporogenes ATCC 15579,NCBITaxon_471871,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium sporogenes,NCBITaxon_1509
+"Clostridium sporogenes Ll.LtrB-eryR
+ΩfldC",none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium sporogenes,NCBITaxon_1509
+Escherichia sp. 4,NCBITaxon_1343180,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia,NCBITaxon_561
+Bacteroides distasonis,NCBITaxon_823,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Clostridioides difficile,NCBITaxon_1496,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Slackia equolifaciens,NCBITaxon_498718,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Adlercreutzia equolifaciens,NCBITaxon_446660,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Dictyostelium discoideum,NCBITaxon_44689,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Salmonella enterica,NCBITaxon_28901,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Escherichia coli BW25113 pBeloBAC,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia coli,NCBITaxon_562
+Escherichia coli BACpks,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia coli,NCBITaxon_562
+Slackia equolifaciens DZE,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Slackia equolifaciens,NCBITaxon_498718
+Slackia isoflavoniconvertens,NCBITaxon_572010,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Cronobacter sakazakii,NCBITaxon_28141,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Marvinbryantia formatexigens,NCBITaxon_168384,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Ruminococcus gnavus,NCBITaxon_33038,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+Weissella paramesenteroides,NCBITaxon_1249,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Escherichia coli HGH21,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia coli,NCBITaxon_562
+Escherichia coli HGH6,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia coli,NCBITaxon_562
+Alistipes indistinctus YIT 12060,NCBITaxon_742725,http://www.w3.org/2000/01/rdf-schema#subClassOf,Alistipes indistinctus,NCBITaxon_626932
+Odoribacter laneus YIT 12061,NCBITaxon_742817,http://www.w3.org/2000/01/rdf-schema#subClassOf,Odoribacter laneus,NCBITaxon_626933
+Paraprevotella clara YIT 11840,NCBITaxon_762968,http://www.w3.org/2000/01/rdf-schema#subClassOf,Paraprevotella clara,NCBITaxon_454154
+Paraprevotella xylaniphila YIT 11841,NCBITaxon_762982,http://www.w3.org/2000/01/rdf-schema#subClassOf,Paraprevotella xylaniphila,NCBITaxon_454155
+Salmonella,NCBITaxon_590,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Candidatus Arthromitus,NCBITaxon_49082,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Lacticaseibacillus paracasei,NCBITaxon_1597,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Shigella,NCBITaxon_620,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacteroides sp. 45,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides,NCBITaxon_816
+Acidipropionibacterium acidipropionici ATCC 4875,NCBITaxon_1171373,http://www.w3.org/2000/01/rdf-schema#subClassOf,Acidipropionibacterium acidipropionici,NCBITaxon_1748
+Bacteroides,NCBITaxon_816,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+human intestinal bacterium SNU-Julong732,NCBITaxon_239760,http://www.w3.org/2000/01/rdf-schema#subClassOf,Coriobacteriaceae,NCBITaxon_84107
+Clostridium sp. HGH6,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium,NCBITaxon_1485
+Eubacterium limosum ATCC 8486,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eubacterium limosum,NCBITaxon_1736
+Lactobacillus plantarum IFPL935,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactiplantibacillus plantarum,NCBITaxon_1590
+Bifidobacterium animalis,NCBITaxon_28025,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Lactobacillus gasseri,NCBITaxon_1596,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Lactobacillus fermentum,NCBITaxon_1613,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Weissella confusa,NCBITaxon_1583,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Saccharomyces cerevisiae,NCBITaxon_4932,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Eubacterium rectale,NCBITaxon_39491,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+Clostridium pasteurianum,NCBITaxon_1501,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Lactococcus sp. 20-92,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactococcus,NCBITaxon_1357
+Bacteroides sp. MANG,NCBITaxon_298389,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacillus sp. 52,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacillus,NCBITaxon_1386
+Bacteroides sp. 42,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides,NCBITaxon_816
+Bacteroides sp. 22,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides,NCBITaxon_816
+Veillonella sp. 32,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Veillonella,NCBITaxon_29465
+Bifidobacterium longum HY8001,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium longum,NCBITaxon_216816
+Clostridium scindens ATCC 35704,NCBITaxon_411468,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium scindens,NCBITaxon_29347
+Lactiplantibacillus plantarum,NCBITaxon_1590,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bifidobacterium dentium,NCBITaxon_1689,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacteroidetes,NCBITaxon_976,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Lactobacillus paracasei JS1,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lacticaseibacillus paracasei,NCBITaxon_1597
+Bifidobacterium catenulatum subsp. kashiwanohense APCKJ1,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium catenulatum subsp. kashiwanohense,NCBITaxon_630129
+Atopobium parvulum,NCBITaxon_1382,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Prevotella copri,NCBITaxon_165179,http://www.w3.org/2000/01/rdf-schema#subClassOf,Prevotella,NCBITaxon_838
+Clostridium sp. HGH136,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium,NCBITaxon_1485
+Catenibacillus scindens,NCBITaxon_673271,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Eggerthella sp. SDG-2,NCBITaxon_426610,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eggerthella,NCBITaxon_84111
+Flavonifractor plautii,NCBITaxon_292800,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Blautia obeum,NCBITaxon_40520,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Limosilactobacillus reuteri,NCBITaxon_1598,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Enterococcus avium EFEL009,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus avium,NCBITaxon_33945
+Enterococcus durans M4-5,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus durans,NCBITaxon_53345
+Lactobacillus casei Shirota,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactobacillus casei group,NCBITaxon_655183
+Adlercreutzia equolifaciens JCM 14793,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Adlercreutzia equolifaciens,NCBITaxon_446660
+Asaccharobacter celatus JCM 14811,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Adlercreutzia equolifaciens subsp. Celatus,NCBITaxon_394340
+Slackia equolifaciens JCM 16059,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Slackia equolifaciens,NCBITaxon_498718
+Slackia isoflavoniconvertens JCM 16137,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Slackia isoflavoniconvertens,NCBITaxon_572010
+Bifidobacterium bifidum,NCBITaxon_1681,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bifidobacterium longum H-1,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium longum,NCBITaxon_216816
+Clostridium butyricum ATCC 19398,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Clostridium acetobutylicum",NCBITaxon_1488
+Phascolarctobacterium,NCBITaxon_33024,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Acidaminobacter,NCBITaxon_65402,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bifidobacterium pseudocatenulatum B7003,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium pseudocatenulatum,NCBITaxon_28026
+Bifidobacterium longum subsp. infantis B7875,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium longum subsp. infantis,NCBITaxon_1682
+Bifidobacterium adolescentis B7304,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium adolescentis,NCBITaxon_1680
+Bifidobacterium catenulatum B7377,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium catenulatum,NCBITaxon_1686
+Bifidobacterium breve B7824,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium breve,NCBITaxon_1685
+Emergencia timonensis SP2-71.3,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Emergencia timonensis,NCBITaxon_1776384
+Clostridium sporogenes ATCC 15579,NCBITaxon_471871,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium sporogenes,NCBITaxon_1509
+Peptostreptococcus anaerobius CC14N,NCBITaxon_1073365,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Peptostreptococcus anaerobius",NCBITaxon_1261
+Clostridium cadaveris BB88A,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium cadaveris,NCBITaxon_1529
+Clostridium cadaveris CC44 001G,NCBITaxon_1073356,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium cadaveris,NCBITaxon_1529
+Clostridium cadaveris CC40 001C,NCBITaxon_1073355,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium cadaveris,NCBITaxon_1529
+Streptococcus mutans,NCBITaxon_1309,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacteroides stercoris HJ-15,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides stercoris,NCBITaxon_46506
+Eubacterium sp. A-44,NCBITaxon_394229,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eubacterium,NCBITaxon_1730
+Fusobacterium sp. K-60,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Fusobacterium,NCBITaxon_848
+Blautia sp. AUH-JLD56,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Blautia,NCBITaxon_572511
+Roseburia inulinivorans A2–194(F),none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Roseburia inulinivorans,NCBITaxon_360807
+Clostridium sp.,NCBITaxon_1506,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Firmicutes bacterium CAG:110,NCBITaxon_1263000,http://www.w3.org/2000/01/rdf-schema#subClassOf,Firmicutes,NCBITaxon_1239
+Firmicutes bacterium CAG:129,NCBITaxon_1263003,http://www.w3.org/2000/01/rdf-schema#subClassOf,Firmicutes,NCBITaxon_1239
+Firmicutes bacterium CAG:176,NCBITaxon_1263007,http://www.w3.org/2000/01/rdf-schema#subClassOf,Firmicutes,NCBITaxon_1239
+Subdoligranulum sp.,NCBITaxon_2053618,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Collinsella tanakaei YIT 12063(T),NCBITaxon_742742,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Collinsella tanakaei",NCBITaxon_626935
+Collinsella tanakaei YIT YIT 12064,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Collinsella tanakaei",NCBITaxon_626935
+Succinatimonas hippei YIT 12066(T),none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Succinatimonas hippei,NCBITaxon_626938
+Bacillus sp. 46,NCBITaxon_1266601,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacillus,NCBITaxon_1386
+Clostridium scindens ATCC 35704,NCBITaxon_411468,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium scindens,NCBITaxon_29347
+Parasutterella excrementihominis YIT 11859(T),none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Parasutterella excrementihominis,NCBITaxon_487175
+Butyricimonas virosa MT12(T),none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Butyricimonas virosa,NCBITaxon_544645
+Butyricimonas synergistica MT01(T),none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Butyricimonas synergistica,NCBITaxon_544644
+Adlercreutzia equolifaciens MT4s-5,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Adlercreutzia equolifaciens,NCBITaxon_446660
+Eggerthella lenta JCM 9979,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eggerthella lenta,NCBITaxon_84112
+Flavonifractor plautii MT42,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Flavonifractor plautii,NCBITaxon_292800
+Flavonifractor plautii ATCC 29863,NCBITaxon_411475,http://www.w3.org/2000/01/rdf-schema#subClassOf,Flavonifractor plautii,NCBITaxon_292800
+Flavonifractor plautii ATCC 49531,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Flavonifractor plautii,NCBITaxon_292800
+Slackia isoflavoniconvertens DSM 22006,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Slackia isoflavoniconvertens,NCBITaxon_572010
+Clostridium asparagiforme DSM 15981,NCBITaxon_518636,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterocloster asparagiformis,NCBITaxon_333367
+Escherichia sp. 12,NCBITaxon_1343175,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia,NCBITaxon_561
+Escherichia sp. 33,NCBITaxon_1343178,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia,NCBITaxon_561
+Blautia faecis M25(T),none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Blautia faecis,NCBITaxon_871665
+Dialister succinatiphilus YIT 11850,NCBITaxon_742743,http://www.w3.org/2000/01/rdf-schema#subClassOf,Dialister succinatiphilus,NCBITaxon_487173
+Barnesiella intestinihominis YIT 11860(T),none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Barnesiella intestinihominis,NCBITaxon_487174
+Ruminococcus champanellensis 18P13(T),none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Ruminococcus champanellensis,NCBITaxon_1161942
+Lawsonibacter asaccharolyticus 3BBH22T,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lawsonibacter asaccharolyticus,NCBITaxon_2108523
+Allisonella,NCBITaxon_209879,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Megasphaera,NCBITaxon_906,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacteroides ovatus,NCBITaxon_28116,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacteroides stercoris,NCBITaxon_46506,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacteroides thetaiotaomicron,NCBITaxon_818,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacteroides uniformis,NCBITaxon_820,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Phocaeicola vulgatus,NCBITaxon_821,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Oscillibacter,NCBITaxon_459786,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Clostridium sp. SDG-Mt85-3Db,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,[Clostridium] saccharogumia,NCBITaxon_341225
+Bacteroides fragilis SDG-Mt85-5B,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides fragilis,NCBITaxon_817
+Bacteroides fragilis SDG-Mt85-4C,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides fragilis,NCBITaxon_817
+Bacteroides fragilis DIfE-05,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides fragilis,NCBITaxon_817
+Parabacteroides distasonis DSM 20701T,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides distasonis,NCBITaxon_823
+Bacteroides ovatus SDG-Mt85-3C,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides ovatus,NCBITaxon_28116
+Eggerthella lenta SECO-Mt75m3,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eggerthella lenta,NCBITaxon_84112
+Blautia producta,NCBITaxon_33035,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Eubacterium sp.,NCBITaxon_142586,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Clostridium scindens,NCBITaxon_29347,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Streptococcus intermedius,NCBITaxon_1338,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Blautia producta SNU-Julong 732,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Blautia producta,NCBITaxon_33035
+Veillonella sp. EP,NCBITaxon_1926307,http://www.w3.org/2000/01/rdf-schema#subClassOf,Veillonella,NCBITaxon_29465
+Clostridium IV,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium,NCBITaxon_1485
+Clostridium XlVa,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium,NCBITaxon_1485
+Prevotella,NCBITaxon_838,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Slackia equolifaciens JCM 16059,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Slackia equolifaciens,NCBITaxon_498718
+Clostridium butyricum CBM588,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium butyricum,NCBITaxon_1492
+Faecalibacterium prausnitzii S3L/3,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Faecalibacterium prausnitzii,NCBITaxon_853
+Eubacterium rectale DSM 17629,NCBITaxon_657318,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eubacterium rectale,NCBITaxon_39491
+Roseburia intestinalis DSM 14610,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Roseburia intestinalis,NCBITaxon_166486
+Bififidobacterium thetaiotaomicron DSM 2079,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides thetaiotaomicron,NCBITaxon_818
+Bacteroides eggerthii DSM 20697,NCBITaxon_483216,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Bacteroides eggerthii",NCBITaxon_28111
+Eubacterium hallii DSM 17630,NCBITaxon_105843,http://www.w3.org/2000/01/rdf-schema#subClassOf,Anaerobutyricum hallii,NCBITaxon_39488
+Intestinibacter bartlettii,NCBITaxon_261299,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Butyrivibrio fibrisolvens,NCBITaxon_831,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bifidobacterium adolescentis  L2-32,NCBITaxon_411481,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium adolescentis,NCBITaxon_1680
+Ruminococcus torques L2-14,NCBITaxon_657313,http://www.w3.org/2000/01/rdf-schema#subClassOf,Ruminococcus torques,NCBITaxon_33039
+Faecalitalea cylindroides T2-87,NCBITaxon_717960,http://www.w3.org/2000/01/rdf-schema#subClassOf,Faecalitalea cylindroides,NCBITaxon_39483
+Anaerostipes caccae L1-92,NCBITaxon_411490,http://www.w3.org/2000/01/rdf-schema#subClassOf,Anaerostipes caccae,NCBITaxon_105841
+Roseburia intestinalis,NCBITaxon_166486,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088,NCBITaxon_391904,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium longum subsp. infantis,NCBITaxon_1682
+Roseburia inulinivorans DSM 16841,NCBITaxon_622312,http://www.w3.org/2000/01/rdf-schema#subClassOf,Roseburia inulinivorans,NCBITaxon_360807
+Anaerostipes hadrus Ss2/1,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Anaerostipes hadrus,NCBITaxon_649756
+Bififidobacterium thetaiotaomicron  ATCC 29148,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides thetaiotaomicron,NCBITaxon_818
+Faecalibacterium prausnitzii DSM 17677,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Faecalibacterium prausnitzii,NCBITaxon_853
+Parabacteroides,NCBITaxon_375288,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Intestinibacter,NCBITaxon_1505657,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Hungatella,NCBITaxon_1649459,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Ruminococcus torques,NCBITaxon_33039,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Roseburia gnavus,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Roseburia obeum A2-162,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Ruminococcus sp.,NCBITaxon_41978,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Akkermansia muciniphila DSM 22959,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Akkermansia muciniphila,NCBITaxon_239935
+Clostridium botulinum,NCBITaxon_1491,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Clostridium sp. MSTE9gi,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium,NCBITaxon_1485
+Anaerotignum propionicum DSM 1682,NCBITaxon_991789,http://www.w3.org/2000/01/rdf-schema#subClassOf,Anaerotignum propionicum,NCBITaxon_28446
+Peptoniphilus indolicus,NCBITaxon_33030,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Coprococcus eutactus ATCC 27759,NCBITaxon_411474,http://www.w3.org/2000/01/rdf-schema#subClassOf,Coprococcus eutactus,NCBITaxon_33043
+Fusobacterium sp.,NCBITaxon_68766,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Coprococcus catus VPI-C6-61,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Coprococcus catus,NCBITaxon_116085
+Desulfosporosinus sp.,NCBITaxon_157907,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Anaerotignum lactatifermentans DSM 14214,NCBITaxon_1121323,http://www.w3.org/2000/01/rdf-schema#subClassOf,Anaerotignum lactatifermentans,NCBITaxon_160404
+Coprococcus comes ATCC 27758,NCBITaxon_470146,http://www.w3.org/2000/01/rdf-schema#subClassOf,Coprococcus comes,NCBITaxon_410072
+Megasphaera sp.,NCBITaxon_2023260,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Megasphaera elsdenii DSM 20460,NCBITaxon_1064535,http://www.w3.org/2000/01/rdf-schema#subClassOf,Megasphaera elsdenii,NCBITaxon_907
+Salmonella enterica TAM 6421,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Salmonella enterica,NCBITaxon_28901
+Veillonella parvula  L59,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Veillonella parvula,NCBITaxon_29466
+Phascolarctobacterium faecium,NCBITaxon_33025,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Veillonella dispar,NCBITaxon_39778,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Clostridium hathewayi DSM 13479 ZP_6112601,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Hungatella hathewayi,NCBITaxon_154046
+Phascolarctobacterium succinatutens YIT 12067,NCBITaxon_626939,http://www.w3.org/2000/01/rdf-schema#subClassOf,Phascolarctobacterium succinatutens,NCBITaxon_626940
+Selenomonas ruminantium subsp. lactilytica TAM6421,NCBITaxon_927704,http://www.w3.org/2000/01/rdf-schema#subClassOf,Selenomonas ruminantium subsp. Lactilytica,NCBITaxon_114197
+Bacteroides thetaiotaomicron ATCC 29148D-5,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides thetaiotaomicron,NCBITaxon_818
+Enterobacteriaceae,NCBITaxon_543,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Slackia sp. TM-30,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Slackia,NCBITaxon_84108
+Flavonifractor plautii,NCBITaxon_292800,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Lactobacillus reuteri D8,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Limosilactobacillus reuteri",NCBITaxon_1598
+Bifidobacterium sp. LKM512,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium,NCBITaxon_1678
+Bifidobacterium sp. LKM10070,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium,NCBITaxon_1678
+Enterococcus durans TN-3,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus durans,NCBITaxon_53345
+Propionibacterium freudenreichii TL133,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Propionibacterium freudenreichii,NCBITaxon_1744
+Bacteroides thetaiotaomicron BT_0558,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides thetaiotaomicron,NCBITaxon_818
+Bacteroides thetaiotaomicron BT_1224,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides thetaiotaomicron,NCBITaxon_818
+Bacteroides thetaiotaomicron BT_1225,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides thetaiotaomicron,NCBITaxon_818
+Christensenellaceae,NCBITaxon_990719,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Nippostrongylus brasiliensis,NCBITaxon_27835,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Tritrichomonas,NCBITaxon_5723,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacteroides sp.,NCBITaxon_2778071,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides,NCBITaxon_816
+Anaerococcus hydrogenalis DSM 7454,NCBITaxon_561177,http://www.w3.org/2000/01/rdf-schema#subClassOf,Anaerococcus hydrogenalis,NCBITaxon_33029
+Hungatella hathewayi DSM 13479,NCBITaxon_566550,http://www.w3.org/2000/01/rdf-schema#subClassOf,Hungatella hathewayi,NCBITaxon_154046
+Escherichia fergusonii ATCC 35469,NCBITaxon_585054,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia fergusonii,NCBITaxon_564
+Proteus penneri ATCC 35198,NCBITaxon_471881,http://www.w3.org/2000/01/rdf-schema#subClassOf,Proteus penneri,NCBITaxon_102862
+Providencia rettgeri DSM 1131,NCBITaxon_521000,http://www.w3.org/2000/01/rdf-schema#subClassOf,Providencia rettgeri,NCBITaxon_587
+Edwardsiella tarda ATCC 23685,NCBITaxon_500638,http://www.w3.org/2000/01/rdf-schema#subClassOf,Edwardsiella tarda,NCBITaxon_636
+Providencia rustiganii,NCBITaxon_158850,http://www.w3.org/2000/01/rdf-schema#subClassOf,Providencia,NCBITaxon_586
+Enterococcus durans,NCBITaxon_53345,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Lactobacillus,NCBITaxon_1578,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Muribaculaceae,NCBITaxon_2005473,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Porphyromonadaceae,NCBITaxon_171551,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Coriobacteriaceae,NCBITaxon_84107,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Actinobacteria,NCBITaxon_201174,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Deferribacteres,NCBITaxon_200930,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bifidobacterium longum subsp. infantis,NCBITaxon_1682,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium longum,NCBITaxon_216816
+Limosilactobacillus reuteri,NCBITaxon_1598,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Clostridium butyricum,NCBITaxon_1492,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacteroides intestinalis  AM-0,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides intestinalis,NCBITaxon_329854
+Bacteroidaceae,NCBITaxon_815,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Enterococcus avium LY1,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus avium,NCBITaxon_33945
+Odoribacter splanchnicus,NCBITaxon_28118,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Phocaeicola massiliensis,NCBITaxon_204516,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Blautia hydrogenotrophica,NCBITaxon_53443,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Escherichia coli JW5619,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia coli,NCBITaxon_562
+Penicillium mallochii CCH01,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Penicillium mallochii,NCBITaxon_1134119
+Fusobacterium varium,NCBITaxon_856,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Clostridia,NCBITaxon_186801,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Clostridium sporogenes,NCBITaxon_1509,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Pseudomonas aeruginosa,NCBITaxon_287,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Parabacteroides sp. HGS0025,NCBITaxon_1078087,http://www.w3.org/2000/01/rdf-schema#subClassOf,Parabacteroides,NCBITaxon_375288
+Bacteroides thetaiotaomicron BT1492,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides thetaiotaomicron,NCBITaxon_818
+Bacteroides ovatus BACOVA_04222,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides ovatus,NCBITaxon_28116
+Akkermansia muciniphila ATCC BAA-835,NCBITaxon_349741,http://www.w3.org/2000/01/rdf-schema#subClassOf,Akkermansia muciniphila,NCBITaxon_239935
+Akkermansia muciniphila ATCC BAA-2869,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Akkermansia muciniphila,NCBITaxon_239935
+Clostridium butyricum WZMC1016,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium butyricum,NCBITaxon_1492
+Clostridium butyricum CGMCC0313.1,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium butyricum,NCBITaxon_1492
+Lactobacillus acidophilus ATCC 4356,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactobacillus acidophilus,NCBITaxon_1579
+Enterococcus faecalis ATCC 19433,NCBITaxon_1169286,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus faecalis,NCBITaxon_1351
+Escherichia coli ATCC 44102,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia coli,NCBITaxon_562
+Pseudomonas aeruginosa ATCC 9027,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Pseudomonas aeruginosa,NCBITaxon_287
+Staphylococcus aureus ATCC 26003,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Staphylococcus aureus,NCBITaxon_1280
+do03,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Adlercreutzia equolifaciens subsp. Celatus,NCBITaxon_394340
+Enterorhabdus mucosicola Mt1B8,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Adlercreutzia mucosicola,NCBITaxon_580026
+Lactiplantibacillus plantarum ,NCBITaxon_1590,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacillus subtilis,NCBITaxon_1423,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Corynebacterium glutamicum,NCBITaxon_1718,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Brevibacterium avium,NCBITaxon_83828,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Mycolicibacterium smegmatis ,NCBITaxon_1772,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Corynebacteriaceae,NCBITaxon_1653,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Lactococcus lactis,NCBITaxon_1358,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Lacticaseibacillus paracasei,NCBITaxon_1597,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Ligilactobacillus murinus,NCBITaxon_1622,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacteroides fragilis YCH46,NCBITaxon_295405,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides fragilis,NCBITaxon_817
+Eubacteriales,NCBITaxon_186802,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Desulfovibrionaceae,NCBITaxon_194924,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Eikenella,NCBITaxon_538,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Streptococcus,NCBITaxon_1301,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Escherichia coli Nissle 1917,NCBITaxon_316435,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia coli,NCBITaxon_562
+Escherichia coli O127:H6 str. E2348/69,NCBITaxon_574521,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia coli,NCBITaxon_562
+Streptococcus salivarius JIM8772,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Streptococcus salivarius,NCBITaxon_1304
+Streptococcus salivarius CIP102503,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Streptococcus salivarius,NCBITaxon_1304
+Lactobacillus rhamnosus,NCBITaxon_47715,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Faecalibacterium prausnitzii M 21/2,NCBITaxon_411485,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Faecalibacterium prausnitzii",NCBITaxon_853
+Faecalibacterium prausnitzii CNCM I-4541,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Faecalibacterium prausnitzii",NCBITaxon_853
+Faecalibacterium prausnitzii CNCM I-4546,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Faecalibacterium prausnitzii",NCBITaxon_853
+Faecalibacterium prausnitzii CNCM I-4644,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Faecalibacterium prausnitzii",NCBITaxon_853
+Faecalibacterium prausnitzii CNCM I-4575,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Faecalibacterium prausnitzii",NCBITaxon_853
+Lactobacillus rhamnosus GG,NCBITaxon_568703,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactobacillus rhamnosus,NCBITaxon_47715
+Enterococcus faecalis OG1RF,NCBITaxon_474186,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus faecalis,NCBITaxon_1351
+Lactobacillus plantarum MB452,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactiplantibacillus plantarum,NCBITaxon_1590
+Faecalibacterium prausnitzii HTF-F,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Faecalibacterium prausnitzii",NCBITaxon_853
+Lactobacillus plantarum 299v,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactiplantibacillus plantarum,NCBITaxon_1590
+Lactobacillus fermentum ACA-DC 179,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Limosilactobacillus fermentum,NCBITaxon_1613
+Lactobacillus plantarum ACA-DC 287,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactiplantibacillus plantarum,NCBITaxon_1590
+Streptococcus macedonicus ACA-DC 198,NCBITaxon_1116231,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Faecalibacterium prausnitzii A2-165,NCBITaxon_411483,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Faecalibacterium prausnitzii",NCBITaxon_853
+Escherichia coli K-12,NCBITaxon_83333,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia coli,NCBITaxon_562
+Bifidobacterium adolescentis,NCBITaxon_1680,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Phocaeicola vulgatus,NCBITaxon_821,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Streptococcus salivarius,NCBITaxon_1304,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Enterococcus durans EP1,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus durans,NCBITaxon_53345
+Enterococcus durans EP2,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus durans,NCBITaxon_53345
+Enterococcus durans EP3,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus durans,NCBITaxon_53345
+Escherichia coli EcN,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia coli,NCBITaxon_562
+Escherichia coli ECOR63,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia coli,NCBITaxon_562
+Streptococcus salivarius K12,NCBITaxon_1200793,http://www.w3.org/2000/01/rdf-schema#subClassOf,Streptococcus salivarius,NCBITaxon_1304
+Clostridioides difficile R20291,NCBITaxon_645463,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridioides difficile,NCBITaxon_1496
+Clostridioides difficile 630,NCBITaxon_272563,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridioides difficile,NCBITaxon_1496
+Bifidobacterium animalis subsp. lactis BB-12,NCBITaxon_552531,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium animalis subsp. Lactis,NCBITaxon_302911
+Bacteroides fragilis ATCC 23745,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides fragilis,NCBITaxon_817
+Ruminococcus gnavus E1,NCBITaxon_935582,http://www.w3.org/2000/01/rdf-schema#subClassOf,[Ruminococcus] gnavus,NCBITaxon_33038
+Lactobacillus plantarum L9,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactiplantibacillus plantarum,NCBITaxon_1590
+Lactobacillus acidophilus ATCC 4357,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactobacillus acidophilus,NCBITaxon_1579
+Escherichia coli O127:H6 str. E2348/69,NCBITaxon_574521,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia coli,NCBITaxon_562
+Lactobacillus acidophilus 4357,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactobacillus acidophilus,NCBITaxon_1579
+Clostridioides difficile VPI 10463,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridioides difficile,NCBITaxon_1496
+Lactobacillus crispatus M206119,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactobacillus crispatus,NCBITaxon_47770
+Helicobacter pylori,NCBITaxon_210,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Mycobacterium,NCBITaxon_1763,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Clostridium butyricum CGMCC0313-1,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium butyricum,NCBITaxon_1492
+Faecalibacterium prausnitzii M21/2,NCBITaxon_411485,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Faecalibacterium prausnitzii",NCBITaxon_853
+Eubacterium hallii L2-7,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Anaerobutyricum hallii,NCBITaxon_39488
+Megamonas rupellenesis Mag1B,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Megamonas rupellensis,NCBITaxon_491921
+Lactobacillus plantarum WCFS1,NCBITaxon_220668,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactiplantibacillus plantarum,NCBITaxon_1590
+Escherichia coli M-17,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia coli,NCBITaxon_562
+Lactobacillus rhamnosus OLL2838,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactobacillus rhamnosus,NCBITaxon_47715
+Lactobacillus casei shirota,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactobacillus casei group,NCBITaxon_655183
+Bacteroides intestinalis,NCBITaxon_329854,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Enterococcus faecalis ms2,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus faecalis,NCBITaxon_1351
+Citrobacter rodentium,NCBITaxon_67825,http://www.w3.org/2000/01/rdf-schema#subClassOf,Citrobacter,NCBITaxon_544
+Clostridium butyricum B1,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium butyricum,NCBITaxon_1492
+Clostridium butyricum CGMCC 9831,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium butyricum,NCBITaxon_1492
+Clostridium butyricum CGMCC 9830,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium butyricum,NCBITaxon_1492
+Clostridium butyricum,NCBITaxon_1492,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Lactococcus lactis subsp. cremoris MG1363,NCBITaxon_416870,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactococcus cremoris subsp. Cremoris,NCBITaxon_2816960
+Alistipes onderdonkii,NCBITaxon_328813,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Lactobacillus rhamnosus LS-8,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactobacillus rhamnosus,NCBITaxon_47715
+Lactobacillus crustorum MN047,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Companilactobacillus crustorum,NCBITaxon_392416
+Faecalibacterium prausnitzii ATCC27766,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Faecalibacterium prausnitzii,NCBITaxon_853
+Akkermansia muciniphila Muc(T),none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Akkermansia muciniphila,NCBITaxon_239935
+Lactobacillus acidophilus,NCBITaxon_1579,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Clostridium tyrobutyricum DSM 2637 = ATCC 25755 = JCM 11008,NCBITaxon_1121342,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium tyrobutyricum,NCBITaxon_1519
+Coprococcus catus,NCBITaxon_116085,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Oscillospira;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Oscillospira,NCBITaxon_119852
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__[Ruminococcus];s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Erysipelotrichaceae,NCBITaxon_128827
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Streptococcus,NCBITaxon_1301
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Catenibacterium;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Catenibacterium,NCBITaxon_135858
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium,NCBITaxon_1485
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Clostridium;s__clostridioforme,NCBITaxon_1531,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium,NCBITaxon_1485
+k__Bacteria;p__Spirochaetes;c__Spirochaetes;o__Spirochaetales;f__Spirochaetaceae;g__Treponema;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Treponema,NCBITaxon_157
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Megamonas;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Megamonas,NCBITaxon_158846
+k__Bacteria;p__Tenericutes;c__Mollicutes;o__RF39;f__;g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Mollicutes,NCBITaxon_31969
+Limosilactobacillus fermentum,NCBITaxon_1613,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+L. monocytogenes bacteriocin,NCBITaxon_1639,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Prevotella copri,NCBITaxon_165179,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__;g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroidales,NCBITaxon_171549
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__S24-7;g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Muribaculaceae,NCBITaxon_2005473
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Rikenellaceae,NCBITaxon_171550
+Holdemanella biformis,NCBITaxon_1735,http://www.w3.org/2000/01/rdf-schema#subClassOf,Holdemanella,NCBITaxon_1573535
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;__;__;__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eubacteriales,NCBITaxon_186802
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__;g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eubacteriales,NCBITaxon_186802
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__[Mogibacteriaceae];g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eubacteriales,NCBITaxon_186802
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;__;__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Dorea,NCBITaxon_189330
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Dorea;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Dorea,NCBITaxon_189330
+k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfovibrionales;f__Desulfovibrionaceae;g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Desulfovibrionaceae,NCBITaxon_194924
+k__Bacteria;p__Fusobacteria;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;__;__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Fusobacteriaceae,NCBITaxon_203492
+Fusobacteriaceae,NCBITaxon_203492,http://www.w3.org/2000/01/rdf-schema#subClassOf,Fusobacteriales,NCBITaxon_203491
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Anaerostipes;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Anaerostipes,NCBITaxon_207244
+k__Bacteria;p__Lentisphaerae;c__[Lentisphaeria];o__Victivallales;f__Victivallaceae;g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Victivallaceae,NCBITaxon_255528
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Lachnospira;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospira,NCBITaxon_28050
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__RF32;f__;g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Alphaproteobacteria,NCBITaxon_28211
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Odoribacteraceae];g__Odoribacter;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Odoribacter,NCBITaxon_283168
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Roseburia;s__faecis,NCBITaxon_301302,http://www.w3.org/2000/01/rdf-schema#subClassOf,Roseburia,NCBITaxon_841
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridiaceae,NCBITaxon_31979
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__02d06;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridiaceae,NCBITaxon_31979
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__SMB53;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridiaceae,NCBITaxon_31979
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Phascolarctobacterium;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Phascolarctobacterium,NCBITaxon_33024
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Coprococcus;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Coprococcus,NCBITaxon_33042
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Coprococcus;s__eutactus,NCBITaxon_33043,http://www.w3.org/2000/01/rdf-schema#subClassOf,Coprococcus,NCBITaxon_33042
+k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Bilophila;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bilophila,NCBITaxon_35832
+Roseburia inulinivorans,NCBITaxon_360807,http://www.w3.org/2000/01/rdf-schema#subClassOf,Roseburia,NCBITaxon_841
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__stercorea,NCBITaxon_363265,http://www.w3.org/2000/01/rdf-schema#subClassOf,Prevotella,NCBITaxon_838
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium;s__celatum,NCBITaxon_36834,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium,NCBITaxon_1485
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Parabacteroides;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Parabacteroides,NCBITaxon_375288
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Dorea;s__formicigenerans,NCBITaxon_39486,http://www.w3.org/2000/01/rdf-schema#subClassOf,Dorea,NCBITaxon_189330
+Veillonella dispar,NCBITaxon_39778,http://www.w3.org/2000/01/rdf-schema#subClassOf,Veillonella,NCBITaxon_29465
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Dialister;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Dialister,NCBITaxon_39948
+Ruminococcus bromii,NCBITaxon_40518,http://www.w3.org/2000/01/rdf-schema#subClassOf,Ruminococcus,NCBITaxon_1263
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Ruminococcus;s__callidus,NCBITaxon_40519,http://www.w3.org/2000/01/rdf-schema#subClassOf,Ruminococcus,NCBITaxon_1263
+Blautia obeum,NCBITaxon_40520,http://www.w3.org/2000/01/rdf-schema#subClassOf,Blautia,NCBITaxon_572511
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Alcaligenaceae;g__Sutterella;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Sutterella,NCBITaxon_40544
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Butyrivibrio;s__crossotus,NCBITaxon_45851,http://www.w3.org/2000/01/rdf-schema#subClassOf,Butyrivibrio,NCBITaxon_830
+Bacteroides caccae,NCBITaxon_47678,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides,NCBITaxon_816
+Butyricicoccus pullicaecorum,NCBITaxon_501571,http://www.w3.org/2000/01/rdf-schema#subClassOf,Butyricimonas,NCBITaxon_574697
+Treponema maltophilum,NCBITaxon_51160,http://www.w3.org/2000/01/rdf-schema#subClassOf,Treponema,NCBITaxon_157
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Ruminococcaceae,NCBITaxon_216572
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;__;__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterobacteriaceae,NCBITaxon_543
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Blautia;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Blautia,NCBITaxon_572511
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Odoribacteraceae];g__Butyricimonas;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Butyricimonas,NCBITaxon_574697
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Paraprevotellaceae];g__Paraprevotella;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroidales,NCBITaxon_171549
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;__;__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Pasteurellaceae,NCBITaxon_712
+Collinsella aerofaciens,NCBITaxon_74426,http://www.w3.org/2000/01/rdf-schema#subClassOf,Collinsella,NCBITaxon_102106
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Gemmiger;s__formicilis,NCBITaxon_745368,http://www.w3.org/2000/01/rdf-schema#subClassOf,Gemmiger,NCBITaxon_204475
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides,NCBITaxon_816
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides,NCBITaxon_816
+Bacteroides fragilis,NCBITaxon_817,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacteroides uniformis,NCBITaxon_820,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+Bacteroides distasonis,NCBITaxon_823,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Aeromonadales;f__Succinivibrionaceae;g__Succinivibrio;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Succinivibrio,NCBITaxon_83770
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Paraprevotellaceae];g__[Prevotella];s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroidales,NCBITaxon_171549
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Roseburia;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Roseburia,NCBITaxon_841
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Coriobacteriaceae,NCBITaxon_84107
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__plebeius,NCBITaxon_310297,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides,NCBITaxon_816
+Faecalibacterium prausnitzii,NCBITaxon_853,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Desulfovibrio;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Desulfovibrio,NCBITaxon_872
+human,NCBITaxon_9606,http://www.w3.org/2000/01/rdf-schema#subClassOf,none,none
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Christensenellaceae,NCBITaxon_990719
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Prevotella,NCBITaxon_838
+k__Bacteria;p__Cyanobacteria;c__4C0d-2;o__YS2;f__;g__;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Cyanobacteria,NCBITaxon_1117
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;__;__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Ruminococcaceae,NCBITaxon_216572
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Ruminococcus;s__,none,http://www.w3.org/2000/01/rdf-schema#subClassOf,Ruminococcus,NCBITaxon_1263
+Enterococcus faecium,NCBITaxon_1352,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus,NCBITaxon_1350
+Finegoldia magna,NCBITaxon_1260,http://www.w3.org/2000/01/rdf-schema#subClassOf,Finegoldia,NCBITaxon_150022
+Finegoldia,NCBITaxon_150022,http://www.w3.org/2000/01/rdf-schema#subClassOf,Peptoniphilaceae,NCBITaxon_1570339
+Peptoniphilaceae,NCBITaxon_1570339,http://www.w3.org/2000/01/rdf-schema#subClassOf,Tissierellales,NCBITaxon_1737405
+Tissierellales,NCBITaxon_1737405,http://www.w3.org/2000/01/rdf-schema#subClassOf,Tissierellia,NCBITaxon_1737404
+Tissierellia,NCBITaxon_1737404,http://www.w3.org/2000/01/rdf-schema#subClassOf,Firmicutes,NCBITaxon_1239
+unclassified Roseburia,NCBITaxon_2637578,http://www.w3.org/2000/01/rdf-schema#subClassOf,Roseburia,NCBITaxon_841
+Slackia faecicanis,NCBITaxon_255723,http://www.w3.org/2000/01/rdf-schema#subClassOf,Slackia,NCBITaxon_84108
+Slackia,NCBITaxon_84108,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eggerthellaceae,NCBITaxon_1643826
+Eggerthella,NCBITaxon_84111,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eggerthellaceae,NCBITaxon_1643826
+Phascolarctobacterium succinatutens,NCBITaxon_626940,http://www.w3.org/2000/01/rdf-schema#subClassOf,Phascolarctobacterium,NCBITaxon_33024
+Citrobacter freundii,NCBITaxon_546,http://www.w3.org/2000/01/rdf-schema#subClassOf,Citrobacter,NCBITaxon_544
+Bifidobacterium pseudocatenulatum,NCBITaxon_28026,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium,NCBITaxon_1678
+Bifidobacterium breve,NCBITaxon_1685,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium,NCBITaxon_1678
+Bifidobacterium bifidum,NCBITaxon_1681,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium,NCBITaxon_1678
+Bifidobacterium animalis subsp. Lactis,NCBITaxon_302911,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium animalis,NCBITaxon_28025
+Eggerthella sinensis,NCBITaxon_242230,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eggerthella,NCBITaxon_84111
+Paraeggerthella hongkongensis,NCBITaxon_230658,http://www.w3.org/2000/01/rdf-schema#subClassOf,Paraeggerthella,NCBITaxon_651554
+Paraeggerthella,NCBITaxon_651554,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eggerthellaceae,NCBITaxon_1643826
+Alistipes indistinctus,NCBITaxon_626932,http://www.w3.org/2000/01/rdf-schema#subClassOf,Alistipes,NCBITaxon_239759
+Alistipes,NCBITaxon_239759,http://www.w3.org/2000/01/rdf-schema#subClassOf,Rikenellaceae,NCBITaxon_171550
+Rikenellaceae,NCBITaxon_171550,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroidales,NCBITaxon_171549
+Bacteroidales,NCBITaxon_171549,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroidia,NCBITaxon_200643
+Bacteroidia,NCBITaxon_200643,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroidetes,NCBITaxon_976
+Odoribacter laneus,NCBITaxon_626933,http://www.w3.org/2000/01/rdf-schema#subClassOf,Odoribacter,NCBITaxon_283168
+Paraprevotella clara,NCBITaxon_454154,http://www.w3.org/2000/01/rdf-schema#subClassOf,Paraprevotella,NCBITaxon_577309
+Paraprevotella xylaniphila,NCBITaxon_454155,http://www.w3.org/2000/01/rdf-schema#subClassOf,Paraprevotella,NCBITaxon_577309
+Acidipropionibacterium acidipropionici,NCBITaxon_1748,http://www.w3.org/2000/01/rdf-schema#subClassOf,Acidipropionibacterium,NCBITaxon_1912215
+Acidipropionibacterium,NCBITaxon_1912215,http://www.w3.org/2000/01/rdf-schema#subClassOf,Propionibacteriaceae,NCBITaxon_31957
+Propionibacteriaceae,NCBITaxon_31957,http://www.w3.org/2000/01/rdf-schema#subClassOf,Propionibacteriales,NCBITaxon_85009
+Propionibacteriales,NCBITaxon_85009,http://www.w3.org/2000/01/rdf-schema#subClassOf,Actinomycetia,NCBITaxon_1760
+Actinomycetia,NCBITaxon_1760,http://www.w3.org/2000/01/rdf-schema#subClassOf,Actinobacteria,NCBITaxon_201174
+Lactococcus,NCBITaxon_1357,http://www.w3.org/2000/01/rdf-schema#subClassOf,Streptococcaceae,NCBITaxon_1300
+Streptococcaceae,NCBITaxon_1300,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactobacillales,NCBITaxon_186826
+Lactobacillales,NCBITaxon_186826,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacilli,NCBITaxon_91061
+Bacilli,NCBITaxon_91061,http://www.w3.org/2000/01/rdf-schema#subClassOf,Firmicutes,NCBITaxon_1239
+Bifidobacterium catenulatum subsp. Kashiwanohense,NCBITaxon_630129,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium catenulatum,NCBITaxon_1686
+Bifidobacterium catenulatum,NCBITaxon_1686,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium,NCBITaxon_1678
+Enterococcus durans,NCBITaxon_53345,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus,NCBITaxon_1350
+Enterococcus avium,NCBITaxon_33945,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterococcus,NCBITaxon_1350
+Lactobacillus casei group,NCBITaxon_655183,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactobacillus,NCBITaxon_1578
+Adlercreutzia equolifaciens subsp. Celatus,NCBITaxon_394340,http://www.w3.org/2000/01/rdf-schema#subClassOf,Adlercreutzia equolifaciens,NCBITaxon_446660
+Clostridium acetobutylicum,NCBITaxon_1488,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridium,NCBITaxon_1485
+Emergencia timonensis,NCBITaxon_1776384,http://www.w3.org/2000/01/rdf-schema#subClassOf,Emergencia,NCBITaxon_1926556
+Emergencia,NCBITaxon_1926556,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eubacteriales Family XIII. Incertae Sedis,NCBITaxon_543314
+Eubacteriales Family XIII. Incertae Sedis,NCBITaxon_543314,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eubacteriales incertae sedis,NCBITaxon_538999
+Eubacteriales incertae sedis,NCBITaxon_538999,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eubacteriales,NCBITaxon_186802
+"
+Peptostreptococcus anaerobius",NCBITaxon_1261,http://www.w3.org/2000/01/rdf-schema#subClassOf,Peptostreptococcus,NCBITaxon_1257
+Peptostreptococcus,NCBITaxon_1257,http://www.w3.org/2000/01/rdf-schema#subClassOf,Peptostreptococcaceae,NCBITaxon_186804
+Peptostreptococcaceae,NCBITaxon_186804,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Eubacteriales",NCBITaxon_186802
+Succinatimonas hippei,NCBITaxon_626938,http://www.w3.org/2000/01/rdf-schema#subClassOf,Succinatimonas,NCBITaxon_674963
+Succinatimonas,NCBITaxon_674963,http://www.w3.org/2000/01/rdf-schema#subClassOf,Succinivibrionaceae,NCBITaxon_83763
+Succinivibrionaceae,NCBITaxon_83763,http://www.w3.org/2000/01/rdf-schema#subClassOf,Aeromonadales,NCBITaxon_135624
+Aeromonadales,NCBITaxon_135624,http://www.w3.org/2000/01/rdf-schema#subClassOf,Gammaproteobacteria,NCBITaxon_1236
+Gammaproteobacteria,NCBITaxon_1236,http://www.w3.org/2000/01/rdf-schema#subClassOf,Proteobacteria,NCBITaxon_1224
+Proteobacteria,NCBITaxon_1224,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteria,NCBITaxon_2
+Parasutterella excrementihominis,NCBITaxon_487175,http://www.w3.org/2000/01/rdf-schema#subClassOf,Parasutterella,NCBITaxon_577310
+Parasutterella,NCBITaxon_577310,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Sutterellaceae",NCBITaxon_995019
+"
+Sutterellaceae",NCBITaxon_995019,http://www.w3.org/2000/01/rdf-schema#subClassOf,Burkholderiales,NCBITaxon_80840
+Burkholderiales,NCBITaxon_80840,http://www.w3.org/2000/01/rdf-schema#subClassOf,Betaproteobacteria,NCBITaxon_28216
+Betaproteobacteria,NCBITaxon_28216,http://www.w3.org/2000/01/rdf-schema#subClassOf,Proteobacteria,NCBITaxon_1224
+Butyricimonas virosa,NCBITaxon_544645,http://www.w3.org/2000/01/rdf-schema#subClassOf,Butyricimonas,NCBITaxon_574697
+Butyricimonas,NCBITaxon_574697,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Odoribacteraceae",NCBITaxon_1853231
+"
+Odoribacteraceae",NCBITaxon_1853231,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroidales,NCBITaxon_171549
+"
+Butyricimonas synergistica",NCBITaxon_544644,http://www.w3.org/2000/01/rdf-schema#subClassOf,Butyricimonas,NCBITaxon_574697
+Enterocloster asparagiformis,NCBITaxon_333367,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterocloster,NCBITaxon_2719313
+Enterocloster,NCBITaxon_2719313,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+Blautia faecis,NCBITaxon_871665,http://www.w3.org/2000/01/rdf-schema#subClassOf,Blautia,NCBITaxon_572511
+Dialister succinatiphilus,NCBITaxon_487173,http://www.w3.org/2000/01/rdf-schema#subClassOf,Dialister,NCBITaxon_39948
+Barnesiella intestinihominis,NCBITaxon_487174,http://www.w3.org/2000/01/rdf-schema#subClassOf,Barnesiella,NCBITaxon_397864
+Barnesiella,NCBITaxon_397864,http://www.w3.org/2000/01/rdf-schema#subClassOf,Barnesiellaceae,NCBITaxon_2005519
+Barnesiellaceae,NCBITaxon_2005519,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroidales,NCBITaxon_171549
+Ruminococcus champanellensis,NCBITaxon_1161942,http://www.w3.org/2000/01/rdf-schema#subClassOf,Ruminococcus,NCBITaxon_1263
+Lawsonibacter asaccharolyticus,NCBITaxon_2108523,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lawsonibacter,NCBITaxon_2172004
+Lawsonibacter,NCBITaxon_2172004,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eubacteriales incertae sedis,NCBITaxon_538999
+[Clostridium] saccharogumia,NCBITaxon_341225,http://www.w3.org/2000/01/rdf-schema#subClassOf,Erysipelatoclostridium,NCBITaxon_1505663
+Erysipelatoclostridium,NCBITaxon_1505663,http://www.w3.org/2000/01/rdf-schema#subClassOf,Erysipelotrichaceae,NCBITaxon_128827
+Erysipelotrichaceae,NCBITaxon_128827,http://www.w3.org/2000/01/rdf-schema#subClassOf,Erysipelotrichales,NCBITaxon_526525
+Erysipelotrichales,NCBITaxon_526525,http://www.w3.org/2000/01/rdf-schema#subClassOf,Erysipelotrichia,NCBITaxon_526524
+Erysipelotrichia,NCBITaxon_526524,http://www.w3.org/2000/01/rdf-schema#subClassOf,Firmicutes,NCBITaxon_1239
+Bacteroides thetaiotaomicron,NCBITaxon_818,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides,NCBITaxon_816
+"
+Bacteroides eggerthii",NCBITaxon_28111,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides,NCBITaxon_816
+Anaerobutyricum hallii,NCBITaxon_39488,http://www.w3.org/2000/01/rdf-schema#subClassOf,Anaerobutyricum,NCBITaxon_2569097
+Anaerobutyricum,NCBITaxon_2569097,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+Faecalitalea cylindroides,NCBITaxon_39483,http://www.w3.org/2000/01/rdf-schema#subClassOf,Faecalitalea,NCBITaxon_1573534
+Faecalitalea,NCBITaxon_1573534,http://www.w3.org/2000/01/rdf-schema#subClassOf,Erysipelotrichaceae,NCBITaxon_128827
+Anaerotignum propionicum,NCBITaxon_28446,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Anaerotignum",NCBITaxon_2039240
+"
+Anaerotignum",NCBITaxon_2039240,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+Anaerostipes caccae,NCBITaxon_105841,http://www.w3.org/2000/01/rdf-schema#subClassOf,Anaerostipes,NCBITaxon_207244
+Anaerostipes,NCBITaxon_207244,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+Anaerostipes hadrus,NCBITaxon_649756,http://www.w3.org/2000/01/rdf-schema#subClassOf,Anaerostipes,NCBITaxon_207244
+Coprococcus eutactus,NCBITaxon_33043,http://www.w3.org/2000/01/rdf-schema#subClassOf,Coprococcus,NCBITaxon_33042
+Anaerotignum lactatifermentans,NCBITaxon_160404,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Anaerotignum",NCBITaxon_2039240
+Coprococcus comes,NCBITaxon_410072,http://www.w3.org/2000/01/rdf-schema#subClassOf,Coprococcus,NCBITaxon_33042
+Megasphaera elsdenii,NCBITaxon_907,http://www.w3.org/2000/01/rdf-schema#subClassOf,Megasphaera,NCBITaxon_906
+Veillonella parvula,NCBITaxon_29466,http://www.w3.org/2000/01/rdf-schema#subClassOf,Veillonella,NCBITaxon_29465
+Hungatella hathewayi,NCBITaxon_154046,http://www.w3.org/2000/01/rdf-schema#subClassOf,Hungatella,NCBITaxon_1649459
+Selenomonas ruminantium subsp. Lactilytica,NCBITaxon_114197,http://www.w3.org/2000/01/rdf-schema#subClassOf,Selenomonas ruminantium,NCBITaxon_971
+Selenomonas ruminantium,NCBITaxon_971,http://www.w3.org/2000/01/rdf-schema#subClassOf,Selenomonas,NCBITaxon_970
+Selenomonas,NCBITaxon_970,http://www.w3.org/2000/01/rdf-schema#subClassOf,Selenomonadaceae,NCBITaxon_1843491
+Selenomonadaceae,NCBITaxon_1843491,http://www.w3.org/2000/01/rdf-schema#subClassOf,Selenomonadales,NCBITaxon_909929
+Selenomonadales,NCBITaxon_909929,http://www.w3.org/2000/01/rdf-schema#subClassOf,Negativicutes,NCBITaxon_909932
+Negativicutes,NCBITaxon_909932,http://www.w3.org/2000/01/rdf-schema#subClassOf,Firmicutes,NCBITaxon_1239
+Propionibacterium freudenreichii,NCBITaxon_1744,http://www.w3.org/2000/01/rdf-schema#subClassOf,Propionibacterium,NCBITaxon_1743
+Propionibacterium,NCBITaxon_1743,http://www.w3.org/2000/01/rdf-schema#subClassOf,Propionibacteriaceae,NCBITaxon_31957
+Anaerococcus hydrogenalis,NCBITaxon_33029,http://www.w3.org/2000/01/rdf-schema#subClassOf,Anaerococcus,NCBITaxon_165779
+Anaerococcus,NCBITaxon_165779,http://www.w3.org/2000/01/rdf-schema#subClassOf,Peptoniphilaceae,NCBITaxon_1570339
+Escherichia fergusonii,NCBITaxon_564,http://www.w3.org/2000/01/rdf-schema#subClassOf,Escherichia,NCBITaxon_561
+Proteus penneri,NCBITaxon_102862,http://www.w3.org/2000/01/rdf-schema#subClassOf,Proteus,NCBITaxon_583
+Proteus,NCBITaxon_583,http://www.w3.org/2000/01/rdf-schema#subClassOf,Morganellaceae,NCBITaxon_1903414
+Morganellaceae,NCBITaxon_1903414,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterobacterales,NCBITaxon_91347
+Enterobacterales,NCBITaxon_91347,http://www.w3.org/2000/01/rdf-schema#subClassOf,Gammaproteobacteria,NCBITaxon_1236
+Providencia rettgeri,NCBITaxon_587,http://www.w3.org/2000/01/rdf-schema#subClassOf,Providencia,NCBITaxon_586
+Providencia,NCBITaxon_586,http://www.w3.org/2000/01/rdf-schema#subClassOf,Morganellaceae,NCBITaxon_1903414
+Edwardsiella tarda,NCBITaxon_636,http://www.w3.org/2000/01/rdf-schema#subClassOf,Edwardsiella,NCBITaxon_635
+Edwardsiella,NCBITaxon_635,http://www.w3.org/2000/01/rdf-schema#subClassOf,Hafniaceae,NCBITaxon_1903412
+Hafniaceae,NCBITaxon_1903412,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterobacterales,NCBITaxon_91347
+Staphylococcus aureus,NCBITaxon_1280,http://www.w3.org/2000/01/rdf-schema#subClassOf,Staphylococcus,NCBITaxon_1279
+Staphylococcus,NCBITaxon_1279,http://www.w3.org/2000/01/rdf-schema#subClassOf,Staphylococcaceae,NCBITaxon_90964
+Staphylococcaceae,NCBITaxon_90964,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacillales,NCBITaxon_1385
+Bacillales,NCBITaxon_1385,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacilli,NCBITaxon_91061
+Adlercreutzia equolifaciens,NCBITaxon_446660,http://www.w3.org/2000/01/rdf-schema#subClassOf,Adlercreutzia,NCBITaxon_447020
+Adlercreutzia mucosicola,NCBITaxon_580026,http://www.w3.org/2000/01/rdf-schema#subClassOf,Adlercreutzia,NCBITaxon_447020
+Limosilactobacillus fermentum,NCBITaxon_1613,http://www.w3.org/2000/01/rdf-schema#subClassOf,Limosilactobacillus,NCBITaxon_2742598
+Lactiplantibacillus plantarum,NCBITaxon_1590,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactiplantibacillus,NCBITaxon_2767842
+Lactiplantibacillus,NCBITaxon_2767842,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactobacillaceae,NCBITaxon_33958
+Limosilactobacillus,NCBITaxon_2742598,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactobacillaceae,NCBITaxon_33958
+Lactobacillus acidophilus,NCBITaxon_1579,http://www.w3.org/2000/01/rdf-schema#subClassOf,Mediterraneibacter,NCBITaxon_2316020
+Mediterraneibacter,NCBITaxon_2316020,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+Lactobacillus crispatus,NCBITaxon_47770,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactobacillus,NCBITaxon_1578
+Megamonas rupellensis,NCBITaxon_491921,http://www.w3.org/2000/01/rdf-schema#subClassOf,Megamonas,NCBITaxon_158846
+Megamonas,NCBITaxon_158846,http://www.w3.org/2000/01/rdf-schema#subClassOf,Selenomonadaceae,NCBITaxon_1843491
+Lactococcus cremoris subsp. Cremoris,NCBITaxon_2816960,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactococcus cremoris,NCBITaxon_1359
+Lactococcus cremoris,NCBITaxon_1359,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lactococcus,NCBITaxon_1357
+Muribaculaceae,NCBITaxon_2005473,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroidales,NCBITaxon_171549
+Holdemanella,NCBITaxon_1573535,http://www.w3.org/2000/01/rdf-schema#subClassOf,Erysipelotrichaceae,NCBITaxon_128827
+Fusobacteriales,NCBITaxon_203491,http://www.w3.org/2000/01/rdf-schema#subClassOf,Fusobacteriia,NCBITaxon_203490
+Victivallaceae,NCBITaxon_255528,http://www.w3.org/2000/01/rdf-schema#subClassOf,Victivallales,NCBITaxon_278082
+Victivallales,NCBITaxon_278082,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lentisphaeria,NCBITaxon_1313211
+Lentisphaeria,NCBITaxon_1313211,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lentisphaerae,NCBITaxon_256845
+Lentisphaerae,NCBITaxon_256845,http://www.w3.org/2000/01/rdf-schema#subClassOf,PVC group,NCBITaxon_1783257
+PVC group,NCBITaxon_1783257,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteria,NCBITaxon_2
+Lachnospira,NCBITaxon_28050,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+Alphaproteobacteria,NCBITaxon_28211,http://www.w3.org/2000/01/rdf-schema#subClassOf,Proteobacteria,NCBITaxon_1224
+Clostridiaceae,NCBITaxon_31979,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eubacteriales,NCBITaxon_186802
+Sutterella,NCBITaxon_40544,http://www.w3.org/2000/01/rdf-schema#subClassOf,"
+Sutterellaceae",NCBITaxon_995019
+Butyrivibrio,NCBITaxon_830,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+Butyricicoccus,NCBITaxon_580596,http://www.w3.org/2000/01/rdf-schema#subClassOf,Clostridiaceae,NCBITaxon_31979
+Pasteurellales,NCBITaxon_135625,http://www.w3.org/2000/01/rdf-schema#subClassOf,Gammaproteobacteria,NCBITaxon_1236
+Gemmiger,NCBITaxon_204475,http://www.w3.org/2000/01/rdf-schema#subClassOf,Eubacteriales incertae sedis,NCBITaxon_538999
+Desulfovibrio,NCBITaxon_872,http://www.w3.org/2000/01/rdf-schema#subClassOf,Desulfovibrionaceae,NCBITaxon_194924
+Cyanobacteria,NCBITaxon_1117,http://www.w3.org/2000/01/rdf-schema#subClassOf,Cyanobacteria/Melainabacteria group,NCBITaxon_1798711
+Cyanobacteria/Melainabacteria group,NCBITaxon_1798711,http://www.w3.org/2000/01/rdf-schema#subClassOf,Terrabacteria group,NCBITaxon_1783272
+Terrabacteria group,NCBITaxon_1783272,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteria,NCBITaxon_2
+Pasteurellaceae,NCBITaxon_712,http://www.w3.org/2000/01/rdf-schema#subClassOf,Pasteurellales,NCBITaxon_135625
+hmp_k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas,FAKEURI_0000361,http://www.w3.org/2000/01/rdf-schema#subClassOf,Pseudomonadaceae,NCBITaxon_135621
+Pseudomonadaceae,NCBITaxon_135621,,Pseudomonadales,NCBITaxon_72274
+Pseudomonadales,NCBITaxon_72274,,Gammaproteobacteria,NCBITaxon_1236
+hmp_k__Bacteria;p__Firmicutes;c__Negativicutes;o__Selenomonadales;f__Veillonellaceae;g__Veillonella,FAKEURI_0000362,http://www.w3.org/2000/01/rdf-schema#subClassOf,Veillonella,NCBITaxon_29465
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Blautia,FAKEURI_0000363,http://www.w3.org/2000/01/rdf-schema#subClassOf,Blautia,NCBITaxon_572511
+hmp_k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides,FAKEURI_0000364,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides,NCBITaxon_816
+hmp_k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus,FAKEURI_0000365,http://www.w3.org/2000/01/rdf-schema#subClassOf,Streptococcus,NCBITaxon_1301
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptostreptococcaceae;g__Intestinibacter,FAKEURI_0000366,http://www.w3.org/2000/01/rdf-schema#subClassOf,Intestinibacter,NCBITaxon_1505657
+hmp_k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides_1,FAKEURI_0000367,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides,NCBITaxon_816
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Eubacteriumhalliigroup,FAKEURI_0000368,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+hmp_k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Bifidobacterium,FAKEURI_0000369,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bifidobacterium,NCBITaxon_1678
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Subdoligranulum,FAKEURI_0000370,http://www.w3.org/2000/01/rdf-schema#subClassOf,Ruminococcaceae,NCBITaxon_216572
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Roseburia,FAKEURI_0000371,http://www.w3.org/2000/01/rdf-schema#subClassOf,Roseburia,NCBITaxon_841
+hmp_k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;g__Alistipes,FAKEURI_0000372,http://www.w3.org/2000/01/rdf-schema#subClassOf,Alistipes,NCBITaxon_239759
+hmp_k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides_2,FAKEURI_0000373,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides,NCBITaxon_816
+hmp_k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;g__Alistipes_1,FAKEURI_0000374,http://www.w3.org/2000/01/rdf-schema#subClassOf,Alistipes,NCBITaxon_239759
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Dorea,FAKEURI_0000375,http://www.w3.org/2000/01/rdf-schema#subClassOf,Dorea,NCBITaxon_189330
+hmp_k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus_1,FAKEURI_0000376,http://www.w3.org/2000/01/rdf-schema#subClassOf,Streptococcus,NCBITaxon_1301
+hmp_k__Bacteria;p__Fusobacteria;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium,FAKEURI_0000377,http://www.w3.org/2000/01/rdf-schema#subClassOf,Fusobacterium,NCBITaxon_848
+hmp_k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides_3,FAKEURI_0000378,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bacteroides,NCBITaxon_816
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__LachnospiraceaeNK4A136group,FAKEURI_0000379,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__LachnospiraceaeUCG008,FAKEURI_0000380,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+hmp_k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Staphylococcus,FAKEURI_0000381,http://www.w3.org/2000/01/rdf-schema#subClassOf,Staphylococcus,NCBITaxon_1279
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Anaerostipes,FAKEURI_0000382,http://www.w3.org/2000/01/rdf-schema#subClassOf,Anaerostipes,NCBITaxon_207244
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Lachnoclostridium,FAKEURI_0000383,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+hmp_k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus,FAKEURI_0000384,http://www.w3.org/2000/01/rdf-schema#subClassOf,Haemophilus,NCBITaxon_724
+Haemophilus,NCBITaxon_724,,Pasteurellaceae,NCBITaxon_712
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Lachnoclostridium_1,FAKEURI_0000385,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__uncultured,FAKEURI_0000386,http://www.w3.org/2000/01/rdf-schema#subClassOf,Ruminococcaceae,NCBITaxon_216572
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Butyricicoccus,FAKEURI_0000387,http://www.w3.org/2000/01/rdf-schema#subClassOf,Butyricicoccus,NCBITaxon_580596
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__LachnospiraceaeUCG008_1,FAKEURI_0000388,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+hmp_k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Parabacteroides,FAKEURI_0000389,http://www.w3.org/2000/01/rdf-schema#subClassOf,Parabacteroides,NCBITaxon_375288
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Fusicatenibacter,FAKEURI_0000390,http://www.w3.org/2000/01/rdf-schema#subClassOf,Fusicatenibacter,NCBITaxon_1407607
+Fusicatenibacter,NCBITaxon_1407607,,Lachnospiraceae,NCBITaxon_186803
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Flavonifractor,FAKEURI_0000391,http://www.w3.org/2000/01/rdf-schema#subClassOf,Flavonifractor,NCBITaxon_946234
+Flavonifractor,NCBITaxon_946234,,Ruminococcaceae,NCBITaxon_216572
+hmp_k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Carnobacteriaceae;g__Granulicatella,FAKEURI_0000392,http://www.w3.org/2000/01/rdf-schema#subClassOf,Granulicatella,NCBITaxon_117563
+Granulicatella,NCBITaxon_117563,,Carnobacteriaceae,NCBITaxon_186828
+Carnobacteriaceae,NCBITaxon_186828,,Lactobacillales,NCBITaxon_186826
+hmp_k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Bilophila,FAKEURI_0000393,http://www.w3.org/2000/01/rdf-schema#subClassOf,Bilophila,NCBITaxon_35832
+hmp_k__Bacteria;p__Firmicutes;c__Negativicutes;o__Selenomonadales;f__Veillonellaceae;g__Dialister,FAKEURI_0000394,http://www.w3.org/2000/01/rdf-schema#subClassOf,Dialister,NCBITaxon_39948
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__uncultured,FAKEURI_0000395,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Subdoligranulum_1,FAKEURI_0000396,http://www.w3.org/2000/01/rdf-schema#subClassOf,Ruminococcaceae,NCBITaxon_216572
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Eubacteriumrectalegroup,FAKEURI_0000397,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Subdoligranulum_2,FAKEURI_0000398,http://www.w3.org/2000/01/rdf-schema#subClassOf,Ruminococcaceae,NCBITaxon_216572
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Lachnoclostridium_2,FAKEURI_0000399,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+hmp_k__Bacteria;p__Firmicutes;c__Erysipelotrichia;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Holdemania,FAKEURI_0000400,http://www.w3.org/2000/01/rdf-schema#subClassOf,Holdemania,NCBITaxon_61170
+Holdemania,NCBITaxon_61170,,Erysipelotrichaceae,NCBITaxon_128827
+hmp_k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__EscherichiaShigella,FAKEURI_0000401,http://www.w3.org/2000/01/rdf-schema#subClassOf,Enterobacteriaceae,NCBITaxon_543
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Ruminococcusgnavusgroup,FAKEURI_0000402,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Faecalibacterium,FAKEURI_0000403,http://www.w3.org/2000/01/rdf-schema#subClassOf,Faecalibacterium,NCBITaxon_216851
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Eubacteriumrectalegroup_1,FAKEURI_0000404,http://www.w3.org/2000/01/rdf-schema#subClassOf,Lachnospiraceae,NCBITaxon_186803
+hmp_k__Bacteria;p__Firmicutes;c__Erysipelotrichia;o__Erysipelotrichales;f__Erysipelotrichaceae;g__ErysipelotrichaceaeUCG003,FAKEURI_0000405,http://www.w3.org/2000/01/rdf-schema#subClassOf,Erysipelotrichaceae,NCBITaxon_128827
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Ruminiclostridium5,FAKEURI_0000406,http://www.w3.org/2000/01/rdf-schema#subClassOf,Ruminococcaceae,NCBITaxon_216572
+hmp_k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Blautia_1,FAKEURI_0000407,http://www.w3.org/2000/01/rdf-schema#subClassOf,Blautia,NCBITaxon_572511
+Fusobacteriia,NCBITaxon_203490,http://www.w3.org/2000/01/rdf-schema#subClassOf,Fusobacteria,NCBITaxon_32066

@@ -1,0 +1,110 @@
+#cd /Users/brooksantangelo/Documents/HunterLab/GutMGene_PKL/Scripts
+#mamba create -c conda-forge -c bioconda -n snakemake snakemake
+#conda activate snakemake
+#snakemake --cores 1 -s Snakefile.yaml -r
+
+
+rule all:
+  input:
+    "Output/PheKnowLator_v3_node2vec_Embeddings.emb"
+
+rule Extract_Relationships:
+  input: 
+    file1="KG_Resources/Gut_Microbe_and_Metabolite-human.txt",
+    file2="KG_Resources/Gut_Microbe_and_Metabolite-mouse.txt",
+    file3="KG_Resources/Gut_Microbe_and_Gene-human.txt",
+    file4="KG_Resources/Gut_Microbe_and_Gene-mouse.txt",
+    file5="KG_Resources/microbes_taxonomic_relationships.csv",
+  params:
+    outputdir="Output"
+  output:
+    "Output/LabelTypes_gutMGene_URI_LABEL_MAP.csv",
+    "Output/gutMGene_OTU_Pattern_Modifications.csv",
+    "Output/microbes_Triples.csv"
+  shell:
+    "python Extract_GutMGene_Relations.py --gutmgene-microbes-metabs-human {input.file1} --gutmgene-microbes-metabs-mouse {input.file2} --gutmgene-microbes-genes-human {input.file3} --gutmgene-microbes-genes-mouse {input.file4} --manual-microbes-relationships {input.file5} --output-dir {params.outputdir}"
+
+
+rule Convert_Patterns:
+  input: 
+    file1="Output/gutMGene_OTU_Pattern_Modifications.csv"
+  params:
+    outputdir="Output"
+  output:
+    "Output/gutMGene_OWLNETS_Triples.csv",
+    "Output/gutMGene_new_Properties.csv"
+  shell:
+    "python GutMGene_Convert_Patterns.py --patterns-csv-file {input.file1} --output-dir {params.outputdir}"
+
+rule Add_Brackets_gutMGene_triples_1:
+  input:
+    file1="Output/gutMGene_OWLNETS_Triples.csv"
+  params:
+    outputdir="Output"
+  output:
+    "Output/gutMGene_OWLNETS_Triples_Brackets.txt"
+  shell:
+    "python GutMGene_Add_Brackets.py --triples-file {input.file1} --output-dir {params.outputdir}"
+
+rule Add_Brackets_gutMGene_triples_2:
+  input:
+    file1="Output/microbes_Triples.csv"
+  params:
+    outputdir="Output"
+  output:
+    "Output/microbes_Triples_Brackets.txt"
+  shell:
+    "python GutMGene_Add_Brackets.py --triples-file {input.file1} --output-dir {params.outputdir}"
+
+rule Create_New_Entity_Labels:
+  input: 
+    file1="Output/gutMGene_OWLNETS_Triples_Brackets.txt",
+    file2="KG_Resources/PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_NodeLabels.txt",
+    file3="Output/LabelTypes_gutMGene_URI_LABEL_MAP.csv",
+    file4="Output/gutMGene_new_Properties.csv",
+  params:
+    outputdir="Output"
+  output:
+    "Output/gutMGene_microbes_contextual_labels.csv",
+    "Output/LabelTypes_gutMGene_URI_LABEL_MAP_contextual.csv",
+    "Output/PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_NodeLabels_NewEntities.txt"
+  shell:
+    "python GutMGene_PKL_CreateNewEntityLabels.py --triples-file {input.file1} --pkl-labels-file {input.file2} --gutmgene-labels-types-file {input.file3} --gutmgene-new-properties-file {input.file4} --output-dir {params.outputdir}"
+
+
+rule Concatenate Files:
+  input:
+    file1="Output/gutMGene_OWLNETS_Triples_Brackets.txt",
+    file2="Output/microbes_Triples_Brackets.txt",
+    file3="KG_Resources/PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_Triples_Identifiers.txt",
+  params:
+    outputdir="Output"
+  output:
+    "Output/PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_Triples_Identifiers_withGutMGene_withMicrobes.txt"
+  shell:
+    "python GutMGene_concat_files.py --file1 {input.file1} --file2 {input.file2} --file3 {input.file3} --output-dir {params.outputdir}"
+
+
+rule Nodes2Integers:
+  input:
+    file1="Output/PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_Triples_Identifiers_withGutMGene_withMicrobes.txt",
+  params:
+    outputdir="Output"
+  output:
+    "Output/PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_Triples_Integers_node2vecInput_withGutMGene_withMicrobes.txt",
+    "Output/PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_Triples_Integer_Identifier_Map_withGutMGene_withMicrobes.json",
+    "Output/PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_Triples_node2vecInput_cleaned_withGutMGene_withMicrobes.txt"
+  shell:
+      "python GutMGene_Nodes2Integers.py --triples-input-file {input.file1} --output-dir {params.outputdir}"
+  
+rule Node2Vec:
+  input:
+    file1="Output/PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_Triples_node2vecInput_cleaned_withGutMGene_withMicrobes.txt"
+  output:
+    "Output/PheKnowLator_v3_node2vec_Embeddings.emb"
+  shell:
+      "python GutMGene_node2vec.py --triples-integers-file {input.file1}"
+
+
+
+
