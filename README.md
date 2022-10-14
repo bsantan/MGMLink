@@ -21,8 +21,11 @@ The following dependencies are listed in the environment.yml file, and installed
 
 ## Installation
 
+Clone this repository and move into the main directory.
+
 ```
 git clone https://github.com/bsantan/MGMLink
+cd MGMLink
 ```
 
 First, snakemake must be installed in a separate environment. For more details, visit https://snakemake.readthedocs.io/en/stable/getting_started/installation.html. Install mamba, which will be used to create the environment, using the following commands:
