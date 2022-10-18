@@ -30,6 +30,8 @@ def process_files(triples_file,pkl_labels_file,gutmgene_labels_file,gutmgene_new
     labels = {}
 
     with open(pkl_labels_file) as f_in:
+        #Skip first line which is column headers
+        next(f_in)
         for line in f_in:
             vals = line.strip().split("\t")
             try:
@@ -65,15 +67,6 @@ def generate_contextual_labels(triples_list,uri_labels,labels,new_properties):
             d['Identifier'] = s
             d['Label'] = 'CONTEXTUAL ' + microbe_label
             microbes_contextual = microbes_contextual.append(d,ignore_index=True)
-        
-
-        #Not sure why i need to look at other here
-        #if o_type == 'other' and 'pkt/' in s and '#subClassOf' in p:
-        #    d = {}
-        #    microbe_label = uri_labels.loc[uri_labels['Identifier'] == o,'Label'].values[0]
-        #    d['Identifier'] = s
-        #    d['Label'] = 'CONTEXTUAL ' + microbe_label
-        #    microbes_contextual = microbes_contextual.append(d,ignore_index=True)
 
     #Get contextual entities in another loop
     #STEP 1: Add UBERON context
@@ -120,8 +113,6 @@ def output_labels_file(microbes_contextual,output_dir):
 
 def combine_labels_files(microbes_contextual,uri_labels,output_dir):
 
-    #uri_labels_new = pd.DataFrame(columns = ['Identifier','CURIE','Label','Type'])
-
     for i in range(len(microbes_contextual)):
         d = {}
         d['Identifier'] = microbes_contextual.iloc[i].loc['Identifier']
@@ -154,15 +145,14 @@ def main():
 
     #Define Inputs
     triples_file = args.TriplesFile
-    #triples_file = "/Users/brooksantangelo/Documents/Rotation2/Rocky/PKL_Additions/GutMGene/gutMGene_OWLNETS_Triples_Brackets.txt"
+    #gutMGene_OWLNETS_Triples_Brackets.txt"
     pkl_labels_file = args.PklLabelsFile
-    #/Users/brooksantangelo/Documents/HunterLab/Exploration/PKL_v3/PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_NodeLabels.txt 
+    #PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_NodeLabels.txt 
     gutmgene_labels_file = args.GutMGeneLabelsFile
-    #uri_labels_types_file = "/Users/brooksantangelo/Documents/Rotation2/Rocky/PKL_Additions/GutMGene/LabelTypes_gutMGene_URI_LABEL_MAP_.csv"
+    #LabelTypes_gutMGene_URI_LABEL_MAP_.csv
     gutmgene_new_properties_file = args.GutMGeneNewPropertiesFile
-    #"/Users/brooksantangelo/Documents/HunterLab/GutMGene_PKL/Output/gutMGene_new_Properties.csv"
+    #"gutMGene_new_Properties.csv
     output_dir = args.OutputDir
-    #output_dir = "/Users/brooksantangelo/Documents/Rotation2/Rocky/PKL_Additions/GutMGene"
    
     #Algorithm
     triples_list,uri_labels,labels,new_properties = process_files(triples_file,pkl_labels_file,gutmgene_labels_file,gutmgene_new_properties_file)
