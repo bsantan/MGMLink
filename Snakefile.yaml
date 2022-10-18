@@ -1,11 +1,8 @@
-#cd /Users/brooksantangelo/Documents/HunterLab/GutMGene_PKL/Scripts
-#mamba create -c conda-forge -c bioconda -n snakemake snakemake
-#conda activate snakemake
-#snakemake --cores 1 -s Snakefile.yaml -r
-
-
 rule all:
   input:
+    "Output/gutMGene_microbes_contextual_labels.csv",
+    "Output/LabelTypes_gutMGene_URI_LABEL_MAP_contextual.csv",
+    "Output/PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_NodeLabels_NewEntities.txt",
     "Output/PheKnowLator_v3_node2vec_Embeddings.emb"
 
 rule Extract_Relationships:
@@ -104,7 +101,3 @@ rule Node2Vec:
     "Output/PheKnowLator_v3_node2vec_Embeddings.emb"
   shell:
       "python GutMGene_node2vec.py --triples-integers-file {input.file1}"
-
-
-
-
