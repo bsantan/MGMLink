@@ -73,7 +73,7 @@ microbes_taxonomic_relationships.csv
 To run the snakemake workflow, execute the following command once the input directory is prepared. This will take ~10 minutes to run:
   
 ```
-snakemake --cores 1 -s Snakefile.yaml -r
+snakemake --cores 1 -s Snakefile.yaml --verbose
 ```
 
 ## Expected Outputs

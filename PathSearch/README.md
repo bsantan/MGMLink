@@ -31,7 +31,7 @@ First install mamba, which will be used to create the environment. To create an 
 conda install mamba
 
 mamba env create -f environment.yml
-conda activate Cartoomics
+conda activate MGMLink_PathSearch
 ```
 
 Run the MGMLink Snakefile to first generate the knowledge graph.
