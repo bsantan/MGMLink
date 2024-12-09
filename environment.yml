@@ -8,6 +8,7 @@ dependencies:
   - tqdm==4.67.0
   - gensim==4.3.2
   - numpy==1.26.4
+  - scipy==1.13.1
   - pip
   - pip:
     - csrgraph==0.1.28

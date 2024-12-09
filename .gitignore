@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+PathSearch/__pycache__/*
+
+.DS_Store
+.snakemake/log/*
+.snakemake/metadata/*
+Output/*
+PathSearch/logs/*
+KG_Resources/*
+

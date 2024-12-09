@@ -34,23 +34,36 @@ def create_node_attributes(input_nodes_df,subgraph_df):
     return subgraph_attribute_df
 
 #subgraph_df is a dataframe with S, P, O headers and | delimited
-def create_noa_file(subgraph_attribute_df,output_dir):
+def create_noa_file(subgraph_attribute_df,output_dir,override_filename = False, ):
 
     noa_file = output_dir+"/Subgraph_attributes.noa"
+    if override_filename:
+        noa_file = output_dir + "/Subgraph_" + override_filename + ".csv"
     #Check for existence of output directory
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
     l = subgraph_attribute_df.values.tolist()
 
+    # When original key is mapped to new key, mark as original
+    input_keys_file = output_dir + "/id_keys_df.csv"
+    if os.path.exists(input_keys_file):
+        n = pd.read_csv(input_keys_file,sep="|").values.tolist()
+        for i in range(len(l)):
+            if any(l[i][0] in sublist for sublist in n):
+                l[i][1] = "Mechanism"
+
+
     with open(noa_file, "w", newline="") as f:
         writer = csv.writer(f,delimiter='|')
         writer.writerow(["Node","Attribute"])
         writer.writerows(l)
 
-def create_sif_file(subgraph_df,output_dir):
+def create_sif_file(subgraph_df,output_dir,override_filename = False):
 
     sif_file = output_dir+"/Subgraph.csv"
+    if override_filename:
+        sif_file = output_dir + "/Subgraph_" + override_filename + ".csv"
     #Check for existence of output directory
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
@@ -81,15 +94,16 @@ def create_cytoscape_png(subgraph_df,subgraph_attributes_df,output_dir):
     p4c.export_image(png_file,network='subgraph')
 
 # Wrapper Function
-def output_visualization(input_nodes_df,subgraph_df,output_dir):
+def output_visualization(input_nodes_df,subgraph_df,output_dir,override_filename = False, id_key_file = None):
 
     subgraph_attributes_df = create_node_attributes(input_nodes_df,subgraph_df)
 
-    create_noa_file(subgraph_attributes_df,output_dir)
+    create_noa_file(subgraph_attributes_df,output_dir,override_filename)
 
-    create_sif_file(subgraph_df,output_dir)
+    create_sif_file(subgraph_df,output_dir,override_filename)
 
-    create_cytoscape_png(subgraph_df,subgraph_attributes_df,output_dir)
+    ##Not outputting graph visualization
+    ##create_cytoscape_png(subgraph_df,subgraph_attributes_df,output_dir)
 
     return subgraph_attributes_df
 

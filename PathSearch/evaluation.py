@@ -4,6 +4,8 @@ import pandas as pd
 from igraph import * 
 import numpy as np
 import os
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 def ranked_comparison(output_dir,**value_dfs):
 
@@ -211,19 +213,33 @@ def get_subgraph_dfs(output_dir,subgraph_algorithm):
 
     return input_nodes,subgraph_df,noa_df,path_list
 
+# def output_metapaths_key(m,idx):
 
-def output_path_lists(output_dir,path_list,subgraph_algorithm,idx):
+    
 
-    df = pd.DataFrame()
 
-    df['Value'] = path_list
+def output_path_lists(output_dir,path_list,subgraph_algorithm,idx,path_nodes):
 
-    output_folder = output_dir+'/Evaluation_Files'
-    #Check for existence of output directory
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
+    if len(path_list) > 0:
+        
+        df = pd.DataFrame()
 
-    df.to_csv(output_folder+'/paths_list_'+subgraph_algorithm+'_'+str(idx)+'.csv',sep=',',index=False)
+        df['File'] = ["Subgraph_" + str(i) for i in range(len(path_list))]
+        df['Value'] = path_list
+
+        # Determine the maximum length of lists in path_nodes
+        max_length = max([len(path) if isinstance(path, list) else 1 for path in path_nodes])
+
+        # Dynamically create columns
+        for i in range(max_length):
+            df["Entity_" + str(i + 1)] = [path[i] if isinstance(path, list) and len(path) > i else path for path in path_nodes]
+
+        output_folder = output_dir+'/Evaluation_Files'
+        #Check for existence of output directory
+        if not os.path.exists(output_folder):
+            os.makedirs(output_folder)
+
+        df.to_csv(output_folder+'/paths_list_'+subgraph_algorithm+'_'+str(idx)+'.csv',sep='|',index=False)
 
 def output_num_paths_pairs(output_dir,num_paths_df,subgraph_algorithm):
 
@@ -233,3 +249,62 @@ def output_num_paths_pairs(output_dir,num_paths_df,subgraph_algorithm):
         os.makedirs(output_folder)
 
     num_paths_df.to_csv(output_folder+'/num_paths_'+subgraph_algorithm+'.csv',sep=',',index=False)
+
+def compare_alorithms_similarities(subgraph_algorithm_1,subgraph_algorithm_2, output_dir):
+
+    output_folder = output_dir+'/Evaluation_Files'
+
+    cosine_vals_subgraph_1 = []
+    cosine_vals_subgraph_1_substring = "paths_list_CosineSimilarity_"+subgraph_algorithm_1+"_"
+    matching_files_1 = [f for f in os.listdir(output_folder) if cosine_vals_subgraph_1_substring in f]
+    # Combine all matching files into a single DataFrame
+    dfs = []
+    for file in matching_files_1:
+        file_path = os.path.join(output_folder, file)
+        df = pd.read_csv(file_path, delimiter="|")
+        cosine_vals_subgraph_1.extend(df["Value"].tolist())
+
+    cosine_vals_subgraph_2 = []
+    cosine_vals_subgraph_2_substring = "paths_list_CosineSimilarity_"+subgraph_algorithm_2+"_"
+    matching_files_2 = [f for f in os.listdir(output_folder) if cosine_vals_subgraph_2_substring in f]
+    # Combine all matching files into a single DataFrame
+    dfs = []
+    for file in matching_files_2:
+        file_path = os.path.join(output_folder, file)
+        df = pd.read_csv(file_path, delimiter="|")
+        cosine_vals_subgraph_2.extend(df["Value"].tolist())
+
+
+    # for filename in os.listdir(output_folder):
+    #     if "paths_list_CosineSimilarity_"+subgraph_algorithm_1+"_" not in filename: continue
+    #     file_path = output_folder + "/" + filename
+    #     path_list_df_1 = pd.read_csv(file_path, delimiter="|")
+    #     cosine_vals_subgraph_1.extend(path_list_df_1["Value"].tolist())
+
+    # cosine_vals_subgraph_2 = []
+    # for filename in os.listdir(output_folder):
+    #     if "paths_list_CosineSimilarity_"+subgraph_algorithm_2+"_" not in filename: continue
+    #     file_path = output_folder + "/" + filename
+    #     path_list_df_2 = pd.read_csv(file_path, delimiter="|")
+    #     cosine_vals_subgraph_2.extend(path_list_df_2["Value"].tolist())
+
+    print(cosine_vals_subgraph_1)
+    print(cosine_vals_subgraph_2)
+
+    # Create a histogram
+    plt.figure(figsize=(10, 6))  # Set the figure size
+    sns.histplot(cosine_vals_subgraph_1, color="blue", kde=True, label=subgraph_algorithm_1, bins=10, alpha=0.6)
+    sns.histplot(cosine_vals_subgraph_2, color="orange", kde=True, label=subgraph_algorithm_2, bins=10, alpha=0.6)
+
+    # Add labels and title
+    plt.title("Distribution of Cosine Similarity Scores for Path Search Methodologies", fontsize=16)
+    plt.xlabel("Value", fontsize=12)
+    plt.ylabel("Frequency", fontsize=12)
+    plt.legend(title="Path Search Methodology")
+
+    # Show the plot
+    plt.savefig(output_folder + "/path_list_comparison_distribution.png",bbox_inches="tight")
+    plt.close()
+
+    
+

@@ -63,7 +63,7 @@ faecalibacterium_prausnitzii|parkinson disease
 To run the script, execute the following command once the input directory is prepared:
   
 ```
-python creating_subgraph_from_KG.py --input-dir INPUTDIR --output-dir OUTPUTDIR --knowledge-graph mgmlink
+python creating_subgraph_from_KG.py --input-dir INPUTDIR --output-dir OUTPUTDIR --knowledge-graph mgmlink --first-order-nodes True
 ```
 
 You will then be asked to interactively match the input source and target concepts to the desired nodes within the knowledge graph.

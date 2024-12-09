@@ -23,6 +23,8 @@ def define_arguments():
 
     parser.add_argument("--first-order-nodes",dest="FirstOrderNodes",required=False,default=False,help='FirstOrderNodes',type= bool)
 
+    parser.add_argument("--num-paths-output",dest="NumPathsOutput",required=False,default=20,help='NumPathsOutput',type= int)
+
     return parser
 
 # Wrapper function
@@ -40,8 +42,9 @@ def generate_arguments():
     search_type = args.SearchType
     pdp_weight = args.PdpWeight
     first_order_nodes = args.FirstOrderNodes
+    num_paths_output =args.NumPathsOutput
 
-    return input_dir,output_dir,kg_type,embedding_dimensions,weights,search_type,pdp_weight,first_order_nodes
+    return input_dir,output_dir,kg_type,embedding_dimensions,weights,search_type,pdp_weight,first_order_nodes,num_paths_output
 
 def get_graph_files(input_dir,output_dir, kg_type):
 
@@ -92,4 +95,5 @@ def get_graph_files(input_dir,output_dir, kg_type):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
+    print(input_file)
     return triples_list_file,labels_file,input_file
