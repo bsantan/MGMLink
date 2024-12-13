@@ -15,13 +15,15 @@ def define_arguments():
     ## Optional inputs
     parser.add_argument("--embedding-dimensions",dest="EmbeddingDimensions",required=False,default=128,help="EmbeddingDimensions")
 
+    parser.add_argument("--embedding-method",dest="EmbeddingMethod",required=False,default="node2vec",help="EmbeddingMethod")
+
     parser.add_argument("--weights",dest="Weights",required=False,help="Weights", type = bool, default = False)
 
     parser.add_argument("--search-type",dest="SearchType",required=False,default='all',help="SearchType")
 
-    parser.add_argument("--pdp-weight",dest="PdpWeight",required=False,default=0.4,help="PdpWeight")
-
     parser.add_argument("--first-order-nodes",dest="FirstOrderNodes",required=False,default=False,help='FirstOrderNodes',type= bool)
+
+    parser.add_argument("--num-paths-output",dest="NumPathsOutput",required=False,default=20,help='NumPathsOutput',type= int)
 
     return parser
 
@@ -36,12 +38,13 @@ def generate_arguments():
     output_dir = args.OutputDir
     kg_type = args.KG
     embedding_dimensions = args.EmbeddingDimensions
+    embedding_method = args.EmbeddingMethod
     weights = args.Weights
     search_type = args.SearchType
-    pdp_weight = args.PdpWeight
     first_order_nodes = args.FirstOrderNodes
+    num_paths_output =args.NumPathsOutput
 
-    return input_dir,output_dir,kg_type,embedding_dimensions,weights,search_type,pdp_weight,first_order_nodes
+    return input_dir,output_dir,kg_type,embedding_dimensions,embedding_method,weights,search_type,first_order_nodes,num_paths_output
 
 def get_graph_files(input_dir,output_dir, kg_type):
 
@@ -92,4 +95,5 @@ def get_graph_files(input_dir,output_dir, kg_type):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
+    print(input_file)
     return triples_list_file,labels_file,input_file

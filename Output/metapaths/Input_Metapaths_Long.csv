@@ -1,0 +1,7 @@
+subject|predicate|object|predicate_1|object_1|predicate_2|object_2|predicate_3|object_3|predicate_4|object_4|predicate_5|object_5
+microbe|all|gene|all|protein|all|metabolite|all|disease
+microbe|all|metabolite|all|protein|all|gene|all|disease
+microbe|all|gene|all|protein|all|protein|all|metabolite|all|disease
+microbe|all|gene|all|protein|all|metabolite|all|metabolite|all|disease
+microbe|all|gene|all|protein|all|protein|all|protein|all|metabolite|all|disease
+microbe|all|gene|all|protein|all|metabolite|all|protein|all|metabolite|all|disease

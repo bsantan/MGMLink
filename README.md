@@ -73,7 +73,7 @@ microbes_taxonomic_relationships.csv
 To run the snakemake workflow, execute the following command once the input directory is prepared. This will take ~10 minutes to run:
   
 ```
-snakemake --cores 1 -s Snakefile.yaml -r
+snakemake --cores 1 -s Snakefile.yaml --verbose
 ```
 
 ## Expected Outputs
@@ -145,4 +145,9 @@ Edgelist for MGMLink
 ``` 
 3. PheKnowLator_v3_node2vec_Embeddings.emb
 ``` 
-Vector embeddings for MGMLink (42 dimensions)
+Node2Vec vector embeddings for MGMLink (128 dimensions)
+
+``` 
+4. transe_embedding_mgmlink_embedding_.pkl
+``` 
+TransE vector embeddings for MGMLink (128 dimensions)

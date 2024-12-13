@@ -1,4 +1,8 @@
 # Given a starting graph of node pairs, find all paths between them to create a subgraph
+import os
+import sys
+from assign_nodes import check_input_existence, create_input_file
+from visualize_subgraph import output_visualization
 from find_path import *
 import pandas as pd
 from tqdm import tqdm
@@ -27,7 +31,7 @@ def subgraph_shortest_path(input_nodes_df,graph,g_nodes,labels_all,triples_df,we
 
 # Have user define weights to upweight
 def user_defined_edge_weights(graph, triples_df,kg_type ):
-    if kg_type == 'pkl':
+    if kg_type == 'pkl' or kg_type == "mgmlink":
         edges = graph.labels_all[graph.labels_all['entity_type'] == 'RELATIONS'].label.tolist()
         print("### Unique Edges in Knowledge Graph ###")
         print('\n'.join(edges))
@@ -98,111 +102,183 @@ def user_defined_edge_exclusion(graph,kg_type ):
         graph.igraph.delete_edges(graph.igraph.es.select(predicate = edge))
     return(graph)
 
+# Edges to remove
+def automatic_defined_edge_exclusion(graph,kg_type):
 
+    print("original edgelist length: ",len(graph.edgelist))
+    uninteresting_relationships = [get_uri(graph.labels_all,'subClassOf',kg_type),get_uri(graph.labels_all,'located in',kg_type)]
 
+    if kg_type == 'mgmlink':
+        to_drop = uninteresting_relationships
+    for edge in to_drop:
+        # Remove from graph object
+        graph.igraph.delete_edges(graph.igraph.es.select(predicate = edge))
+        # Remove from df
+        graph.edgelist = graph.edgelist[graph.edgelist["predicate"] != edge]
 
+    print("new edgelist length: ",len(graph.edgelist))
+    return graph
 
+# Nodes to remove
+def automatic_defined_node_exclusion(graph,kg_type):
     
-def subgraph_prioritized_path_cs(input_nodes_df,graph,g_nodes,labels_all,triples_df,weights,search_type,triples_file,output_dir,input_dir,embedding_dimensions,kg_type):
+    uninteresting_first_order_nodes = [get_uri(graph.labels_all,'Homo sapiens',kg_type),get_uri(graph.labels_all,'Mus musculus',kg_type),get_uri(graph.labels_all,'lower digestive tract',kg_type)]
+    
+    if kg_type == 'mgmlink':
+        print("original edgelist length: ",len(graph.edgelist))
+        print("original nodes length: ",len(graph.labels_all))
+        to_drop = uninteresting_first_order_nodes
+    print("Removing nodes from KG")
+    # Remove from graph object
+    for uri in tqdm(to_drop):
+        # Get the indices of vertices with corresponding label
+        indices_to_delete = [v.index for v in graph.igraph.vs if v["name"] == uri]
+        # Remove the vertices by their indices
+        try:
+            graph.igraph.delete_vertices(indices_to_delete)
+        except KeyError:
+            print('Specified node to be removed does not exist. Update PHEKNOWLATOR_BROAD_NODES_DICT in constants.py.')
+            sys.exit(1)
+    # Remove from dfs
+    graph.labels_all = graph.labels_all[~graph.labels_all["entity_uri"].isin(to_drop)]
+    graph.edgelist = graph.edgelist[~(graph.edgelist["subject"].isin(to_drop) | graph.edgelist["object"].isin(to_drop))]
+    print("new edgelist length: ",len(graph.edgelist))
+    print("new nodes length: ",len(graph.labels_all))
+    return graph
+
+def subgraph_prioritized_path_cs(input_nodes_df,graph,weights,search_type,triples_file,labels_file,output_dir,input_dir,emb,entity_map,embedding_method,kg_type, search_algorithm,num_paths_output,group, pair_output_dir):
 
     input_nodes_df.columns= input_nodes_df.columns.str.lower()
+    if search_type == "both":
+        all_search_types = ["all", "out"]
+    else:
+        all_search_types = [search_type]
 
     all_paths = []
 
     num_paths_df = pd.DataFrame(columns = ['source_node','target_node','num_paths'])
 
+    #Dict of all shortest paths for subgraph
+    all_path_nodes = {}
+
+    id_keys_df = pd.DataFrame(columns = ["Original","New"])
+
     for i in tqdm(range(len(input_nodes_df))):
+        inputpath_index = str(i)
         df_paths = pd.DataFrame()
         start_node = input_nodes_df.iloc[i].loc['source_label']
         end_node = input_nodes_df.iloc[i].loc['target_label']
-        status,path_nodes,cs_shortest_path_df,paths_total_cs = prioritize_path_cs(start_node,end_node,graph,g_nodes,labels_all,triples_df,weights,
-        search_type,triples_file,output_dir,input_dir,embedding_dimensions,kg_type)
-        if status == False:
-            print('No path between: ',start_node,' and ',end_node)
-            continue
-        all_paths.append(cs_shortest_path_df)
-        df_paths['source_node'] = [start_node]
-        df_paths['target_node'] = [end_node]
-        df_paths['num_paths'] = [len(path_nodes)]
-        num_paths_df = pd.concat([num_paths_df,df_paths],axis=0)
-        #Output path list to file where index will match the pair# in the _Input_Nodes_.csv
-        output_path_lists(output_dir,paths_total_cs,'CosineSimilarity',i)
+        node_pair = input_nodes_df.iloc[i]
+        print("searching ",start_node,": ",end_node)
+        # Convert all path_nodes to labels
+        if search_algorithm == "Shortest_Path":
+            for search_type in all_search_types:
+                path_nodes,id_keys_df,metapaths_key = get_paths(node_pair,graph,weights,search_type,triples_file,input_dir, output_dir, kg_type, search_algorithm, id_keys_df)
+                df_paths['search_type'] = [search_type]
+                df_paths['source_node'] = [start_node]
+                df_paths['target_node'] = [end_node]
+                df_paths['num_paths'] = [len(path_nodes)]
+                if len(path_nodes) > 0:
+                    df_paths['path_length'] = len(path_nodes[0])
+                else:
+                    df_paths['path_length'] = 0
+                num_paths_df = pd.concat([num_paths_df,df_paths],axis=0)
+                # Prioritize using cosine sim
+                cs_shortest_path_df,all_paths_cs_values,chosen_path_nodes_cs,id_keys_df = prioritize_path_cs(path_nodes,input_nodes_df,graph,search_type,emb,entity_map,kg_type,search_algorithm,id_keys_df,embedding_method)
+                all_paths.append(cs_shortest_path_df)
+                #Output path list to file where index will match the pair# in the _Input_Nodes_.csv
+                #Get average of all cosine values in value_list
+                path_list = list(map(np.mean, all_paths_cs_values))
+                for outputpath_idx,p in enumerate(path_nodes[0:num_paths_output]):
+                    df = pd.DataFrame()
+                    df = define_path_triples(graph,[p],search_type)
+                    df = convert_to_labels(df,graph.labels_all,kg_type,input_nodes_df)
+                    outputpath_index = str(outputpath_idx)
+                    cs_noa_df = output_visualization(input_nodes_df,df,output_dir + '/' + search_algorithm + '_' + search_type + "/All_Paths_" + inputpath_index + "/",outputpath_index)
+                # Convert path_nodes which are ints for shortest paths to uris 
+                path_nodes_uris = convert_to_path_nodes_uris(path_nodes, graph)
+                output_path_lists(output_dir,path_list,'CosineSimilarity_'+search_algorithm+'_'+search_type,i,path_nodes_uris)
+                # Output chosen cosine sim and visualize in cytoscape
+                cs_noa_df = output_visualization(group, cs_shortest_path_df,pair_output_dir+'/CosineSimilarity_Shortest_Path_' + search_type + '_' + inputpath_index, False, True)
+        elif search_algorithm == "Metapath":
+            path_nodes,id_keys_df,metapaths_key = get_paths(node_pair,graph,weights,search_type,triples_file,input_dir, output_dir, kg_type, search_algorithm, id_keys_df)
+            # if len(path_nodes[0]) != 0:
+            # Length of metapath_keys will match length of path_nodes
+            for metapath_idx,metapath_val in metapaths_key.items():
+                metapath_index = str(metapath_idx)
+                metapath_path_nodes = path_nodes[metapath_idx]
+                df_paths['metapath'] = [metapaths_key[metapath_idx]]
+                df_paths['source_node'] = [start_node]
+                df_paths['target_node'] = [end_node]
+                df_paths['num_paths'] = [len(metapath_path_nodes)]
+                metapath_len = len(metapaths_key[metapath_idx].split("_"))
+                df_paths['path_length'] = metapath_len // 2 + 1 if metapath_len % 2 == 0 else (metapath_len + 1) // 2
+                num_paths_df = pd.concat([num_paths_df,df_paths],axis=0)
+                # Path nodes from metapath search already have predicate
+                # paths_dfs_dict is in same order as metapaths_key
+                # Prioritize using cosine sim
+                cs_shortest_path_df,all_paths_cs_values,chosen_path_nodes_cs,id_keys_df = prioritize_path_cs(metapath_path_nodes,input_nodes_df,graph,search_type,emb,entity_map,kg_type,search_algorithm,id_keys_df,embedding_method)
+                all_paths.append(cs_shortest_path_df)
+                #Output path list to file where index will match the pair# in the _Input_Nodes_.csv
+                #Get average of all cosine values in value_list
+                path_list = list(map(np.mean, all_paths_cs_values))
+                paths_dfs_dict = define_metapath_triples(metapath_path_nodes[0:num_paths_output])
+                for outputpath_idx,path_val in paths_dfs_dict.items():
+                    outputpath_index = str(outputpath_idx)
+                    df = convert_to_labels(path_val,graph.labels_all,kg_type,input_nodes_df)
+                    if len(df) > 0:
+                        cs_noa_df = output_visualization(input_nodes_df,df,output_dir + '/' + search_algorithm + "_Path" + metapath_index + "/All_Paths_" + inputpath_index + "/",outputpath_index)
+                    else:
+                        continue
+                output_path_lists(output_dir,path_list,'CosineSimilarity_'+search_algorithm+'_Path'+metapath_index,i,metapath_path_nodes)
+                # Output chosen cosine sim and visualize in cytoscape
+                cs_noa_df = output_visualization(group, cs_shortest_path_df,pair_output_dir+'/CosineSimilarity_Metapath_Path' + metapath_index + "_" + inputpath_index, False, True)
 
-    df = pd.concat(all_paths)
-    df.reset_index(drop=True, inplace=True)
-    #Remove duplicate edges
-    df = df.drop_duplicates(subset=['S','P','O'])
+    # Output number of paths for each pair given as single file
+    output_num_paths_pairs(output_dir,num_paths_df,search_algorithm)
 
-    output_num_paths_pairs(output_dir,num_paths_df,'CosineSimilarity')
-
-    return df,paths_total_cs
-
-def subgraph_prioritized_path_pdp(input_nodes_df,graph,g_nodes,labels_all,triples_df,weights,search_type,pdp_weight,output_dir, kg_type):
-
-    input_nodes_df.columns= input_nodes_df.columns.str.lower()
-
-    all_paths = []
-
-    num_paths_df = pd.DataFrame(columns = ['source_node','target_node','num_paths'])
-
-    for i in tqdm(range(len(input_nodes_df))):
-        df_paths = pd.DataFrame()
-        start_node = input_nodes_df.iloc[i].loc['source_label']
-        end_node = input_nodes_df.iloc[i].loc['target_label']
-        status,path_nodes,pdp_shortest_path_df,paths_pdp = prioritize_path_pdp(start_node,end_node,graph,g_nodes,labels_all,triples_df,weights,search_type,pdp_weight,kg_type)
-        if status == False:
-            print('No path between: ',start_node,' and ',end_node)
-            continue
-        all_paths.append(pdp_shortest_path_df)
-        df_paths['source_node'] = [start_node]
-        df_paths['target_node'] = [end_node]
-        df_paths['num_paths'] = [len(path_nodes)]
-        num_paths_df = pd.concat([num_paths_df,df_paths],axis=0)
-        #Output path list to file where index will match the pair# in the _Input_Nodes_.csv
-        output_path_lists(output_dir,paths_pdp,'PDP',i)
-
-    df = pd.concat(all_paths)
-    df.reset_index(drop=True, inplace=True)
-    #Remove duplicate edges
-    df = df.drop_duplicates(subset=['S','P','O'])
-
-    output_num_paths_pairs(output_dir,num_paths_df,'PDP')
-
-    return df,paths_pdp
+    return all_paths,all_paths_cs_values,all_path_nodes #df
 
 #Create new input_nodes_df that includes first order nodes as source
-def get_neighboring_nodes(input_nodes_df,triples_df,labels_all,kg_type):
+def get_contextual_microbes(input_nodes_df,triples_df,labels_all,kg_type,output_dir,input_type):
 
-    uninteresting_first_order_nodes = [get_uri(labels_all,'Homo sapiens',kg_type),get_uri(labels_all,'Mus musculus',kg_type),get_uri(labels_all,'lower digestive tract',kg_type)]
-    uninteresting_relationships = [get_uri(labels_all,'subClassOf',kg_type),get_uri(labels_all,'located in',kg_type)]
+    #Check for existence based on input type
+    exists = check_input_existence(output_dir,input_type + "_contextual")
+    if(exists[0] == 'false'):
+        input_nodes_neighbors_df = pd.DataFrame()
+        for i in range(len(input_nodes_df)):
+            if 'NCBITaxon_' in input_nodes_df.iloc[i].loc['source_id']: 
+                original_microbe_id = input_nodes_df.iloc[i].loc['source_id']
+                new_microbial_uris = triples_df.loc[(triples_df['object'] == original_microbe_id) & (triples_df['predicate'] == "http://www.w3.org/2000/01/rdf-schema#subClassOf") & (triples_df['subject'].str.contains("pkt")),"subject"].tolist()
+                if len(new_microbial_uris) > 0:
+                    # Get Labels 
+                    new_microbial_labels = []
+                    for uri in new_microbial_uris:
+                        l = get_label(labels_all,uri,kg_type)
+                        new_microbial_labels.append(l)
+                else:
+                    new_microbial_uris = [input_nodes_df.iloc[i].loc['source_id']]
+                    new_microbial_labels = [input_nodes_df.iloc[i].loc['source_label']]
+            else:
+                new_microbial_uris = [input_nodes_df.iloc[i].loc['source_id']]
+                new_microbial_labels = [input_nodes_df.iloc[i].loc['source_label']]
+            input_nodes_source_label = input_nodes_df.iloc[i].loc['source_label']
+            input_nodes_target_id = input_nodes_df.iloc[i].loc['target_id']
+            input_nodes_target_label = input_nodes_df.iloc[i].loc['target_label']
+            all_source_labels = [input_nodes_source_label] * len(new_microbial_uris)
+            all_target_ids = [input_nodes_target_id] * len(new_microbial_uris)
+            all_target_labels = [input_nodes_target_label] * len(new_microbial_uris)
+            rows = []
+            for r in range(len(new_microbial_uris)):
+                rows.append([all_source_labels[r], all_target_labels[r], new_microbial_labels[r], all_target_labels[r], new_microbial_uris[r], all_target_ids[r]])
+            df = pd.DataFrame(rows,columns = ['source','target','source_label','target_label','source_id','target_id'])
+            input_nodes_neighbors_df = pd.concat([df, input_nodes_neighbors_df],axis=0)
 
-    input_nodes_microbes = [i for i in input_nodes_df['source_label'] if 'CONTEXTUAL' in i]
-    input_nodes_target = input_nodes_df.iloc[0].loc['target_label']
+        create_input_file(input_nodes_neighbors_df,output_dir,input_type + "_contextual")
 
-    #New input_nodes_df to include first order nodes
-    #Use this to include shortest path search between microbe and target
-    #input_nodes_neighbors_df = copy.deepcopy(input_nodes_df)
-
-    input_nodes_neighbors_list = []
-
-    #For each microbe, get all first order nodes
-    for microbe in input_nodes_microbes:
-        microbe_uri = get_uri(labels_all,microbe,kg_type)
-        #Identify where microbe is the source node in a triple, will be uris in df
-        df = triples_df.loc[(triples_df['subject'] == microbe_uri) & (~triples_df['predicate'].isin(uninteresting_relationships)) & (~triples_df['object'].isin(uninteresting_first_order_nodes))]
-
-        #Go through every target for the corresponding shortest path from this first order node to microbes
-        
-        for i in range(len(df)):
-            s = get_label(labels_all,df.iloc[i].loc['object'],kg_type)
-            new_pair = [s,input_nodes_target,s,input_nodes_target]
-            #input_nodes_neighbors_df = input_nodes_neighbors_df.append(new_pair_df,ignore_index=True)
-            microbe_pair = [microbe,s,microbe,s]
-            input_nodes_neighbors_list.append(new_pair)
-            input_nodes_neighbors_list.append(microbe_pair)
-            #input_nodes_neighbors_df = input_nodes_neighbors_df.append(microbe_pair_df,ignore_index=True)
-
-    #Use this to only include the first neighbor node
-    input_nodes_neighbors_df = pd.DataFrame(input_nodes_neighbors_list,columns = ['source','target','source_label','target_label'])
+    else:
+        print('Node mapping file exists... moving to embedding creation')
+        mapped_file = output_dir + '/'+ exists[1]
+        input_nodes_neighbors_df = pd.read_csv(mapped_file, sep = "|")
 
     return input_nodes_neighbors_df

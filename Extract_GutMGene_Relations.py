@@ -1,6 +1,7 @@
 ####This script will take in txt files downloaded from the GutMGene db and produce gutMGene_URI_LABEL_MAP as a csv file.
 
 import argparse
+import os
 import pandas as pd
 import csv
 
@@ -128,7 +129,7 @@ def udpate_gutmgene_microbes(df,db_type):
                 d['Gene'] = 'IL12B'
                 d['GeneID'] = str(3593)
                 d['Alteration'] = df.iloc[i].loc['Alteration']
-                df = df.append(d,ignore_index=True)
+                df = pd.concat([df, pd.DataFrame([d])], ignore_index=True)
         df.loc[df['Gene'] == 'Il12p70','GeneID'] = str(3592)
         df.loc[df['Gene'] == 'Il12p70','Gene'] = 'IL12A'
 
@@ -167,7 +168,7 @@ def combine_gutMGene_manual_microbes(gutmgene_all,manual_microbes_file):
             d['Relationship'] = 'none'
             d['Taxa'] = 'none'
             d['TaxaNCBIID'] = 'none'
-        gutMgene_microbes_updated = gutMgene_microbes_updated.append(d, ignore_index=True)
+        gutMgene_microbes_updated = pd.concat([gutMgene_microbes_updated, pd.DataFrame([d])], ignore_index=True)
 
     gutMgene_microbes_updated = gutMgene_microbes_updated[['GutMicrobiota','GutMicrobiataNCBIID','Relationship','Taxa','TaxaNCBIID']]
     gutMgene_microbes_updated = gutMgene_microbes_updated.drop_duplicates(subset=['GutMicrobiota'])
@@ -190,7 +191,7 @@ def create_uri_label_map(gutMGene_values,df,db_type,fake_id_dataset,fake_id_coun
                 d['CURIE'] = df.iloc[i].loc["GutMicrobiataNCBIID"]
                 d['Label'] = df.iloc[i].loc["GutMicrobiota"]
                 d['Type'] = 'microbe'
-                gutMGene_values = gutMGene_values.append(d, ignore_index=True)
+                gutMGene_values = pd.concat([gutMGene_values, pd.DataFrame([d])], ignore_index=True)
             
             d = {}
             taxa_identifier = 'http://purl.obolibrary.org/obo/'+str(df.iloc[i].loc["TaxaNCBIID"])
@@ -199,7 +200,7 @@ def create_uri_label_map(gutMGene_values,df,db_type,fake_id_dataset,fake_id_coun
                 d['CURIE'] = df.iloc[i].loc["TaxaNCBIID"]
                 d['Label'] = df.iloc[i].loc["Taxa"]
                 d['Type'] = 'microbe'
-                gutMGene_values = gutMGene_values.append(d, ignore_index=True)
+                gutMGene_values = pd.concat([gutMGene_values, pd.DataFrame([d])], ignore_index=True)
 
             #Add microbes without an ID
             if df.iloc[i].loc['GutMicrobiataNCBIID'] == 'none' and df.iloc[i].loc['GutMicrobiota'] != 'none':
@@ -209,7 +210,7 @@ def create_uri_label_map(gutMGene_values,df,db_type,fake_id_dataset,fake_id_coun
                 d['CURIE'] = 'FAKEURI_' + fake_id
                 d['Label'] = df.iloc[i].loc['GutMicrobiota']
                 d['Type'] = 'microbe'
-                fake_id_dataset = fake_id_dataset.append(d, ignore_index=True)
+                fake_id_dataset = pd.concat([fake_id_dataset, pd.DataFrame([d])], ignore_index=True)
                 fake_id_count += 1
 
     if 'metab' in db_type:
@@ -225,7 +226,7 @@ def create_uri_label_map(gutMGene_values,df,db_type,fake_id_dataset,fake_id_coun
                         d['CURIE'] = df.iloc[i].loc['SubstrateChEBIID']
                         d['Label'] = df.iloc[i].loc['Substrate']
                         d['Type'] = 'other'
-                        gutMGene_values = gutMGene_values.append(d, ignore_index=True)
+                        gutMGene_values = pd.concat([gutMGene_values, pd.DataFrame([d])], ignore_index=True)
             if df.iloc[i].loc['MetaboliteChEBIID'] != 'none' and df.iloc[i].loc['Metabolite'] != 'none':
                 d = {}
                 identifier = 'http://purl.obolibrary.org/obo/' + df.iloc[i].loc['MetaboliteChEBIID']  
@@ -236,7 +237,7 @@ def create_uri_label_map(gutMGene_values,df,db_type,fake_id_dataset,fake_id_coun
                         d['CURIE'] = df.iloc[i].loc['MetaboliteChEBIID']
                         d['Label'] = df.iloc[i].loc['Metabolite']
                         d['Type'] = 'other'
-                        gutMGene_values = gutMGene_values.append(d, ignore_index=True)
+                        gutMGene_values = pd.concat([gutMGene_values, pd.DataFrame([d])], ignore_index=True)
 
         #Add substrates and metabs without an ID
             if df.iloc[i].loc['SubstrateChEBIID'] == 'none' and df.iloc[i].loc['Substrate'] != 'none':
@@ -247,7 +248,7 @@ def create_uri_label_map(gutMGene_values,df,db_type,fake_id_dataset,fake_id_coun
                 d['Label'] = df.iloc[i].loc['Substrate']
                 d['Type'] = 'other'
                 if d['Label'].lower() not in list(map(str.lower, fake_id_dataset['Label'].values)):
-                    fake_id_dataset = fake_id_dataset.append(d, ignore_index=True)
+                    fake_id_dataset = pd.concat([fake_id_dataset, pd.DataFrame([d])], ignore_index=True)
                     fake_id_count += 1
             if df.iloc[i].loc['MetaboliteChEBIID'] == 'none' and df.iloc[i].loc['Metabolite'] != 'none':
                 d = {}
@@ -257,7 +258,7 @@ def create_uri_label_map(gutMGene_values,df,db_type,fake_id_dataset,fake_id_coun
                 d['Label'] = df.iloc[i].loc['Metabolite']
                 d['Type'] = 'other'
                 if d['Label'].lower() not in list(map(str.lower, fake_id_dataset['Label'].values)):
-                    fake_id_dataset = fake_id_dataset.append(d, ignore_index=True)
+                    fake_id_dataset = pd.concat([fake_id_dataset, pd.DataFrame([d])], ignore_index=True)
                     fake_id_count += 1
 
     if 'gene' in db_type:
@@ -271,7 +272,7 @@ def create_uri_label_map(gutMGene_values,df,db_type,fake_id_dataset,fake_id_coun
                     d['CURIE'] = df.iloc[i].loc["GeneID"]
                     d['Label'] = df.iloc[i].loc["Gene"]
                     d['Type'] = 'other'
-                    gutMGene_values = gutMGene_values.append(d, ignore_index=True)
+                    gutMGene_values = pd.concat([gutMGene_values, pd.DataFrame([d])], ignore_index=True)
 
             #Add genes without an ID
             if df.iloc[i].loc['GeneID'] == 'none' and df.iloc[i].loc['Gene'] != 'none':
@@ -282,7 +283,7 @@ def create_uri_label_map(gutMGene_values,df,db_type,fake_id_dataset,fake_id_coun
                 d['Label'] = df.iloc[i].loc['Gene']
                 d['Type'] = 'other'
                 if d['Label'].lower() not in list(map(str.lower, fake_id_dataset['Label'].values)):
-                    fake_id_dataset = fake_id_dataset.append(d, ignore_index=True)
+                    fake_id_dataset = pd.concat([fake_id_dataset, pd.DataFrame([d])], ignore_index=True)
                     fake_id_count += 1
     
 
@@ -325,7 +326,7 @@ def create_microbe_triples(gutMGene_all_microbes_updated,gutMGene_IDs):
             d['Subject'] = 'http://purl.obolibrary.org/obo/' + gutMGene_all_microbes_updated.iloc[i].loc['GutMicrobiataNCBIID']
             d['Predicate'] = gutMGene_all_microbes_updated.iloc[i].loc['Relationship']
             d['Object'] = 'http://purl.obolibrary.org/obo/' + gutMGene_all_microbes_updated.iloc[i].loc['TaxaNCBIID']
-            gutmgene_microbes_relationships = gutmgene_microbes_relationships.append(d, ignore_index=True)
+            gutmgene_microbes_relationships = pd.concat([gutmgene_microbes_relationships, pd.DataFrame([d])], ignore_index=True)
         d = {}
         if gutMGene_all_microbes_updated.iloc[i].loc['GutMicrobiataNCBIID'] == 'none' and gutMGene_all_microbes_updated.iloc[i].loc['Taxa'] != 'none':
             s = gutMGene_all_microbes_updated.iloc[i].loc['GutMicrobiota'].lower()
@@ -333,8 +334,9 @@ def create_microbe_triples(gutMGene_all_microbes_updated,gutMGene_IDs):
             d['Subject'] = 'http://purl.obolibrary.org/obo/' + gutMGene_IDs.loc[gutMGene_IDs['Label'] == s,'CURIE'].item()
             d['Predicate'] = gutMGene_all_microbes_updated.iloc[i].loc['Relationship']
             d['Object'] = 'http://purl.obolibrary.org/obo/' + gutMGene_all_microbes_updated.iloc[i].loc['TaxaNCBIID']
-            gutmgene_microbes_relationships = gutmgene_microbes_relationships.append(d, ignore_index=True)
+            gutmgene_microbes_relationships = pd.concat([gutmgene_microbes_relationships, pd.DataFrame([d])], ignore_index=True)
 
+    gutmgene_microbes_relationships.drop_duplicates(subset=['Subject', 'Predicate', 'Object'], inplace=True)
     return gutmgene_microbes_relationships
 
 #For microbes, use gutMgene_microbes_updated above since I manually updated those names and IDs. For Chebi IDs, use what was given in gutMGene
@@ -365,7 +367,7 @@ def generate_patterns(gutMGene_patterns,gutMGene_IDs,df,db_type,count):
                 d['e'] = 'o'
                 d['E1'] = 'RO_0004007'
                 d['C1'] = gutMGene_IDs.loc[gutMGene_IDs['Label'] == df.iloc[i].loc['Substrate'].lower(),'CURIE'].values[0]
-                gutMGene_patterns = gutMGene_patterns.append(d, ignore_index=True)
+                gutMGene_patterns = pd.concat([gutMGene_patterns, pd.DataFrame([d])], ignore_index=True)
                 count += 1
             #Add microbe metabolites
             d = {}
@@ -385,7 +387,7 @@ def generate_patterns(gutMGene_patterns,gutMGene_IDs,df,db_type,count):
                 d['e'] = 'o'
                 d['E1'] = 'RO_0002234'
                 d['C1'] = gutMGene_IDs.loc[gutMGene_IDs['Label'] == df.iloc[i].loc['Metabolite'].lower(),'CURIE'].values[0]
-                gutMGene_patterns = gutMGene_patterns.append(d, ignore_index=True)
+                gutMGene_patterns = pd.concat([gutMGene_patterns, pd.DataFrame([d])], ignore_index=True)
                 count += 1
       
     if db_type == 'metab_microbe_m':
@@ -408,7 +410,7 @@ def generate_patterns(gutMGene_patterns,gutMGene_IDs,df,db_type,count):
                 d['e'] = 'o'
                 d['E1'] = 'RO_0002234'
                 d['C1'] = gutMGene_IDs.loc[gutMGene_IDs['Label'] == df.iloc[i].loc['Substrate'].lower(),'CURIE'].values[0]
-                gutMGene_patterns = gutMGene_patterns.append(d, ignore_index=True)
+                gutMGene_patterns = pd.concat([gutMGene_patterns, pd.DataFrame([d])], ignore_index=True)
                 count += 1
             #Add microbe metabolites
             d = {}
@@ -428,7 +430,7 @@ def generate_patterns(gutMGene_patterns,gutMGene_IDs,df,db_type,count):
                 d['e'] = 'o'
                 d['E1'] = 'RO_0002234'
                 d['C1'] = gutMGene_IDs.loc[gutMGene_IDs['Label'] == df.iloc[i].loc['Metabolite'].lower(),'CURIE'].values[0]
-                gutMGene_patterns = gutMGene_patterns.append(d, ignore_index=True)
+                gutMGene_patterns = pd.concat([gutMGene_patterns, pd.DataFrame([d])], ignore_index=True)
                 count += 1
 
     if db_type == 'gene_microbe_h':
@@ -452,7 +454,7 @@ def generate_patterns(gutMGene_patterns,gutMGene_IDs,df,db_type,count):
                 d['e'] = ''
                 d['E1'] = ''
                 d['C1'] = str(df.iloc[i].loc['GeneID'])
-                gutMGene_patterns = gutMGene_patterns.append(d, ignore_index=True)
+                gutMGene_patterns = pd.concat([gutMGene_patterns, pd.DataFrame([d])], ignore_index=True)
                 count += 1
             #Add microbe inhibition genes
             d = {}
@@ -474,7 +476,7 @@ def generate_patterns(gutMGene_patterns,gutMGene_IDs,df,db_type,count):
                 d['e'] = ''
                 d['E1'] = ''
                 d['C1'] = str(df.iloc[i].loc['GeneID'])
-                gutMGene_patterns = gutMGene_patterns.append(d, ignore_index=True)
+                gutMGene_patterns = pd.concat([gutMGene_patterns, pd.DataFrame([d])], ignore_index=True)
                 count += 1
 
     if db_type == 'gene_microbe_m':
@@ -497,7 +499,7 @@ def generate_patterns(gutMGene_patterns,gutMGene_IDs,df,db_type,count):
                 d['e'] = ''
                 d['E1'] = ''
                 d['C1'] = str(df.iloc[i].loc['GeneID'])
-                gutMGene_patterns = gutMGene_patterns.append(d, ignore_index=True)
+                gutMGene_patterns = pd.concat([gutMGene_patterns, pd.DataFrame([d])], ignore_index=True)
                 count += 1
             #Add microbe inhibition genes
             d = {}
@@ -517,7 +519,7 @@ def generate_patterns(gutMGene_patterns,gutMGene_IDs,df,db_type,count):
                 d['e'] = ''
                 d['E1'] = ''
                 d['C1'] = str(df.iloc[i].loc['GeneID'])
-                gutMGene_patterns = gutMGene_patterns.append(d, ignore_index=True)
+                gutMGene_patterns = pd.concat([gutMGene_patterns, pd.DataFrame([d])], ignore_index=True)
                 count += 1
 
     return gutMGene_patterns,count
@@ -531,7 +533,9 @@ def process_gutMGene_patterns(gutMGene_patterns):
     return gutMGene_patterns
 
 def create_csv_file(df,output_dir,filename,used_columns):
-
+    print("output_dir here:-------")
+    print(output_dir)
+    os.makedirs(output_dir, exist_ok=True)
     if used_columns == 'all':
         df.to_csv(output_dir+filename,sep=',',index=False)
     else:
@@ -578,6 +582,7 @@ def main():
     gutMGene_all_microbes_updated = combine_gutMGene_manual_microbes(gutmgene_all,manual_microbes_file)
 
     if 'generate_intermediate_files':
+        os.makedirs(output_dir, exist_ok=True)
         create_csv_file(gutMGene_all_microbes_updated,output_dir,'/gutMgene_microbes_updated.csv','all')
 
     #Entities in gutMGene have ontology identifiers

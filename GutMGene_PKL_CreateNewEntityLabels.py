@@ -66,7 +66,7 @@ def generate_contextual_labels(triples_list,uri_labels,labels,new_properties):
             microbe_label = uri_labels.loc[uri_labels['Identifier'] == o,'Label'].values[0]
             d['Identifier'] = s
             d['Label'] = 'CONTEXTUAL ' + microbe_label
-            microbes_contextual = microbes_contextual.append(d,ignore_index=True)
+            microbes_contextual = pd.concat([microbes_contextual, pd.DataFrame([d])], ignore_index=True)
 
     #Get contextual entities in another loop
     #STEP 1: Add UBERON context
@@ -103,7 +103,7 @@ def generate_contextual_labels(triples_list,uri_labels,labels,new_properties):
     for i in range(len(new_properties)):
         d['Identifier'] = '<' + new_properties.iloc[i].loc['Identifier'] + '>'
         d['Label'] = new_properties.iloc[i].loc['Label']
-        microbes_contextual = microbes_contextual.append(d,ignore_index=True)
+        microbes_contextual = pd.concat([microbes_contextual, pd.DataFrame([d])], ignore_index=True)
 
     return microbes_contextual
 
@@ -119,7 +119,7 @@ def combine_labels_files(microbes_contextual,uri_labels,output_dir):
         d['CURIE'] = 'none'
         d['Label'] = microbes_contextual.iloc[i].loc['Label']
         d['Type'] = 'microbe'
-        uri_labels = uri_labels.append(d,ignore_index=True)
+        uri_labels = pd.concat([uri_labels, pd.DataFrame([d])], ignore_index=True)
 
     uri_labels.to_csv(output_dir + '/LabelTypes_gutMGene_URI_LABEL_MAP_contextual.csv', index = False)
 
