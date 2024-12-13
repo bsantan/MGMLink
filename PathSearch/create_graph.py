@@ -44,7 +44,6 @@ def create_graph(triples_file,labels_file, kg_type = "pkl"):
         triples_df,labels = process_kg_covid19_files(triples_file,labels_file)
     elif kg_type == "mgmlink":
         triples_df,labels = process_mgmlink_files(triples_file,labels_file)
-        triples_df = triples_df.drop_duplicates()
     else:
         raise Exception('Invalid graph type! Please set kg_type to "pkl", "kg-covid19", or "mgmlink')
 

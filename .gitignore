@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 PathSearch/__pycache__/*
+PathSearch/logs
 
 .DS_Store
 .snakemake/log/*
@@ -9,3 +10,6 @@ Output/*
 PathSearch/logs/*
 KG_Resources/*
 
+Output/*
+!Output/metapaths
+!Output/manuscript_example_input.csv

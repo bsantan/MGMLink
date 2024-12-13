@@ -336,6 +336,7 @@ def create_microbe_triples(gutMGene_all_microbes_updated,gutMGene_IDs):
             d['Object'] = 'http://purl.obolibrary.org/obo/' + gutMGene_all_microbes_updated.iloc[i].loc['TaxaNCBIID']
             gutmgene_microbes_relationships = pd.concat([gutmgene_microbes_relationships, pd.DataFrame([d])], ignore_index=True)
 
+    gutmgene_microbes_relationships.drop_duplicates(subset=['Subject', 'Predicate', 'Object'], inplace=True)
     return gutmgene_microbes_relationships
 
 #For microbes, use gutMgene_microbes_updated above since I manually updated those names and IDs. For Chebi IDs, use what was given in gutMGene

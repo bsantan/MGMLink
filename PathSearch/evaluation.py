@@ -6,6 +6,7 @@ import numpy as np
 import os
 import seaborn as sns
 import matplotlib.pyplot as plt
+from scipy.stats import mannwhitneyu
 
 def ranked_comparison(output_dir,**value_dfs):
 
@@ -250,6 +251,17 @@ def output_num_paths_pairs(output_dir,num_paths_df,subgraph_algorithm):
 
     num_paths_df.to_csv(output_folder+'/num_paths_'+subgraph_algorithm+'.csv',sep=',',index=False)
 
+def get_bins(list,bin_width):
+
+    # Calculate bins based on the range of the data
+    min_val = min(list)
+    max_val = max(list)
+
+    # Create bin edges
+    bins = np.arange(min_val, max_val + bin_width, bin_width)
+
+    return bins
+
 def compare_alorithms_similarities(subgraph_algorithm_1,subgraph_algorithm_2, output_dir):
 
     output_folder = output_dir+'/Evaluation_Files'
@@ -274,31 +286,25 @@ def compare_alorithms_similarities(subgraph_algorithm_1,subgraph_algorithm_2, ou
         df = pd.read_csv(file_path, delimiter="|")
         cosine_vals_subgraph_2.extend(df["Value"].tolist())
 
+    subgraph_algorithm_1 = subgraph_algorithm_1.replace("Shortest_Path","All Shortest Paths")
+    subgraph_algorithm_2 = subgraph_algorithm_2.replace("Metapath","Template-Based")
 
-    # for filename in os.listdir(output_folder):
-    #     if "paths_list_CosineSimilarity_"+subgraph_algorithm_1+"_" not in filename: continue
-    #     file_path = output_folder + "/" + filename
-    #     path_list_df_1 = pd.read_csv(file_path, delimiter="|")
-    #     cosine_vals_subgraph_1.extend(path_list_df_1["Value"].tolist())
 
-    # cosine_vals_subgraph_2 = []
-    # for filename in os.listdir(output_folder):
-    #     if "paths_list_CosineSimilarity_"+subgraph_algorithm_2+"_" not in filename: continue
-    #     file_path = output_folder + "/" + filename
-    #     path_list_df_2 = pd.read_csv(file_path, delimiter="|")
-    #     cosine_vals_subgraph_2.extend(path_list_df_2["Value"].tolist())
-
-    print(cosine_vals_subgraph_1)
-    print(cosine_vals_subgraph_2)
+    u_stat, p_value = mannwhitneyu(cosine_vals_subgraph_1, cosine_vals_subgraph_2, alternative='two-sided')
+    print(f"U-statistic: {u_stat}, P-value: {p_value}")
+    # Save the results to a text file
+    with open(output_folder + "/path_list_comparison_distribution_statistics.txt", "w") as f:
+        f.write(f"Mann-Whitney U statistic: {u_stat:.2f}\n")
+        f.write(f"Mann-Whitney U p-value: {p_value:.4e}\n")
 
     # Create a histogram
     plt.figure(figsize=(10, 6))  # Set the figure size
-    sns.histplot(cosine_vals_subgraph_1, color="blue", kde=True, label=subgraph_algorithm_1, bins=10, alpha=0.6)
-    sns.histplot(cosine_vals_subgraph_2, color="orange", kde=True, label=subgraph_algorithm_2, bins=10, alpha=0.6)
+    sns.histplot(cosine_vals_subgraph_1, color="blue", kde=False, label=subgraph_algorithm_1, bins=get_bins(cosine_vals_subgraph_1,0.02), alpha=0.6)
+    sns.histplot(cosine_vals_subgraph_2, color="orange", kde=False, label=subgraph_algorithm_2, bins=get_bins(cosine_vals_subgraph_2,0.02), alpha=0.6)
 
     # Add labels and title
     plt.title("Distribution of Cosine Similarity Scores for Path Search Methodologies", fontsize=16)
-    plt.xlabel("Value", fontsize=12)
+    plt.xlabel("Cosine Similarity", fontsize=12)
     plt.ylabel("Frequency", fontsize=12)
     plt.legend(title="Path Search Methodology")
 

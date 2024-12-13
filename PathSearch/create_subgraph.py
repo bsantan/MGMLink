@@ -146,7 +146,7 @@ def automatic_defined_node_exclusion(graph,kg_type):
     print("new nodes length: ",len(graph.labels_all))
     return graph
 
-def subgraph_prioritized_path_cs(input_nodes_df,graph,weights,search_type,triples_file,output_dir,input_dir,embedding_dimensions,kg_type, search_algorithm,num_paths_output,group, pair_output_dir):
+def subgraph_prioritized_path_cs(input_nodes_df,graph,weights,search_type,triples_file,labels_file,output_dir,input_dir,emb,entity_map,embedding_method,kg_type, search_algorithm,num_paths_output,group, pair_output_dir):
 
     input_nodes_df.columns= input_nodes_df.columns.str.lower()
     if search_type == "both":
@@ -169,60 +169,70 @@ def subgraph_prioritized_path_cs(input_nodes_df,graph,weights,search_type,triple
         start_node = input_nodes_df.iloc[i].loc['source_label']
         end_node = input_nodes_df.iloc[i].loc['target_label']
         node_pair = input_nodes_df.iloc[i]
-        for search_type in all_search_types:
-            path_nodes,id_keys_df,metapaths_key = get_paths(node_pair,graph,weights,search_type,triples_file,input_dir, output_dir, kg_type, search_algorithm, id_keys_df)
-            # Convert all path_nodes to labels
-            if search_algorithm == "Shortest_Path":
+        print("searching ",start_node,": ",end_node)
+        # Convert all path_nodes to labels
+        if search_algorithm == "Shortest_Path":
+            for search_type in all_search_types:
+                path_nodes,id_keys_df,metapaths_key = get_paths(node_pair,graph,weights,search_type,triples_file,input_dir, output_dir, kg_type, search_algorithm, id_keys_df)
                 df_paths['search_type'] = [search_type]
                 df_paths['source_node'] = [start_node]
                 df_paths['target_node'] = [end_node]
                 df_paths['num_paths'] = [len(path_nodes)]
+                if len(path_nodes) > 0:
+                    df_paths['path_length'] = len(path_nodes[0])
+                else:
+                    df_paths['path_length'] = 0
                 num_paths_df = pd.concat([num_paths_df,df_paths],axis=0)
                 # Prioritize using cosine sim
-                cs_shortest_path_df,all_paths_cs_values,chosen_path_nodes_cs,id_keys_df = prioritize_path_cs(path_nodes,input_nodes_df,graph,weights,search_type,triples_file,input_dir,embedding_dimensions,kg_type,search_algorithm,id_keys_df)
+                cs_shortest_path_df,all_paths_cs_values,chosen_path_nodes_cs,id_keys_df = prioritize_path_cs(path_nodes,input_nodes_df,graph,search_type,emb,entity_map,kg_type,search_algorithm,id_keys_df,embedding_method)
                 all_paths.append(cs_shortest_path_df)
                 #Output path list to file where index will match the pair# in the _Input_Nodes_.csv
-                #Get sum of all cosine values in value_list
-                path_list = list(map(sum, all_paths_cs_values))
+                #Get average of all cosine values in value_list
+                path_list = list(map(np.mean, all_paths_cs_values))
                 for outputpath_idx,p in enumerate(path_nodes[0:num_paths_output]):
                     df = pd.DataFrame()
                     df = define_path_triples(graph,[p],search_type)
                     df = convert_to_labels(df,graph.labels_all,kg_type,input_nodes_df)
                     outputpath_index = str(outputpath_idx)
                     cs_noa_df = output_visualization(input_nodes_df,df,output_dir + '/' + search_algorithm + '_' + search_type + "/All_Paths_" + inputpath_index + "/",outputpath_index)
-                output_path_lists(output_dir,path_list,'CosineSimilarity_'+search_algorithm+'_'+search_type,i,path_nodes)
-                # Output chosen cosine sim
-                cs_noa_df = output_visualization(group, cs_shortest_path_df,pair_output_dir+'/CosineSimilarity_Shortest_Path_' + search_type + '_' + inputpath_index)
-            elif search_algorithm == "Metapath":
-                # if len(path_nodes[0]) != 0:
-                # Length of metapath_keys will match length of path_nodes
-                for metapath_idx,metapath_val in metapaths_key.items():
-                    metapath_index = str(metapath_idx)
-                    metapath_path_nodes = path_nodes[metapath_idx]
-                    df_paths['metapath'] = [metapaths_key[metapath_idx]]
-                    df_paths['source_node'] = [start_node]
-                    df_paths['target_node'] = [end_node]
-                    df_paths['num_paths'] = [len(metapath_path_nodes)]
-                    num_paths_df = pd.concat([num_paths_df,df_paths],axis=0)
-                    # Path nodes from metapath search already have predicate
-                    # paths_dfs_dict is in same order as metapaths_key
-                    # Prioritize using cosine sim
-                    cs_shortest_path_df,all_paths_cs_values,chosen_path_nodes_cs,id_keys_df = prioritize_path_cs(metapath_path_nodes,input_nodes_df,graph,weights,search_type,triples_file,input_dir,embedding_dimensions,kg_type,search_algorithm,id_keys_df)
-                    all_paths.append(cs_shortest_path_df)
-                    #Output path list to file where index will match the pair# in the _Input_Nodes_.csv
-                    #Get sum of all cosine values in value_list
-                    path_list = list(map(sum, all_paths_cs_values))
-                    paths_dfs_dict = define_metapath_triples(metapath_path_nodes[0:num_paths_output])
-                    for outputpath_idx,path_val in paths_dfs_dict.items():
-                        outputpath_index = str(outputpath_idx)
-                        df = convert_to_labels(path_val,graph.labels_all,kg_type,input_nodes_df)
-                        if len(df) > 0:
-                            cs_noa_df = output_visualization(input_nodes_df,df,output_dir + '/' + search_algorithm + "_Path" + metapath_index + "/All_Paths_" + inputpath_index + "/",outputpath_index)
-                        else:
-                            continue
-                    output_path_lists(output_dir,path_list,'CosineSimilarity_'+search_algorithm+'_Path'+metapath_index,i,metapath_path_nodes)
-                    # Output chosen cosine sim
-                    cs_noa_df = output_visualization(group, cs_shortest_path_df,pair_output_dir+'/CosineSimilarity_Metapath_Path' + metapath_index + "_" + inputpath_index)
+                # Convert path_nodes which are ints for shortest paths to uris 
+                path_nodes_uris = convert_to_path_nodes_uris(path_nodes, graph)
+                output_path_lists(output_dir,path_list,'CosineSimilarity_'+search_algorithm+'_'+search_type,i,path_nodes_uris)
+                # Output chosen cosine sim and visualize in cytoscape
+                cs_noa_df = output_visualization(group, cs_shortest_path_df,pair_output_dir+'/CosineSimilarity_Shortest_Path_' + search_type + '_' + inputpath_index, False, True)
+        elif search_algorithm == "Metapath":
+            path_nodes,id_keys_df,metapaths_key = get_paths(node_pair,graph,weights,search_type,triples_file,input_dir, output_dir, kg_type, search_algorithm, id_keys_df)
+            # if len(path_nodes[0]) != 0:
+            # Length of metapath_keys will match length of path_nodes
+            for metapath_idx,metapath_val in metapaths_key.items():
+                metapath_index = str(metapath_idx)
+                metapath_path_nodes = path_nodes[metapath_idx]
+                df_paths['metapath'] = [metapaths_key[metapath_idx]]
+                df_paths['source_node'] = [start_node]
+                df_paths['target_node'] = [end_node]
+                df_paths['num_paths'] = [len(metapath_path_nodes)]
+                metapath_len = len(metapaths_key[metapath_idx].split("_"))
+                df_paths['path_length'] = metapath_len // 2 + 1 if metapath_len % 2 == 0 else (metapath_len + 1) // 2
+                num_paths_df = pd.concat([num_paths_df,df_paths],axis=0)
+                # Path nodes from metapath search already have predicate
+                # paths_dfs_dict is in same order as metapaths_key
+                # Prioritize using cosine sim
+                cs_shortest_path_df,all_paths_cs_values,chosen_path_nodes_cs,id_keys_df = prioritize_path_cs(metapath_path_nodes,input_nodes_df,graph,search_type,emb,entity_map,kg_type,search_algorithm,id_keys_df,embedding_method)
+                all_paths.append(cs_shortest_path_df)
+                #Output path list to file where index will match the pair# in the _Input_Nodes_.csv
+                #Get average of all cosine values in value_list
+                path_list = list(map(np.mean, all_paths_cs_values))
+                paths_dfs_dict = define_metapath_triples(metapath_path_nodes[0:num_paths_output])
+                for outputpath_idx,path_val in paths_dfs_dict.items():
+                    outputpath_index = str(outputpath_idx)
+                    df = convert_to_labels(path_val,graph.labels_all,kg_type,input_nodes_df)
+                    if len(df) > 0:
+                        cs_noa_df = output_visualization(input_nodes_df,df,output_dir + '/' + search_algorithm + "_Path" + metapath_index + "/All_Paths_" + inputpath_index + "/",outputpath_index)
+                    else:
+                        continue
+                output_path_lists(output_dir,path_list,'CosineSimilarity_'+search_algorithm+'_Path'+metapath_index,i,metapath_path_nodes)
+                # Output chosen cosine sim and visualize in cytoscape
+                cs_noa_df = output_visualization(group, cs_shortest_path_df,pair_output_dir+'/CosineSimilarity_Metapath_Path' + metapath_index + "_" + inputpath_index, False, True)
 
     # Output number of paths for each pair given as single file
     output_num_paths_pairs(output_dir,num_paths_df,search_algorithm)
@@ -234,7 +244,6 @@ def get_contextual_microbes(input_nodes_df,triples_df,labels_all,kg_type,output_
 
     #Check for existence based on input type
     exists = check_input_existence(output_dir,input_type + "_contextual")
-    # exists = ["true","/Users/brooksantangelo/Documents/Repositories/MGMLink/Output/_experimental_data_Input_Nodes_.csv"]
     if(exists[0] == 'false'):
         input_nodes_neighbors_df = pd.DataFrame()
         for i in range(len(input_nodes_df)):
@@ -273,61 +282,3 @@ def get_contextual_microbes(input_nodes_df,triples_df,labels_all,kg_type,output_
         input_nodes_neighbors_df = pd.read_csv(mapped_file, sep = "|")
 
     return input_nodes_neighbors_df
-
-def subgraph_all_paths(input_nodes_df,graph,weights,search_type,triples_file,output_dir,input_dir,embedding_dimensions,kg_type, search_algorithm, find_graph_similarity = False,existing_path_nodes = 'none'):
-
-    input_nodes_df.columns= input_nodes_df.columns.str.lower()
-
-    num_paths_df = pd.DataFrame(columns = ['source_node','target_node','num_paths'])
-
-    #List of all chosen paths for subgraph
-    #all_chosen_path_nodes = []
-
-    #Dict of all shortest paths for subgraph
-    all_path_nodes = {}
-
-    id_keys_df = pd.DataFrame(columns = ["Original","New"])
-
-    if search_algorithm == "Metapath_Neighbors":
-        # Transform input_nodes into relevant metapath objects and append to original input_nodes_df
-        input_nodes_df,id_keys_df = expand_neighbors(input_nodes_df,input_dir,triples_file,id_keys_df,graph.labels_all,kg_type)
-        print("og input_nodes_df")
-        print(input_nodes_df)
-        input_nodes_df = input_nodes_df[~input_nodes_df["target_id"].str.contains("http:")]
-        print("new input_nodes_df")
-        print(input_nodes_df)
-
-    for i in tqdm(range(len(input_nodes_df))):
-        df_paths = pd.DataFrame()
-        start_node = input_nodes_df.iloc[i].loc['source_label']
-        end_node = input_nodes_df.iloc[i].loc['target_label']
-        start_node_uri = input_nodes_df.iloc[i].loc['source_id']
-        if existing_path_nodes != 'none':
-            pair_path_nodes = existing_path_nodes[start_node + end_node]
-        else:
-            pair_path_nodes = 'none'
-        node_pair = input_nodes_df.iloc[i]
-        path_nodes, id_keys_df = path_search_no_prioritization(node_pair, graph, triples_file,input_dir, kg_type, search_algorithm, id_keys_df)
-        df_paths['source_node'] = [start_node]
-        df_paths['target_node'] = [end_node]
-        df_paths['num_paths'] = [len(path_nodes)]
-        num_paths_df = pd.concat([num_paths_df,df_paths],axis=0)
-        # Path nodes from metapath search already have predicate
-        paths_dfs_dict = define_metapath_triples(path_nodes)
-
-        paths_dfs_list = []
-        for _,v in paths_dfs_dict.items():
-            df = convert_to_labels(v,graph.labels_all,kg_type,input_nodes_df)
-            paths_dfs_list.append(df)
-        # Keep track of every path found by uri so that you can search them later
-        all_path_nodes[start_node + end_node] = path_nodes
-
-    # Write to file if data exists
-    print("id_keys_df: ",id_keys_df)
-    if len(id_keys_df) > 0:
-        if not os.path.exists(output_dir + '/' + search_algorithm): os.mkdir(output_dir + '/' + search_algorithm)
-        id_keys_df.to_csv(output_dir + '/' + search_algorithm + "/id_keys_df.csv",sep='|',index=False)
-
-    output_num_paths_pairs(output_dir,num_paths_df,search_algorithm)
-
-    return paths_dfs_list, all_path_nodes

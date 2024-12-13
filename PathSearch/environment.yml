@@ -17,3 +17,5 @@ dependencies:
     - py4cytoscape==1.11.0
     - matplotlib==3.8.2
     - seaborn==0.13.2
+    - grape==0.2.4
+    - duckdb==1.1.3

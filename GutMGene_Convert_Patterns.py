@@ -89,6 +89,7 @@ for idx,row in orig_triples.iterrows():
         str_hash1 = URIRef(pkt + hashlib.md5(pattern_string1.encode()).hexdigest())
         pattern.append((str(row['S']),str_hash1,str(row['C1'])))
 
+pattern = list(set(pattern))
 with open(output_dir + '/gutMGene_OWLNETS_Triples.csv', 'w',newline='') as triples_file:
     writer = csv.writer(triples_file,delimiter=',')
     writer.writerow(["Subject","Predicate","Object"])

@@ -4,6 +4,8 @@ import csv
 import py4cytoscape as p4c
 from py4cytoscape import gen_node_color_map
 from py4cytoscape import palette_color_brewer_d_RdBu
+import logging
+logging.getLogger('py4cytoscape').setLevel(logging.INFO)
 import os
 
 #subgraph_df is a dataframe with S, P, O headers and | delimited
@@ -38,7 +40,7 @@ def create_noa_file(subgraph_attribute_df,output_dir,override_filename = False, 
 
     noa_file = output_dir+"/Subgraph_attributes.noa"
     if override_filename:
-        noa_file = output_dir + "/Subgraph_" + override_filename + ".csv"
+        noa_file = output_dir + "/Subgraph_" + override_filename + "_attributes.csv"
     #Check for existence of output directory
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
@@ -71,30 +73,34 @@ def create_sif_file(subgraph_df,output_dir,override_filename = False):
     subgraph_df.to_csv(sif_file,sep='|',index=False)
 
 #subgraph_df is a dataframe with S, P, O headers and | delimited
-def create_cytoscape_png(subgraph_df,subgraph_attributes_df,output_dir):
+def create_cytoscape_png(subgraph_df,subgraph_attributes_df,output_dir,override_filename=False):
 
-    png_file = output_dir+'/Subgraph_Visualization.png'
+    png_file = output_dir+"/Subgraph_Visualization.png"
+    if override_filename:
+        png_file = output_dir+'/Subgraph_' + override_filename + '_Visualization.png'
     #Check for existence of output directory
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    #Update column names for cytoscape
-    subgraph_df.columns = ['source','interaction','target']
-    subgraph_attributes_df.columns = ['id','group']
+    if len(subgraph_df) > 0:
+        subgraph_df = subgraph_df[['S', 'P', 'O']]
+        #Update column names for cytoscape
+        subgraph_df.columns = ['source','interaction','target']
+        subgraph_attributes_df.columns = ['id','group']
 
-    p4c.create_network_from_data_frames(subgraph_attributes_df,subgraph_df,title='subgraph')
+        p4c.create_network_from_data_frames(subgraph_attributes_df,subgraph_df,title='subgraph')
 
-    #Ensure no network exists named subgraph in Cytoscape or you will have to manually override before it can be output
-    p4c.set_visual_style('BioPAX_SIF',network='subgraph')
+        #Ensure no network exists named subgraph in Cytoscape or you will have to manually override before it can be output
+        p4c.set_visual_style('BioPAX_SIF',network='subgraph')
 
-    p4c.set_node_color_mapping(**gen_node_color_map('group', mapping_type='d',style_name='BioPAX_SIF'))
+        p4c.set_node_color_mapping(**gen_node_color_map('group', mapping_type='d',style_name='BioPAX_SIF'))
 
-    p4c.set_edge_label_mapping('interaction')
-    
-    p4c.export_image(png_file,network='subgraph')
+        p4c.set_edge_label_mapping('interaction')
+        
+        p4c.export_image(png_file,network='subgraph')
 
 # Wrapper Function
-def output_visualization(input_nodes_df,subgraph_df,output_dir,override_filename = False, id_key_file = None):
+def output_visualization(input_nodes_df,subgraph_df,output_dir,override_filename = False, visualize = False):
 
     subgraph_attributes_df = create_node_attributes(input_nodes_df,subgraph_df)
 
@@ -102,8 +108,9 @@ def output_visualization(input_nodes_df,subgraph_df,output_dir,override_filename
 
     create_sif_file(subgraph_df,output_dir,override_filename)
 
-    ##Not outputting graph visualization
-    ##create_cytoscape_png(subgraph_df,subgraph_attributes_df,output_dir)
+    #Not outputting graph visualization
+    if visualize:
+        create_cytoscape_png(subgraph_df,subgraph_attributes_df,output_dir,override_filename)
 
     return subgraph_attributes_df
 

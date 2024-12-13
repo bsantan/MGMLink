@@ -1,4 +1,4 @@
-
+# Code to form duckdb queries using python
 
 def get_table_count(con, table):
     """Get the number of rows of a given duckdb table name."""
@@ -27,7 +27,7 @@ def duckdb_load_table(con, file, table_name, columns):
     """
     )
 
-    print(query)
+    # print(query)
     con.execute(query)
 
     # Remove brackets
@@ -61,7 +61,7 @@ def create_subject_object_pair_table(con, table_name, base_table_name, subject, 
         """
     )
 
-    print(query)
+    # print(query)
     con.execute(query).fetchone()
 
     return table_name
@@ -80,7 +80,7 @@ def join_tables_subject_object(con, base_table_name, compared_table_name, output
         """
     )
 
-    print(query)
+    # print(query)
     con.execute(query)
 
 def create_filtered_subject_object_pair_table(con, base_table_name, compared_table_name, output_table_name, subject, object, subject_prefix, predicate_prefix, object_prefix):
@@ -95,7 +95,7 @@ def create_filtered_subject_object_pair_table(con, base_table_name, compared_tab
         """
     )
 
-    print(query)
+    # print(query)
     con.execute(query)
 
     return output_table_name
@@ -123,7 +123,7 @@ def drop_table(con, table_name):
 
     # print(query)
     con.execute(query)
-    print("dropped ",table_name)
+    # print("dropped ",table_name)
 
 def output_table_to_file(con, table_name, filename):
 
@@ -133,5 +133,5 @@ def output_table_to_file(con, table_name, filename):
         """
     ) 
 
-    print(query)
+    # print(query)
     con.execute(query)

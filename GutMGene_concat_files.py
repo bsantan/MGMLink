@@ -30,16 +30,23 @@ else:
 #For PKL_v3
 new_filename = "/PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_Triples_Identifiers_withGutMGene_withMicrobes.txt"
 #new_filename = "/OWLNETS_Triples_Identifiers_GutMGene_Microbes.txt"
+
+# Create a set to store written lines
+written_lines = set()
 with open(output_dir + new_filename,"w") as outfile:
     #File1 
     with open(filenames[0]) as f1:
         for line in f1:        #keep the header from file1
-            outfile.write(line)
+            if line not in written_lines:
+                outfile.write(line)
+                written_lines.add(line)
 
     #File 2 and on
     for x in filenames[1:]:
         with open(x) as f1:
             for line in f1:
-                if not line.startswith("Subject"):
+                # Don't include header, remove duplicates
+                if not line.lower().startswith("subject") and line not in written_lines:
                     outfile.write(line)
+                    written_lines.add(line)
 

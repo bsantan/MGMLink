@@ -145,4 +145,9 @@ Edgelist for MGMLink
 ``` 
 3. PheKnowLator_v3_node2vec_Embeddings.emb
 ``` 
-Vector embeddings for MGMLink (42 dimensions)
+Node2Vec vector embeddings for MGMLink (128 dimensions)
+
+``` 
+4. transe_embedding_mgmlink_embedding_.pkl
+``` 
+TransE vector embeddings for MGMLink (128 dimensions)

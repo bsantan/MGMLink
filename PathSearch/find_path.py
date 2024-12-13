@@ -53,9 +53,11 @@ def define_path_triples(graph,path_nodes,search_type):
             #Dataframe to append each triple to
             full_df = pd.DataFrame()
             # path_nodes contains integers for igraph, uris for networkx
-            n1 = graph.igraph_nodes[path_nodes[p][0]]
+            # n1 = graph.igraph_nodes[path_nodes[p][0]]
+            n1 = process_path_nodes_value(graph,path_nodes[p][0],"Shortest_Path")
             for i in range(1,len(path_nodes[p])):
-                n2 = graph.igraph_nodes[path_nodes[p][i]]
+                # n2 = graph.igraph_nodes[path_nodes[p][i]]
+                n2 = process_path_nodes_value(graph,path_nodes[p][i],"Shortest_Path")
                 if search_type.lower() == 'all':
                     #Try first direction which is n1 --> n2
                     df = graph.edgelist.loc[(graph.edgelist['subject'] == n1) & (graph.edgelist['object'] == n2)]
@@ -112,7 +114,6 @@ def find_all_shortest_paths(node_pair,graph,weights,search_type, kg_type):
 
     w = None
     node1, node2 = convert_to_node_uris(node_pair,graph,kg_type)
-    
     #Add weights if specified
     if weights:
         w = graph.es["weight"]
@@ -142,9 +143,13 @@ def get_embedding(emb,node):
 
     return embedding_array
 
-def convert_path_nodes(path_node,entity_map):
+def convert_path_nodes(path_node,entity_map, embedding_method):
 
-    n = entity_map[path_node]
+    if embedding_method == "node2vec":
+        n = entity_map[path_node]
+    # TransE uses node IDs
+    elif embedding_method == "transe":
+        n = path_node
 
     return n
 
@@ -154,19 +159,22 @@ def process_path_nodes_value(graph,value,search_algorithm):
         n = value
     elif search_algorithm == "Shortest_Path":
         n = graph.igraph_nodes[value]
-
     return n
 
-# def convert_node_for_entity_map(node,search_algorithm, entity_map):
+# For shortest path path_nodes results which are ints to become uris
+def convert_to_path_nodes_uris(path_nodes, graph):
 
-#     if search_algorithm == "Metapath":
-#         n_int = convert_path_nodes(node,entity_map)
-#     elif search_algorithm == "Shortest_Path":
-#         n_int = node
+    path_nodes_uris = []
+    for p in path_nodes:
+        new_p = []
+        for i in p:
+            u = process_path_nodes_value(graph, i, "Shortest_Path")
+            new_p.append(u)
+        path_nodes_uris.append(new_p)
 
-#     return n_int
+    return path_nodes_uris
 
-def calc_cosine_sim(emb,entity_map,path_nodes,graph,search_type,kg_type,input_nodes_df, search_algorithm):
+def calc_cosine_sim(emb,entity_map,path_nodes,graph,search_type,kg_type,input_nodes_df, search_algorithm, embedding_method):
 
     # Handle when no paths were found
     if len(path_nodes[0]) == 0:
@@ -177,7 +185,7 @@ def calc_cosine_sim(emb,entity_map,path_nodes,graph,search_type,kg_type,input_no
         # Check if target node is the same for every path
         all_identical = all(sublist[-1] == path_nodes[0][-1] for sublist in path_nodes)
         n = process_path_nodes_value(graph,path_nodes[0][len(path_nodes[0])-1],search_algorithm)
-        n_int = convert_path_nodes(n, entity_map)
+        n_int = convert_path_nodes(n, entity_map, embedding_method)
         # n_int = convert_node_for_entity_map(path_nodes[0][len(path_nodes[0])-1],search_algorithm, entity_map)
         target_emb = get_embedding(emb,n_int)
 
@@ -192,15 +200,12 @@ def calc_cosine_sim(emb,entity_map,path_nodes,graph,search_type,kg_type,input_no
             # Set target emb to new final node if not all identical
             if not all_identical:
                 n1 = process_path_nodes_value(graph,l[-1],search_algorithm)
-                n1_int = convert_path_nodes(n1, entity_map)
-                # n1_int = convert_node_for_entity_map(l[-1],search_algorithm, entity_map)
+                n1_int = convert_path_nodes(n1, entity_map, embedding_method)
                 target_emb = get_embedding(emb,n1_int)
-            # for i in range(0,len(l)-1):
             range_obj = range(0, len(l) - 1, 2) if search_algorithm == "Metapath" else range(0, len(l) - 1)
             for i in range_obj:
                 n1 = process_path_nodes_value(graph,l[i],search_algorithm)
-                n1_int = convert_path_nodes(n1, entity_map)
-                # n1_int = convert_node_for_entity_map(l[i],search_algorithm, entity_map)
+                n1_int = convert_path_nodes(n1, entity_map, embedding_method)
                 if n1_int not in list(embeddings.keys()):
                     e = get_embedding(emb,n1_int)
                     embeddings[n1_int] = e
@@ -210,7 +215,7 @@ def calc_cosine_sim(emb,entity_map,path_nodes,graph,search_type,kg_type,input_no
             all_paths_cs_values.append(cs)
 
         #Get sum of all cosine values in value_list
-        value_list = list(map(sum, all_paths_cs_values))
+        value_list = list(map(np.mean, all_paths_cs_values))
         chosen_path_nodes_cs = select_max_path(value_list,path_nodes)
 
     #Will only return 1 dataframe
@@ -224,67 +229,6 @@ def calc_cosine_sim(emb,entity_map,path_nodes,graph,search_type,kg_type,input_no
     df = convert_to_labels(df,graph.labels_all,kg_type,input_nodes_df)
 
     return df,all_paths_cs_values,chosen_path_nodes_cs[0]
-
-    # n_int = convert_path_nodes(path_nodes[0][len(path_nodes[0])-1],entity_map)
-    # target_emb = get_embedding(emb,n_int)
-
-    # #Dict of all embeddings to reuse if they exist
-    # embeddings = defaultdict(list)
-
-    # #List of total cosine similarity for each path in path_nodes, should be same length as path_nodes
-    # paths_total_cs = []
-
-    # for l in path_nodes:
-    #     cs = 0
-    #     for i in range(0,len(l)-1):
-    #         if "RO_" not in l[i]:
-    #             if l[i] not in list(embeddings.keys()):
-    #                 n1_int = convert_path_nodes(l[i],entity_map)
-    #                 e = get_embedding(emb,n1_int)
-    #                 embeddings[l[i]] = e
-    #             else:
-    #                 e = embeddings[l[i]]
-    #             cs += 1 - spatial.distance.cosine(e,target_emb)
-    #     paths_total_cs.append(cs)
-
-
-    # #Get sum of all cosine values in value_list
-    # import pdb;pdb.set_trace()
-    # value_list = list(map(sum, paths_total_cs))
-    # chosen_path_nodes_cs = select_path(value_list,path_nodes)
-
-    # #Will only return 1 dataframe
-    # if search_algorithm != "Metapath":
-    #     df = define_path_triples(graph,chosen_path_nodes_cs,search_type)
-    # else:
-    #     df = define_metapath_triples(chosen_path_nodes_cs)[0]
-
-    # df = convert_to_labels(df,graph.labels_all,kg_type,input_nodes_df)
-
-    # return df,paths_total_cs,chosen_path_nodes_cs[0]
-
-def calc_pdp(path_nodes,graph,w,g_nodes,triples_df,search_type,labels_all,kg_type):
-
-    #List of pdp for each path in path_nodes, should be same length as path_nodes
-    paths_pdp = []
-
-    for l in path_nodes:
-        pdp = 1
-        for i in range(0,len(l)-1):
-            dp = graph.degree(l[i],mode='all',loops=True)
-            dp_damped = pow(dp,-w)
-            pdp = pdp*dp_damped
-
-        paths_pdp.append(pdp)
-
-    chosen_path_nodes_pdp = select_path(paths_pdp,path_nodes)
-
-    #Will only return 1 dataframe
-    df = define_path_triples(g_nodes,triples_df,chosen_path_nodes_pdp,search_type)
-
-    df = convert_to_labels(df,labels_all,kg_type)
-
-    return df,paths_pdp
 
 def select_path(value_list,path_nodes):
 
@@ -400,9 +344,7 @@ def find_shortest_path(start_node,end_node,graph,g_nodes,labels_all,triples_df,w
 def get_paths(node_pair,graph,weights,search_type,triples_file,input_dir, output_dir,kg_type, search_algorithm, id_keys_df):
 
     if search_algorithm == "Shortest_Path":
-        print(node_pair)
         path_nodes = find_all_shortest_paths(node_pair,graph,weights,search_type, kg_type)
-        print(len(path_nodes))
         id_keys_df = {}
         metapaths_key = {0:''}
     elif search_algorithm == "Metapath":
@@ -416,12 +358,10 @@ def get_paths(node_pair,graph,weights,search_type,triples_file,input_dir, output
 
     return path_nodes,id_keys_df,metapaths_key
 
-def prioritize_path_cs(path_nodes,input_nodes_df,graph,weights,search_type,triples_file,input_dir,embedding_dimensions, kg_type, search_algorithm, id_keys_df):
+def prioritize_path_cs(path_nodes,input_nodes_df,graph,search_type,emb,entity_map, kg_type, search_algorithm, id_keys_df, embedding_method):
 
     if len(path_nodes) > 0:
-        e = Embeddings(triples_file,input_dir,embedding_dimensions, kg_type)
-        emb,entity_map = e.generate_graph_embeddings()
-        df,all_paths_cs_values, chosen_path_nodes_cs = calc_cosine_sim(emb,entity_map,path_nodes,graph,search_type, kg_type,input_nodes_df, search_algorithm)
+        df,all_paths_cs_values, chosen_path_nodes_cs = calc_cosine_sim(emb,entity_map,path_nodes,graph,search_type, kg_type,input_nodes_df, search_algorithm, embedding_method)
     else:
         df = pd.DataFrame()
         all_paths_cs_values = []
@@ -510,7 +450,7 @@ def convert_genes_to_proteins(conn,base_table_name,gene_uri,id_key_df,labels,kg_
 
 def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_file,id_keys_df):
 
-    metapaths_list,original_metapaths_list = get_all_input_metapaths(input_dir)
+    metapaths_list,original_metapaths_list = get_all_input_metapaths(input_dir,node_pair)
 
     # List of each metapath by the given triples, eg: [[['NCBITaxon', '%', 'CHEBI'], ['CHEBI', '%', 'MONDO']]]
     triples_list = []
@@ -518,9 +458,8 @@ def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_fil
         l = [list(metapath[i:i+3]) for i in range(0, len(metapath) - 2, 2) if not isinstance(metapath[i+1],float)]
         triples_list.append(l)
 
-    print("triples_list")
-    print(triples_list)
-
+    # print("triples_list")
+    # print(triples_list)
 
     # List of paths found that match metapaths, will match length of filtered_metapaths
     # all_paths_found = []
@@ -534,10 +473,6 @@ def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_fil
     duckdb_load_table(conn, triples_list_file, "edges", ["subject", "predicate", "object"])
 
     node1, node2 = convert_to_node_uris(node_pair,graph,kg_type)
-    # if "gene" in node1:
-    #     node1,id_keys_df = convert_genes_to_proteins(conn,"edges",node1,id_keys_df,labels,kg_type)
-    # if "gene" in node2:    
-    #     node2,id_keys_df = convert_genes_to_proteins(conn,"edges",node2,id_keys_df,labels,kg_type)
     if node1 is None or node2 is None:
         path_nodes = [[]]
 
@@ -549,12 +484,13 @@ def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_fil
         # First only get metapaths that match the input nodes
         # Filter the metapaths based on the first and last values, eg: [[['NCBITaxon', '%', 'CHEBI'], ['CHEBI', '%', 'MONDO']]]
         filtered_metapaths = [m for m in triples_list if m[0][0] in node1 and m[-1][-1] in node2]
-        print("filtered_metapaths")
-        print(filtered_metapaths)
+        # print("filtered_metapaths")
+        # print(filtered_metapaths)
 
         # Search existing metapaths by node pair/triple to return [[source,target]] pairs
         # Go through each metapath that matches node1, node2
         for m_idx, m in enumerate(filtered_metapaths):
+            print(m)
             # List of each paired table found with duckdb, eg: CHEBI_MONDO:XX, UniprotKB:MONDO:XX
             tables = []
             # List of paths found that match metapaths, will match length of m
@@ -567,7 +503,7 @@ def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_fil
                 pass
             # Go through each triple that is in the metapath
             for i, (s, p, o) in enumerate(m):
-                print(i)
+                # print(i)
                 #if get_metapath_key(node1) == s and get_metapath_key(node2) == o:
                 # For last tables paired, use final node2 and previous filtered tables
                 if i == len(m) - 1:
@@ -586,7 +522,7 @@ def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_fil
                     )
 
                     ct = get_table_count(conn, t_name)
-                    print("num paths last triple: ",s,node2,ct)
+                    # print("num paths last triple: ",s,node2,ct)
 
                     if ct > 0:
                         tables.append(t_name)
@@ -608,7 +544,7 @@ def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_fil
                         )
 
                         ct = get_table_count(conn, t_name)
-                        print("num paths last triple: ",node2,s,ct)
+                        # print("num paths last triple: ",node2,s,ct)
 
                         if ct > 0:
                             tables.append(t_name)
@@ -632,7 +568,7 @@ def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_fil
                     )
 
                     ct = get_table_count(conn, t_name)
-                    print("num paths first triple: ",node1,o,ct)
+                    # print("num paths first triple: ",node1,o,ct)
 
                     if ct > 0:
                         tables.append(t_name)
@@ -654,7 +590,7 @@ def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_fil
                         )
 
                         ct = get_table_count(conn, t_name)
-                        print("num paths first triple: ",o+"|"+str(i),node1,ct)
+                        # print("num paths first triple: ",o+"|"+str(i),node1,ct)
                         if ct > 0:
                             tables.append(t_name)
                             next_base_table_name = new_table_name
@@ -683,7 +619,7 @@ def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_fil
                         break
 
                     ct = get_table_count(conn, t_name)
-                    print("num paths middle triple: ",s,o,ct)
+                    # print("num paths middle triple: ",s,o,ct)
 
                     if ct > 0:
                         tables.append(t_name)
@@ -706,23 +642,21 @@ def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_fil
                         )
 
                         ct = get_table_count(conn, t_name)
-                        print("num paths middle triple: ",o,s,ct)
+                        # print("num paths middle triple: ",o,s,ct)
                         if ct > 0:
                             tables.append(t_name)
                             next_base_table_name = new_table_name
 
-            print("tables")
-            # tables = [re.sub(r'\d+$', '', s) for s in tables]
-            print(tables)
-            # 
-            # tables_paired = [list(pair) for pair in zip(tables, tables[1:])]
+            # print("tables")
+            # print(tables)
+
             tables_paired = [list(pair) for pair in zip(tables, tables[1:])] if len(tables) > 1 else tables
 
-            print("tables_paired")
-            print(tables_paired)
+            # print("tables_paired")
+            # print(tables_paired)
 
             # Confirm that values were found for each triple in metapath, ex: [['NCBITaxon:165179_CHEBI', 'CHEBI_MONDO:0005180']]
-            print("len m -1: ", len(m) - 1)
+            # print("len m -1: ", len(m) - 1)
             if len(tables_paired) < (len(m) - 1):
                 all_tables = [item for sublist in tables_paired for item in sublist]
                 all_tables = list(set(all_tables))
@@ -739,7 +673,7 @@ def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_fil
                     )
 
                 result = conn.execute(query).fetchall()
-                print(query)
+                # print(query)
                 # print(result)
 
                 # Returns path from the given triple t
@@ -750,12 +684,12 @@ def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_fil
                 for t in tables_paired:
                     # List of path nodes for given triple
                     # triples_path_nodes = []
-                    print(t)
+                    # print(t)
                     # Compare over the prefix that matches
                     t_prefixes = [s.split("_") for s in t] #re.sub(r'\d+', '', s) re.sub(r'\|.*$', '', s).split('_')
-                    print(t_prefixes)
+                    # print(t_prefixes)
                     comparison_prefix = list(set(t_prefixes[0]) & set(t_prefixes[1]))[0]
-                    print("comparison_prefix: ",comparison_prefix)
+                    # print("comparison_prefix: ",comparison_prefix)
                     # Handle case where s and o are unique
                     if len(set(t_prefixes[0])) == 2:
                         # subject_prefix = [i for i in re.sub(r'\|.*$','',t[0]).split("_") if i != comparison_prefix][0]
@@ -781,7 +715,7 @@ def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_fil
                     )
 
                     ct = get_table_count(conn, "full_metapath")
-                    print("full_metapath: ",ct)
+                    # print("full_metapath: ",ct)
 
                     query = (
                         f"""
@@ -809,23 +743,23 @@ def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_fil
                 drop_table(conn, t[1])
             except duckdb.CatalogException as e:
                 pass
-            print("before combining")
-            print(len(all_path_nodes))
+            # print("before combining")
+            # print(len(all_path_nodes))
             # print(all_path_nodes)
             if len(all_path_nodes) > 0:
                 recursive_path_result = recursive_path_combination(all_path_nodes, tables_paired)
                 all_paths_found.extend(recursive_path_result)
-                print("after combining: ",m)
-                print(len(recursive_path_result))
-                print("len all_paths_found")
-                print(len(all_paths_found))
+                # print("after combining: ",m)
+                # print(len(recursive_path_result))
+                # print("len all_paths_found")
+                # print(len(all_paths_found))
             else:
                 all_paths_found = []
-                print("after combining: ",m)
+                # print("after combining: ",m)
 
             all_metapaths_results.append(all_paths_found)
-            print("len all_metapaths_results: ")
-            print(len(all_metapaths_results))
+            # print("len all_metapaths_results: ")
+            # print(len(all_metapaths_results))
             metapaths_key[m_idx] = '_'.join([item for item in original_metapaths_list[m_idx] if not (isinstance(item, float))]) #original_metapaths_list[m_idx])
 
     print("after combining all")
@@ -837,11 +771,9 @@ def find_all_metapaths_duckdb(node_pair,graph,kg_type,input_dir,triples_list_fil
         # all_paths_found = [[]]
         all_metapaths_results = [[] for _ in range(len(filtered_metapaths))]
 
-    print("metapaths_key")
-    print(metapaths_key)
     return all_metapaths_results,id_keys_df,metapaths_key
 
-def get_all_input_metapaths(input_dir):
+def get_all_input_metapaths(input_dir,node_pair):
     """
     Args:
         input_dir (str): Input directory
@@ -850,7 +782,11 @@ def get_all_input_metapaths(input_dir):
         list: list of metapaths as triples
     """
 
-    metapaths_file = input_dir+'/metapaths/Input_Metapaths.csv'
+    # Different metapaths for different case studies
+    if "faecalibacterium" in node_pair:
+        metapaths_file = input_dir+'/metapaths/Input_Metapaths.csv'
+    else:
+        metapaths_file = input_dir+'/metapaths/Input_Metapaths_Long.csv'
     # Get list of triples in metapath by prefix, e.g. [['PR_', '', 'CHEBI_'], ['CHEBI_', '', 'MONDO_']]
     # Input metapath template
     metapaths_df = pd.read_csv(metapaths_file, sep="|")
@@ -885,16 +821,13 @@ def combine_paths_in_metapath(all_path_nodes,tables_paired):
         # Get paths from each table pair
         starting_paths = all_path_nodes[i]
         ending_paths = all_path_nodes[i+1]
-        print("common_paired_table: ")
-        print(common_paired_table)
-        print("prefixes: ")
-        print(prefixes)
+        # print("common_paired_table: ")
+        # print(common_paired_table)
+        # print("prefixes: ")
+        # print(prefixes)
         for s_p in starting_paths:
-            # if "http://www.ncbi.nlm.nih.gov/gene/3569" in s_p: import pdb;pdb.set_trace()
-            # overlapping_start_prefixes = [value for value in s_p if any(value.startswith(prefix + ":") for prefix in prefixes)]
             overlapping_start_prefixes = [value for value in s_p if any(prefix in value for prefix in prefixes)]
             for e_p in ending_paths:
-                # overlapping_end_prefixes = [value for value in e_p if any(value.startswith(prefix + ":") for prefix in prefixes)]
                 overlapping_end_prefixes = [value for value in e_p if any(prefix in value for prefix in prefixes)]
                 common_values = [val for val in overlapping_start_prefixes if val in overlapping_end_prefixes]
                 if len(common_values) == len(prefixes):
@@ -908,6 +841,6 @@ def combine_paths_in_metapath(all_path_nodes,tables_paired):
                         new_path = s_p + filtered_data
                         combined_path_nodes.append(new_path)
 
-    print(tables_paired)
-    print(len(combined_path_nodes))
+    # print(tables_paired)
+    # print(len(combined_path_nodes))
     return combined_path_nodes
