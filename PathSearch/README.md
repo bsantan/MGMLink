@@ -38,7 +38,19 @@ Run the MGMLink Snakefile to first generate the knowledge graph.
 
 Ensure that Cytoscape (any version later than 3.8.0) is up and running before continuing.
 
-### Defaults
+### Command Line Argument: subgraph generation 
+  
+The main script is to search for paths in the graph given specific source and target nodes. 
+
+To run the script, execute the following command once the input directory is prepared:
+  
+```
+python creating_subgraph_from_KG.py --input-dir INPUTDIR --output-dir OUTPUTDIR --knowledge-graph mgmlink --first-order-nodes True --search-type both --embedding-method both
+```
+
+Enabling the first-order-nodes option will ensure that the microbial first order neighbors are found as the source node. Providing "both" for the search type will produce paths from an undirected shortest path search (all) and a directed shortest path search (out). Providing "both" for the embedding method will prioritize paths using embeddings build from both Node2Vec and TransE. 
+
+#### Defaults
   
 The following values will be used if not otherwise specified:
 - embedding dimensions: the dimension of embeddings of the knowledge graph that will be generated
@@ -54,8 +66,8 @@ The following values will be used if not otherwise specified:
 - num paths output: number of path found by a given search methodology to be output as a subgraph_#.csv file
  --num-paths-output <int> (Default 20)
 
-### Command Line Argument: subgraph generation 
-  
+#### Inputs
+
 The following files and directories must exist to execute this command. 
 
 1. The MGMLink knowledge graph.
@@ -92,15 +104,8 @@ This is an example minimal input and output directory (serves as both), assuming
 │   └── Input_Metapaths_Long.csv
 ```
 
-To run the script, execute the following command once the input directory is prepared:
-  
-```
-python creating_subgraph_from_KG.py --input-dir INPUTDIR --output-dir OUTPUTDIR --knowledge-graph mgmlink --first-order-nodes True --search-type both --embedding-method both
-```
 
-Enabling the first-order-nodes option will ensure that the microbial first order neighbors are found as the source node. Providing "both" for the search type will produce paths from an undirected shortest path search (all) and a directed shortest path search (out). Providing "both" for the embedding method will prioritize paths using embeddings build from both Node2Vec and TransE. 
-
-## Expected Outputs
+#### Expected Outputs
 
 The algorithm will first assign the given concepts to nodes in the graph and output the following input nodes files:
 
@@ -144,13 +149,11 @@ By default, 20 paths will be output for each combination above distinguished wit
 │   │       ├── Subgraph_<unique_subgraph_num>_attributes.csv
 ```
 
-### Subgraph Files
+##### Subgraph Files
   
 The creating_subgraph_from_KG.py script will always generate the following files:
   
-### Subgraph
-
-A .csv file which shows all source and target nodes found in the path search that include the source and target nodes.
+Subgraph.csv: A .csv file which shows all source and target nodes found in the path search that include the source and target nodes.
 
 ```
 S|P|O|S_ID|P_ID|O_ID
@@ -159,7 +162,7 @@ cholesterol|is substance that treats|Dementia|http://purl.obolibrary.org/obo/CHE
 Parkinson disease|has phenotype|Dementia|http://purl.obolibrary.org/obo/MONDO_0005180|http://purl.obolibrary.org/obo/RO_0002200|http://purl.obolibrary.org/obo/HP_0000726
 ```
   
-### Evaluation Files
+##### Evaluation Files
 
 Below is an example of the evaluation files output for the above example. 
 
@@ -192,15 +195,17 @@ The OUTPUTDIR will be the directory for the desired pair, and the INPUTDIR will 
 python embeddings_comparison.py --output-dir "../Output/faecalibacterium_prausnitzii__Parkinson_disease" --input-dir "../Output"
 ```
 
-## Expected Outputs
+#### Expected Outputs
 
 Below is the expected for the given example:
 
+```
 ├── faecalibacterium_prausnitzii__Parkinson_disease
 │   ├── Metapath_rank_correlation_embeddings.csv
 │   ├── Metapath_rank_correlation_embeddings_statistics.txt
 │   ├── Shorest_Path_rank_correlation_embeddings_statistics.txt
 │   ├── Shortest_Path_rank_correlation_embeddings.csv
+```
 
 ### Command Line Argument: All paths comparison
 
@@ -218,12 +223,14 @@ The OUTPUTDIR will be the directory with all pair outputs, and the INPUTNODESFIL
 python all_paths_output_evaluation.py --output-dir "../Output" --input-nodes-file "../Output/_experimental_data_contextual_Input_Nodes_.csv"
 ```
 
-## Expected Outputs
+#### Expected Outputs
 
 Below is the expected for the given example:
 
+```
 ├── faecalibacterium_prausnitzii__Parkinson_disease
 │   ├── All_Paths_Results.csv
+```
 
 ### Command Line Argument: subgraph visualization
 
@@ -242,8 +249,6 @@ Where the input subgraph file points to a specific subgraph to be visualized, an
 python visualize_in_cytoscape.py --input-nodes-file  "Output/_experimental_data_contextual_Input_Nodes_.csv" --input-subgraph-file "Output/streptococcus__inflammatory_bowel_disease/Shortest_Path_out/All_Paths_0/Subgraph_14.csv"
 ```
 
-## Expected Outputs
+#### Expected Outputs
 
 The command will output a Subgraph_<unique_subgraph_num>.png where the unique subgraph num matches the input subgraph file based on the created graph in Cytoscape.s
-
-
