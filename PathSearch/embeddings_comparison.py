@@ -32,11 +32,12 @@ def get_cosine_values(input_dir, folder, embedding_method, graph):
         df['Combined_Entities'] = df[entity_list].apply(
                 lambda row: '-'.join(map(str, row)), axis=1
             )
-        df['Rank1'] = df['Value'].rank(ascending=True)
+        df[embedding_method + '_Value'] = df['Value'] # .rank(ascending=True) # Rank1
         for i in range(len(df)):
             combined_entities = df.iloc[i].loc['Combined_Entities']
-            rank = df.iloc[i].loc['Rank1']
-            cosine_vals_subgraph_1[combined_entities] = rank
+            # rank = df.iloc[i].loc['Rank1']
+            embedding_method_value = df.iloc[i].loc[embedding_method + '_Value']
+            cosine_vals_subgraph_1[combined_entities] = embedding_method_value
 
     cosine_vals_subgraph_2_substring = "paths_list_CosineSimilarity_Metapath_"
     cosine_vals_subgraph_2 = {}
@@ -49,13 +50,17 @@ def get_cosine_values(input_dir, folder, embedding_method, graph):
         df['Combined_Entities'] = df[entity_list].apply(
             lambda row: '-'.join(map(str, row)), axis=1
         )
-        df['Rank2'] = df['Value'].rank(ascending=True)
+        df[embedding_method + '_Value'] = df['Value'] # .rank(ascending=True) # Rank2
         for i in range(len(df)):
             combined_entities = df.iloc[i].loc['Combined_Entities']
-            rank = df.iloc[i].loc['Rank2']
-            cosine_vals_subgraph_2[combined_entities] = rank
+            # rank = df.iloc[i].loc['Rank2']
+            embedding_method_value = df.iloc[i].loc[embedding_method + '_Value']
+            cosine_vals_subgraph_2[combined_entities] = embedding_method_value
 
-    return cosine_vals_subgraph_1, cosine_vals_subgraph_2 
+    # Convert cosine values to rank
+    cosine_vals_subgraph_1_ranks = pd.Series(cosine_vals_subgraph_1).rank(method="max", ascending=False).to_dict()
+    cosine_vals_subgraph_2_ranks = pd.Series(cosine_vals_subgraph_2).rank(method="max", ascending=False).to_dict()
+    return cosine_vals_subgraph_1_ranks, cosine_vals_subgraph_2_ranks 
 
 def main():
     parser=argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -79,6 +84,7 @@ def main():
     for emb_method in embedding_methods:
         for f in os.listdir(output_dir):
             if f == emb_method:
+                # Returns 2 dictionaries
                 method1_vals, method2_vals = get_cosine_values(output_dir,f,emb_method, g)
                 method1_all_vals.append(method1_vals)
                 method2_all_vals.append(method2_vals)
@@ -98,7 +104,6 @@ def main():
             
             f.write(f"Spearman's Rank Correlation: {correlation:.2f}\n")
             f.write(f"p-value: {p_value:.4e}\n")
-
 
     # Open a CSV file to write
     with open(output_dir + '/Shortest_Path_rank_correlation_embeddings.csv', mode='w', newline='') as file:

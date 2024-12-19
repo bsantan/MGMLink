@@ -228,7 +228,7 @@ python all_paths_output_evaluation.py --output-dir "../Output" --input-nodes-fil
 Below is the expected for the given example:
 
 ```
-├── faecalibacterium_prausnitzii__Parkinson_disease
+├── Output
 │   ├── All_Paths_Results.csv
 ```
 

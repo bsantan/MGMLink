@@ -7,6 +7,8 @@ PathSearch/logs
 .snakemake/log/*
 .snakemake/metadata/*
 Output/*
+Output_MGMLink_CaseStudies/*
+Output_MGMLink_CaseStudies.zip
 PathSearch/logs/*
 KG_Resources/*
 

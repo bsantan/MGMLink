@@ -33,10 +33,6 @@ def main():
         new_target_label = group.iloc[0].loc["target"].replace(" ","_").replace("/","").replace(":","_")
         pair_subfolder_name = new_source_label + "__" + new_target_label
 
-        if pair_subfolder_name != "faecalibacterium_prausnitzii__Parkinson_disease":
-            continue
-        
-        print(pair_subfolder_name)
         # Only need results from one embedding method
         eval_output_dir = output_dir + '/' + pair_subfolder_name + '/node2vec/Evaluation_Files'
 
@@ -46,7 +42,6 @@ def main():
 
         for l in [shortest_path_files,metapath_files]:
             for f in l:
-                print(eval_output_dir + "/" + f)
                 new_df = pd.DataFrame()
                 df = pd.read_csv(eval_output_dir + "/" + f,sep=',')
                 # source_node = df.iloc[0].loc["source_node"].replace("CONTEXTUAL ","")
@@ -72,8 +67,8 @@ def main():
 
                 path_results_df = pd.concat([path_results_df,new_df],ignore_index=True)
 
-        print("Output: ",output_dir + '/' + pair_subfolder_name + '/All_Paths_Results.csv')
-        path_results_df.to_csv(output_dir + '/' + pair_subfolder_name + '/All_Paths_Results.csv',sep="\t",index=False)
+    print("Output: ",output_dir + '/All_Paths_Results.csv')
+    path_results_df.to_csv(output_dir + '/All_Paths_Results.csv',sep="\t",index=False)
 
 
 if __name__ == '__main__':
