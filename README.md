@@ -63,8 +63,8 @@ microbes_taxonomic_relationships.csv
 #### Files that must be downloaded to include in /KG_Resources folder:
 - PheKnowLator: see the GCS bucket https://console.cloud.google.com/storage/browser/pheknowlator/current_build/knowledge_graphs/instance_builds/relations_only/owlnets?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&project=pheknowlator&prefix=&forceOnObjectsSortingFiltering=false, and the publication by Callahan et al. for more information, https://doi.org/10.1101/2020.04.30.071407. The files below must be downloaded from the GCS bucket into the /KG_Resources folder of the repo, and will be used in the early stages of the workflow.
 ```
-1. PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_NodeLabels.txt
-2. PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_Triples_Identifiers.txt
+1. [PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_NodeLabels.txt](https://storage.googleapis.com/pheknowlator/current_build/knowledge_graphs/instance_builds/relations_only/owlnets/PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_NodeLabels.txt)
+2. [PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_Triples_Identifiers.txt](https://storage.googleapis.com/pheknowlator/current_build/knowledge_graphs/instance_builds/relations_only/owlnets/PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_Triples_Identifiers.txt)
 ```
 
 
