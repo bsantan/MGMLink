@@ -132,22 +132,29 @@ Intermediate files necessary for Node2Vec embeddings generation
 
 ### KG Files
 
+Node labels for all nodes in MGMLink :
 ``` 
 1. PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_NodeLabels_NewEntities.txt
 ``` 
-Node labels for all nodes in MGMLink 
 
+Edgelist for MGMLink:
 ``` 
 2. PheKnowLator_v3.0.2_full_instance_relationsOnly_OWLNETS_Triples_Identifiers_withGutMGene_withMicrobes.txt
-``` 
-Edgelist for MGMLink
+```
 
+Node2Vec vector embeddings for MGMLink (128 dimensions):
 ``` 
 3. PheKnowLator_v3_node2vec_Embeddings.emb
 ``` 
-Node2Vec vector embeddings for MGMLink (128 dimensions)
 
+TransE vector embeddings for MGMLink (128 dimensions):
 ``` 
 4. transe_embedding_mgmlink_embedding_.pkl
-``` 
-TransE vector embeddings for MGMLink (128 dimensions)
+```
+
+
+## Citing this Work
+
+Please cite our publication: 
+
+Santangelo, B.E., Bada, M., Hunter, L.E. et al. Hypothesizing mechanistic links between microbes and disease using knowledge graphs. Sci Rep 15, 6905 (2025). https://doi.org/10.1038/s41598-025-91230-6
